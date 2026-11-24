@@ -1,0 +1,15 @@
+# Python 3.12.13; versions used to produce release v1.0
+numpy==2.5.3
+scipy==1.18.1
+rasterio==1.5.1
+geopandas==1.2.0
+shapely==2.1.2
+pyproj==3.8.0
+pandas==2.3.3
+pyogrio==0.13.0
+pystac==1.15.2
+pystac-client==0.9.0
+planetary-computer==1.0.0
+matplotlib==3.11.2
+affine==3.0.1
+requests==2.34.2

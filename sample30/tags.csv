@@ -1,0 +1,31 @@
+clear_id,acres,first_quarter,provisional,size_stratum,season_stratum,tag,real_frac,imagery_used_for_tag,reason,recheck_on_release_images,image
+C002,24.86,2023Q3,False,15+,leafon,CONFIRMED,0.9,S2 composites + Esri World Imagery basemap,forest graded; warehouses built,supported,images/C002.png
+C004,19.3,2025Q1,False,15+,winter,CONFIRMED,0.85,S2 composites + Esri World Imagery basemap,forest graded to bare soil beside highway,supported,images/C004.png
+C005,16.58,2024Q2,False,15+,leafon,CONFIRMED,0.9,S2 composites + Esri World Imagery basemap,forest graded; Pleasant Plains Elementary School site (corrected 2026-10-27; was 'buildings by interchange'),supported,images/C005.png
+C006,16.11,2026Q4,True,15+,winter,CONFIRMED,0.9,S2 composites only (provisional event),woodlot bare soil in Oct-2026 composite; Esri predates,n/a (tagged on S2 only),images/C006.png
+C014,11.64,2023Q4,False,5-15,winter,CONFIRMED,0.9,S2 composites + Esri World Imagery basemap,forest cut; cleared ground with tracks (not built yet),supported,images/C014.png
+C022,9.44,2025Q1,False,5-15,winter,CONFIRMED,0.9,S2 composites + Esri World Imagery basemap,forest cleared then graded,supported,images/C022.png
+C026,8.55,2025Q3,False,5-15,leafon,CONFIRMED,0.7,S2 composites only,edge of large grading area; north strip partly still green,n/a (tagged on S2 only),images/C026.png
+C035,6.89,2026Q1,False,5-15,winter,CONFIRMED,0.7,S2 composites only,graded by 2026Q3 (bright soil); Esri predates,n/a (tagged on S2 only),images/C035.png
+C042,6.08,2024Q2,False,5-15,leafon,CONFIRMED,0.95,S2 composites + Esri World Imagery basemap,subdivision streets and lots,supported,images/C042.png
+C047,5.66,2024Q3,False,5-15,leafon,CONFIRMED,0.95,S2 composites + Esri World Imagery basemap,subdivision graded and built,supported,images/C047.png
+C049,5.51,2025Q1,False,5-15,winter,CONFIRMED,0.6,S2 composites only,center graded by 2026Q3; edges still wooded,n/a (tagged on S2 only),images/C049.png
+C059,4.77,2023Q1,False,2-5,winter,CONFIRMED,0.6,S2 composites + Esri World Imagery basemap,new road cut through forest plus utility strip,supported,images/C059.png
+C081,3.26,2026Q4,True,2-5,winter,CONFIRMED,0.6,S2 composites only (provisional event),west part bare soil in Oct-2026 composite,n/a (tagged on S2 only),images/C081.png
+C083,3.21,2025Q1,False,2-5,winter,CONFIRMED,0.9,S2 composites + Esri World Imagery basemap,access road in 2025Q1 then whole area graded,supported,images/C083.png
+C089,2.99,2025Q4,False,2-5,winter,CONFIRMED,0.9,S2 composites only,graded by 2026Q3; Esri predates,n/a (tagged on S2 only),images/C089.png
+C090,2.97,2025Q1,False,2-5,winter,CONFIRMED,0.8,S2 composites + Esri World Imagery basemap,clearing and road into woods by commercial strip,supported,images/C090.png
+C098,2.55,2024Q2,False,2-5,leafon,CONFIRMED,0.8,S2 composites + Esri World Imagery basemap,road and lots cut into woods,supported,images/C098.png
+C100,2.42,2024Q3,False,2-5,leafon,CONFIRMED,0.6,S2 composites + Esri World Imagery basemap,subdivision roads through tree-farm stand; rows of trees remain,"supported; note the NAIP 2022 baseline here is a young tree-farm plantation, not mature forest",images/C100.png
+C102,2.4,2025Q3,False,2-5,leafon,CONFIRMED,0.9,S2 composites only,large grading area covers outline; Esri predates,n/a (tagged on S2 only),images/C102.png
+C119,2.08,2025Q3,False,2-5,leafon,CONFIRMED,0.9,S2 composites only,wooded strip behind industrial buildings cleared,n/a (tagged on S2 only),images/C119.png
+C140,1.83,2026Q2,False,1-2,leafon,CONFIRMED,0.8,S2 composites only,bare patch in forest 2026Q2-Q3,n/a (tagged on S2 only),images/C140.png
+C163,1.58,2024Q1,False,1-2,winter,CONFIRMED,0.6,S2 composites + Esri World Imagery basemap,north half graded for lots; south strip of trees retained,supported; south strip of trees retained (consistent with real_frac 0.6),images/C163.png
+C164,1.58,2025Q4,False,1-2,winter,CONFIRMED,0.85,S2 composites only,graded by 2025Q4; Esri predates,n/a (tagged on S2 only),images/C164.png
+C182,1.38,2025Q3,False,1-2,leafon,CONFIRMED,0.8,S2 composites only,road/pad cut through forest,n/a (tagged on S2 only),images/C182.png
+C192,1.31,2023Q3,False,1-2,leafon,CONFIRMED,0.7,S2 composites + Esri World Imagery basemap,west edge of subdivision lots; some trees remain,supported,images/C192.png
+C195,1.28,2025Q3,False,1-2,leafon,CONFIRMED,0.85,S2 composites only,graded band crosses outline,n/a (tagged on S2 only),images/C195.png
+C202,1.26,2023Q4,False,1-2,winter,CONFIRMED,0.9,S2 composites + Esri World Imagery basemap,road/parking for industrial site,supported,images/C202.png
+C207,1.21,2025Q4,False,1-2,winter,CONFIRMED,0.9,S2 composites only,leaf-off first detect; fully bare by 2026Q3,n/a (tagged on S2 only),images/C207.png
+C228,1.06,2024Q3,False,1-2,leafon,CONFIRMED,0.5,S2 composites + Esri World Imagery basemap,road end and pond cut; east part still trees,supported for the west part; east part still treed (consistent with real_frac 0.5),images/C228.png
+C229,1.06,2025Q1,False,1-2,winter,CONFIRMED,0.9,S2 composites only,leaf-off first detect; inside large graded area by 2026Q3,n/a (tagged on S2 only),images/C229.png

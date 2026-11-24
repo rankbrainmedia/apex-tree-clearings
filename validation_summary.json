@@ -1,0 +1,156 @@
+{
+ "n_events": 238,
+ "total_acres": 929.2,
+ "confirmed_acres": 880.7,
+ "provisional_acres": 48.5,
+ "n_contiguous_patches": 91,
+ "baseline_2022Q3": {
+  "clear_coverage_pct": 99.8,
+  "n_scenes": 37,
+  "n_used": 24,
+  "median_clear_obs": 7.0
+ },
+ "cand_ac": 8445.3,
+ "ambig_ac": 820.2,
+ "forest_naip_ac": 9265.5,
+ "controls": {
+  "Apex Community Park": {
+   "lon": -78.823638,
+   "lat": 35.7513576,
+   "source": "OSM relation 8264995",
+   "radius_m": 300,
+   "window_ac": 63.5,
+   "baseline_forest_ac": 34.4,
+   "cleared_pixels_any_size_ac": 1.04,
+   "cleared_in_ge1ac_events_ac": 0.0,
+   "events": []
+  },
+  "Apex Nature Park": {
+   "lon": -78.9074603,
+   "lat": 35.7202838,
+   "source": "OSM relation 8257028",
+   "radius_m": 300,
+   "window_ac": 69.9,
+   "baseline_forest_ac": 49.3,
+   "cleared_pixels_any_size_ac": 0.05,
+   "cleared_in_ge1ac_events_ac": 0.0,
+   "events": []
+  },
+  "Kelly Road Park": {
+   "lon": -78.8938889,
+   "lat": 35.7316594,
+   "source": "OSM way 33111540",
+   "radius_m": 300,
+   "window_ac": 69.7,
+   "baseline_forest_ac": 32.5,
+   "cleared_pixels_any_size_ac": 0.72,
+   "cleared_in_ge1ac_events_ac": 0.0,
+   "events": []
+  },
+  "stable-forest reference pixels (all quarters)": {
+   "n_px": 9536,
+   "ac": 235.6,
+   "cleared_px_ac": 0.0,
+   "note": "circular check only: reference was selected as dense at both ends of the period"
+  }
+ },
+ "naip_2020_2022_loss_check": {
+  "loss_polygons": 102,
+  "loss_ac_poly": 514.3,
+  "loss_ac_10m": 514.1,
+  "of_which_baseline_forest_ac": 15.5,
+  "of_which_candidates_ac": 15.0,
+  "of_which_detected_new_any_ac": 6.67,
+  "of_which_in_ge1ac_events_ac": 4.23,
+  "events_touching": [
+   "C005",
+   "C008",
+   "C016",
+   "C017",
+   "C021",
+   "C029",
+   "C042",
+   "C060",
+   "C062",
+   "C063",
+   "C066",
+   "C071",
+   "C077",
+   "C080",
+   "C083",
+   "C102",
+   "C108",
+   "C111",
+   "C112",
+   "C118",
+   "C120",
+   "C128",
+   "C140",
+   "C148",
+   "C154",
+   "C156",
+   "C169",
+   "C170",
+   "C171",
+   "C177",
+   "C178",
+   "C184",
+   "C195",
+   "C205",
+   "C207",
+   "C210",
+   "C225",
+   "C229",
+   "C235"
+  ]
+ },
+ "chips": [
+  "/tmp/apex-orig-out/chips/C001_2023Q2_45ac.png",
+  "/tmp/apex-orig-out/chips/C002_2023Q3_25ac.png",
+  "/tmp/apex-orig-out/chips/C003_2026Q3_22ac.png",
+  "/tmp/apex-orig-out/chips/C004_2025Q1_19ac.png",
+  "/tmp/apex-orig-out/chips/C005_2024Q2_17ac.png"
+ ],
+ "top5": [
+  {
+   "clear_id": "C001",
+   "acres": 45.05,
+   "first_quarter": "2023Q2",
+   "cent_lon": -78.81252,
+   "cent_lat": 35.687993,
+   "provisional": false
+  },
+  {
+   "clear_id": "C002",
+   "acres": 24.86,
+   "first_quarter": "2023Q3",
+   "cent_lon": -78.948353,
+   "cent_lat": 35.745992,
+   "provisional": false
+  },
+  {
+   "clear_id": "C003",
+   "acres": 22.31,
+   "first_quarter": "2026Q3",
+   "cent_lon": -78.951048,
+   "cent_lat": 35.737726,
+   "provisional": false
+  },
+  {
+   "clear_id": "C004",
+   "acres": 19.3,
+   "first_quarter": "2025Q1",
+   "cent_lon": -78.941689,
+   "cent_lat": 35.679099,
+   "provisional": false
+  },
+  {
+   "clear_id": "C005",
+   "acres": 16.58,
+   "first_quarter": "2024Q2",
+   "cent_lon": -78.878636,
+   "cent_lat": 35.713357,
+   "provisional": false
+  }
+ ]
+}
