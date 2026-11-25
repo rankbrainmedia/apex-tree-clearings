@@ -1,0 +1,231 @@
+Re-cut at 2019-12-03. Approval date: the Rezoning layer's action date, else the date on the zoning map; three manual dates from Adam.
+
+1. Governing cases of the release's 238 clearings (929.2 ac): 52 cases plus 4 clearings with no case (base zoning).
+                        cases  clearings  acres
+period                                         
+before 2019-12-03          17         69  262.7
+on or after 2019-12-03     35        165  660.4
+
+   The 929 acres by the governing case's approval date:
+                        clearings  acres
+period                                  
+before 2019-12-03              69  262.6
+no case on the ground           4    6.0
+on or after 2019-12-03        165  660.6
+
+   With amendments counted at the parent project's original approval:
+                                                                    clearings  acres
+cut                                                                                 
+amendment approved in the period, original project approved before         55  167.4
+case approved before 2019-12-03                                            69  262.6
+case approved on or after 2019-12-03                                      110  493.2
+no case on the ground                                                       4    6.0
+   amendments approved in the period on projects first approved before it:
+governing_case                    case_name   approved                parent_project original_case original_approved    original_approved_basis  clearings  acres
+        25CZ18    Veridea SD Plan Amendment 2026-01-13              Veridea (09CZ07)        09CZ07        2011-05-10            zoning map date         43  115.0
+        24CZ23     Greenway Wates Solutions 2025-06-10              Veridea (09CZ07)        09CZ07        2011-05-10            zoning map date          4   20.1
+        22CZ21             APEX LIGHT INDUS 2023-03-28                        14CZ09        14CZ09        2014-12-31      case-number year only          5   18.2
+        26CZ03 Veridea SD-CZ Text Amendment 2026-08-25              Veridea (09CZ07)        09CZ07        2011-05-10            zoning map date          2   12.4
+        25CZ23    Horton Park PUD Amendment 2026-08-11 Horton Park (17CZ19 + 18CZ04)        18CZ04        2018-05-01 Rezoning layer action date          1    1.7
+
+   Governing cases whose date is missing or looks wrong, or sits close to the cut: 1
+governing_case    case_name   approved  approved_basis            period                                               date_note  clearings  acres
+       07ETJ24 TOWN OF APEX 2007-10-02 zoning map date before 2019-12-03 districts carry different dates: 2007-10-02, 2026-02-24          6   23.5
+
+   Largest governing cases on each side:
+   -- before 2019-12-03
+governing_case                        case_name   approved  clearings  acres                parent_project
+        18CZ04        Horton Park PUD Amendment 2018-05-01         23   83.9 Horton Park (17CZ19 + 18CZ04)
+        17CZ18                    GRACEWOOD PUD 2017-10-17         13   50.7                              
+       07ETJ24                     TOWN OF APEX 2007-10-02          6   23.5                              
+        14CZ29                  APEX OLIVE, LLC 2015-01-06          4   22.2                              
+        18CZ02 Friendship Station PUD Amendment 2018-04-03          4   20.6               17CZ04 + 18CZ02
+        14CZ16                    AQUILINE APEX 2015-05-05          7   17.8                              
+        17CZ19                  MFW INVESTMENTS 2017-11-07          1   15.2                              
+        15CZ24                   [private applicant] 2015-12-01          2    6.6                              
+   -- on or after 2019-12-03
+governing_case                      case_name   approved  clearings  acres                parent_project
+        25CZ18      Veridea SD Plan Amendment 2026-01-13         43  115.0              Veridea (09CZ07)
+        21CZ16                 MORNINGSTAR LG 2021-08-24         18   61.3                              
+        20CZ12                FELTON GROVE HS 2021-04-13          5   53.6                              
+        23CZ15 Apex Gateway Phase 2 Amendment 2024-02-13          5   45.6 Apex Gateway Phase 2 (22CZ26)
+        24CZ09               CASTLEBERRY RESE 2024-06-27          9   41.8                              
+        22CZ24               APEX GATEWAY PH1 2022-03-21          7   36.9                              
+        23CZ01                 CASH CORPORATE 2023-05-09         10   32.0                        21CZ08
+        21CZ04               WILLIAMS FARM PD 2021-08-24          7   22.8                              
+
+2. Acres cleared per calendar year, 2017-2026 detection (2017 forest baseline, patches of an acre or more). 'event' = bare for about a year or more; 'still bare' = the release's rule.
+   2017 is October-December only; 2026 runs to October 24. A clearing's quarter is when it was first seen, which can be a quarter early in winter.
+ year  quarters  event_acres  still_bare_acres
+ 2017         1        112.2              90.1
+ 2018         4        240.3             150.4
+ 2019         4         93.2              60.3
+ 2020         4        279.0             233.3
+ 2021         4        178.4             153.7
+ 2022         4        190.5             163.3
+ 2023         4        286.2             267.2
+ 2024         4        199.6             190.1
+ 2025         4        456.0             473.0
+ 2026         4        256.1             282.3
+
+   2017Q4 through 2019Q3 (before 2019-12-03): 423.4 ac (still bare 285.0)
+   2019Q4, the quarter the cut falls in (Oct 1 to Dec 31, 2019): 22.3 ac (still bare 15.8)
+   2020Q1 to 2026Q4 (after): 1,845.8 ac (still bare 1,762.9)
+   since July 2020 (2020Q3 on): 1,616.1 ac (still bare 1,568.5)
+   Wake County's Land Cover Analysis & Tree Canopy Assessment used leaf-on NAIP imagery of vintage 2020 and compares 2010 with 2020. NAIP 2020 over Apex was flown July 11-12, 2020
+   (ten tiles) and September 21, 2020 (two tiles on the east side), so 'since July 2020' is right for most of Apex. The report gives Apex 2,180 acres of canopy lost 2010-2020 (15.2%).
+
+3. Conditional zoning cases approved on or after 2019-12-03: 126 with a date and a boundary; 80 have 2 ac or more of 2017 forest (79 without 23CZ13).
+   Sum of rows, without 23CZ13 (cases overlap, so this double-counts shared ground): forest in 2017 3,001 ac, at approval 2,556, cleared since approval 796, standing now 1,826.
+   Counted once on the ground: 2,782 ac of 2017 forest, 1,219 ac cleared since mid-2017, 1,630 ac standing now.
+  case                           name   approved  acres  forest17  at_approval  cleared_since  standing   conflict
+25CZ18      Veridea SD Plan Amendment 2026-01-13 1124.1    1002.1        787.1          105.7     707.5           
+20CZ01                         LENNAR 2020-08-04  201.7     163.2        163.1          117.5      49.4           
+25CZ15           Veridea West Village 2025-12-09  130.8     114.0        113.6            0.1     113.0           
+21CZ16                 MORNINGSTAR LG 2021-08-24  141.2     114.1        112.2           84.8      28.4           
+23CZ15 Apex Gateway Phase 2 Amendment 2024-02-13  235.0     105.3         92.9           40.2      79.8           
+25CZ10            Welch Homestead PUD 2026-04-28   83.1      69.8         69.7            0.0      68.7           
+20CZ12                FELTON GROVE HS 2021-04-13   68.0      68.0         68.0           58.3      13.8           
+22CZ24               APEX GATEWAY PH1 2022-03-21  131.5      66.0         64.6           29.2      35.2           
+25CZ23      Horton Park PUD Amendment 2026-08-11   89.6      85.5         61.8            3.9      61.9           
+24CZ23       Greenway Wates Solutions 2025-06-10  141.2      75.9         57.6            4.5      50.4           
+23CZ01                 CASH CORPORATE 2023-05-09   82.8      72.3         57.0           35.2      24.1           
+21CZ12                     LEGACY PUD 2021-09-28   60.6      54.9         54.4           23.2      41.8           
+23CZ13          Seymour Mixed Use PUD 2024-02-13   85.1      50.0         50.0            0.0      49.2 Seymour Mi
+25CZ09        Jessie Drive Industrial 2025-10-14   51.9      51.5         50.0            0.0      50.4           
+24CZ20                 HOPSON GATEWAY 2025-12-09   99.6      49.1         49.1            0.0      47.8 its PUD te
+24CZ09               CASTLEBERRY RESE 2024-06-27  104.1      45.9         45.1           31.5      12.0           
+24CZ08 Town of Apex Yard Waste Transf 2024-08-13   48.6      44.0         44.0            0.0      43.0 its applic
+24CZ19               NEW HILL COMMONS 2025-05-27   55.8      39.5         36.3            0.1      35.8 applicant 
+22CZ09                UTLEY FARMS PUD 2022-11-08   46.8      32.8         32.8           20.6      11.9           
+21CZ04               WILLIAMS FARM PD 2021-08-24   61.9      32.9         32.0           21.3       8.9           
+21CZ08                   TOWN OF APEX 2021-05-11   39.0      33.3         31.7           23.3       9.3           
+22CZ23               YELLOWBRIDGE PUD 2022-09-27   48.2      29.8         29.8           17.1      12.4           
+23CZ11             Smith Farm Phase 5 2023-08-08   30.4      29.2         28.4            0.2      28.4           
+22CZ22                     Elevate 64 2023-04-11   35.5      28.2         27.2           22.3       4.2           
+22CZ21               APEX LIGHT INDUS 2023-03-28   47.5      28.8         24.7           20.4       3.0           
+20CZ14                    HACKNEY PUD 2021-08-24   73.9      22.9         22.6           11.0      10.5           
+26CZ03   Veridea SD-CZ Text Amendment 2026-08-25   34.1      34.0         22.0            0.5      21.3           
+21CZ14                 HOLLAND RD PUD 2022-03-21   29.4      21.1         21.1           21.0       0.0           
+21CZ13                 EVANS ROAD PUD 2021-09-14   34.4      21.6         21.0           17.7       3.1           
+24CZ03           New Hill Holleman Rd 2024-05-28   25.4      19.5         19.5            0.0      19.5           
+25CZ19               Camp Branch Lane 2026-05-28   21.6      19.3         19.3            0.0      19.3           
+26CZ10            Veridea Expansion V 2026-11-10   22.9      19.4         18.2            0.0      17.9           
+21CZ31                 SEARS PROP PUD 2022-06-14   26.1      17.2         17.2            0.0      17.1           
+22CZ17               TOWNES AT STATIO 2023-01-10   16.1      15.0         14.1           10.6       3.5           
+24CZ16          Lawrence Property PUD 2025-06-24   38.3      14.0         13.9            0.0      13.4           
+23CZ05                  PLEASANT PARK 2023-06-13   92.4      75.1         12.4            0.3      17.6           
+25CZ06               NHOC RD ASSEMBLA 2025-08-12   16.6      11.8         11.7            0.0      11.7           
+23CZ09               HATCHER PROPERTY 2023-08-08   28.5      13.2         11.4            7.0       3.9           
+24CZ10                    ASHBURN PUD 2025-11-13   15.1      11.5         11.1            0.0      11.1           
+22CZ08                 ADAMS PROPERTY 2022-09-27   23.8      10.7         10.6            8.6       2.0           
+22CZ07                 CHAPEL RIDGE N 2022-11-08   22.6       9.9          9.6            5.9       2.8           
+22CZ01                ARDEN AT SUMMIT 2022-06-14   11.6       9.6          9.5            8.9       1.0           
+20CZ04                   KOBRA TRACTS 2020-10-20   24.5       8.4          8.4            4.0       4.2           
+23CZ18                 [street address] 2023-11-28   19.2      13.9          8.3            5.0       3.6           
+20CZ05                MCADAMS COMPANY 2020-08-04   35.1      23.5          8.2            1.6       6.7           
+21CZ09                  ALDERWOOD PUD 2021-08-24   15.3       7.8          7.7            5.8       2.0           
+24CZ22               COURTYARDS ON WI 2025-05-27   24.3       6.5          6.5            3.6       6.4           
+21CZ32               CHAPEL RIDGE PUD 2022-04-12   21.5       6.4          6.3            3.2       1.0           
+22CZ13                [street address] 2023-02-14    6.3       6.1          6.1            5.3       1.0           
+21CZ03                  TOLL BROTHERS 2021-07-27   70.8      15.5          5.9            0.1       4.8           
+26CZ06  Apex Light Industrial Phase 3 2026-10-13    8.4       5.6          5.6            0.0       4.3           
+25CZ07               1211 OLD RALEIGH 2025-10-14    6.6       5.3          5.3            0.0       5.2           
+21CZ28               RETREAT AT CEDAR 2022-02-08   36.5      24.9          5.2            0.2       6.9           
+25CZ17                   0 Smith Road 2026-02-24    5.4       5.4          5.2            0.0       5.3           
+20CZ08                 APX FRNDSHP ES 2020-10-20    5.8       5.0          5.0            3.3       2.1           
+24CZ12                OLIVER PROPERTY 2024-10-08   15.9       5.1          5.0            2.2       2.3           
+20CZ09               PEAK ENGINEERING 2020-11-17   10.3       5.0          4.8            2.2       2.7           
+23CZ16               FRIENDSHIP STA 3 2024-01-12    5.9       4.5          4.5            0.0       4.4           
+21CZ26         Humie Olive Commercial 2022-05-24    7.5       4.4          4.4            0.0       3.9           
+23CZ02                  TRI HOME PH 2 2023-05-09    4.5       4.5          4.4            0.8       3.7           
+19CZ24               UPCHRCH-WLLMS HS 2020-02-04    5.7       4.2          4.2            3.0       1.1           
+24CZ17           Kelly Road Townhomes 2025-03-11    5.5       4.4          4.1            0.0       4.4           
+22CZ15                      CAR SPACE 2022-09-13    7.0       3.7          3.7            0.0       3.7           
+22CZ14                [street address] 2022-08-23    7.0       3.3          3.3            2.3       1.0           
+24CZ07         The Townes at Parkside 2024-09-10    4.2       3.2          3.2            0.0       3.2           
+20CZ15                  [private applicant] 2021-02-09    3.9       3.1          3.1            1.3       1.3           
+21CZ25 Villages of Apex PUD Amendment 2021-12-14    3.6       3.0          3.0            0.0       3.0           
+21CZ17               TEN TEN BUSINESS 2022-11-29    4.7       2.8          2.8            0.0       2.8           
+25CZ05     West Village PUD Amendment 2025-06-10    6.3       3.6          2.7            0.8       1.9           
+24CZ05                  [street address] 2024-08-13    4.0       2.5          2.5            0.0       2.3           
+25CZ02         Jordan Lutheran Chruch 2025-08-26    6.4       2.9          2.3            0.0       2.0           
+20CZ13                YUMEEWARRA FARM 2021-01-26   18.6       2.4          2.3            0.2       1.7           
+21CZ01               WOLFE PROPERTIES 2021-03-09   43.5       2.3          2.3            0.0       0.4           
+24CZ11                 ALTERA HEIGHTS 2025-06-10   13.7       2.2          2.2            0.0       2.2           
+26CZ01          [street address] 2026-04-28    3.0       2.2          2.2            0.0       2.1           
+21CZ27                 [street address] 2023-01-24    2.3       2.1          2.1            0.0       2.1           
+25CZ13 [private applicant] Request for Water Serv 2026-01-12    4.8       2.1          2.1            0.0       1.8           
+26CZ05         [street address] 2026-08-25    3.7       2.1          2.1            0.0       2.1           
+24CZ18                  EXPERIENCEONE 2025-01-28   36.4       7.0          0.5            0.0       0.1           
+23CZ20                  EXPERIENCEONE 2024-12-10    9.5       2.4          0.1            0.0       0.0           
+
+   Date notes among these cases: 6
+  case                    name   approved             approved_basis                                                                                                                    date_note
+19CZ18             [street address] 2019-12-03            zoning map date                                                                                                    within 60 days of the cut
+19CZ20         JONES & CNOSSEN 2020-01-07            zoning map date                                                                                                    within 60 days of the cut
+21CZ26  Humie Olive Commercial 2022-05-24 Rezoning layer action date                                                                      Rezoning layer 2022-05-24 against zoning map 2022-06-14
+22CZ11  [street address] 2022-07-26 Rezoning layer action date                                                                      Rezoning layer 2022-07-26 against zoning map 2022-08-09
+22CZ19      [street address] PUD 2023-03-13 Rezoning layer action date                                                                      Rezoning layer 2023-03-13 against zoning map 2023-03-14
+25CZ09 Jessie Drive Industrial 2025-10-14 Rezoning layer action date districts carry different dates: 2025-10-15, 2026-01-13; Rezoning layer 2025-10-14 against zoning map 2025-10-15, 2026-01-13
+   Not in this list: cases that are no longer a district of their own and are not in the Rezoning layer (for example 22CZ26, 23CZ21): the map keeps no boundary or date for them.
+
+4. RCA terms of the 78 conditional zoning cases approved on or after 2019-12-03 with 2 ac or more of 2017 forest (23CZ13, 24CZ20 held out, not read).
+   Documents read for 78 of them; 1103 quotes, each found word for word on its page (office_rca_quotes.csv).
+   Acres are sums of case rows (some cases share ground). Forest is 2017 baseline forest inside the case boundary.
+
+   By RCA percent required:
+                   cases  forest_2017  forest_at_approval  cleared_since_approval  standing_now
+rca_percent_group                                                                              
+none/exempt            3         18.4                16.6                     7.0           9.0
+5                      1         32.8                32.8                    20.6          11.9
+15                     1         72.3                57.0                    35.2          24.1
+20                     9        369.3               343.5                   167.3         178.4
+25                    16        484.2               393.8                   214.3         210.7
+30                     8        137.4               135.3                    74.4          71.0
+35                     4        115.9               114.8                    10.6         103.2
+40                     1         14.0                13.9                     0.0          13.4
+other                  8       1233.5               979.7                   119.0         883.8
+mixed by district      4         98.0                94.4                    17.2          76.4
+not found             23        376.3               325.0                   130.2         196.8
+
+   By grading:
+                cases  forest_2017  forest_at_approval  cleared_since_approval  standing_now
+grading_group                                                                               
+mass graded        38       2220.9              1939.3                   598.9        1394.5
+stage graded        8        126.0               100.1                    20.1          80.6
+both, by phase      4        196.7               109.4                    35.8          83.0
+not stated         28        408.5               358.0                   141.0         220.6
+
+   RCA percent group by grading group (cases):
+grading_group      both, by phase  mass graded  not stated  stage graded
+rca_percent_group                                                       
+none/exempt                     0            1           1             1
+5                               0            1           0             0
+15                              0            1           0             0
+20                              1            6           1             1
+25                              2           10           3             1
+30                              0            5           1             2
+35                              1            3           0             0
+40                              0            1           0             0
+other                           0            6           2             0
+mixed by district               0            4           0             0
+not found                       0            0          20             3
+
+   Exemption or mass-grading-only statements: 10 cases: 24CZ09, 24CZ19, 22CZ09, 24CZ16, 23CZ09, 23CZ18, 21CZ32, 21CZ03, 21CZ25, 26CZ01
+   A tree condition or tree note recorded: 63 cases. RCA acres stated: 45 cases.
+
+   Cases by group:
+   none/exempt: 23CZ09 (11.4), 21CZ25 (3), 26CZ01 (2.2)
+   5: 22CZ09 (32.8)
+   15: 23CZ01 (57)
+   20: 20CZ01 (163.1), 25CZ23 (61.8), 24CZ09 (45.1), 24CZ08 (44), 22CZ07 (9.6), 21CZ32 (6.3), 22CZ13 (6.1), 25CZ17 (5.2), 25CZ02 (2.3)
+   25: 21CZ16 (112.2), 23CZ15 (92.9), 25CZ09 (50), 22CZ22 (27.2), 22CZ21 (24.7), 21CZ14 (21.1), 23CZ05 (12.4), 22CZ01 (9.5), 20CZ04 (8.4), 23CZ18 (8.3), 21CZ09 (7.7), 26CZ06 (5.6), 23CZ16 (4.5), 23CZ02 (4.4), 25CZ05 (2.7), 24CZ11 (2.2)
+   30: 21CZ12 (54.4), 21CZ04 (32), 21CZ13 (21), 22CZ08 (10.6), 24CZ22 (6.5), 25CZ07 (5.3), 24CZ07 (3.2), 21CZ01 (2.3)
+   35: 25CZ10 (69.7), 25CZ19 (19.3), 22CZ17 (14.1), 25CZ06 (11.7)
+   40: 24CZ16 (13.9)
+   other: 25CZ18 (787.1), 25CZ15 (113.6), 20CZ14 (22.6), 26CZ03 (22), 26CZ10 (18.2), 20CZ05 (8.2), 21CZ03 (5.9), 21CZ27 (2.1)
+   mixed by district: 24CZ19 (36.3), 22CZ23 (29.8), 21CZ31 (17.2), 24CZ10 (11.1)
+   not found: 20CZ12 (68), 22CZ24 (64.6), 24CZ23 (57.6), 21CZ08 (31.7), 23CZ11 (28.4), 24CZ03 (19.5), 21CZ28 (5.2), 20CZ08 (5), 24CZ12 (5), 20CZ09 (4.8), 21CZ26 (4.4), 19CZ24 (4.2), 24CZ17 (4.1), 22CZ15 (3.7), 22CZ14 (3.3), 20CZ15 (3.1), 21CZ17 (2.8), 24CZ05 (2.5), 20CZ13 (2.3), 25CZ13 (2.1), 26CZ05 (2.1), 24CZ18 (0.5), 23CZ20 (0.1)
+
+   Quotes thrown out by the page check for these cases: 0

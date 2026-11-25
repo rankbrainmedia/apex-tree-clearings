@@ -1,0 +1,120 @@
+Wake County Land Cover Analysis / Tree Canopy Assessment against the clearing data. Run 2026-11-24.
+Estimates, not measurements. Definitions and caveats: NOTES.md. Layers and pull dates: layers/SOURCES.json.
+Conflict flag: 23CZ13 (Seymour Mixed Use PUD) is next to the author's home. It is in the case tables, flagged, and is left out of every total below unless a line says otherwise.
+
+0. Checks
+   Clearing first detected 2020Q3 to 2026Q4 (2017 baseline, event rule, patches of an acre or more): 1,616.4 acres of cells in the planning jurisdiction.
+   The County's 2020 raster on those cells: 96% canopy on average, so 1,520.4 acres of 2020 canopy. On cells cleared before mid-2020 (675 acres) it shows 17%.
+   Per-year acres against out/office_clearings_by_year.csv: 2017 112.2/112.2, 2018 240.3/240.3, 2019 93.2/93.2, 2020 279.0/279.0, 2021 178.5/178.4, 2022 190.6/190.5, 2023 286.2/286.2, 2024 199.7/199.6, 2025 456.0/456.0, 2026 256.2/256.1
+   Approved cases numbered 2022 or later: 79 here, 79 in out/pipeline_2022plus.csv; the same list.
+   Forest inside them (without 23CZ13), three baselines: release 2022 forest cells that are forest-like in Jul-Sep 2026, 1,190 acres (entitlement/NOTES.md has 1,187); 2017 forest cells, 1,412; County 2020 forest cells with no event since, 1,383. The County's map counts more canopy than either satellite-era baseline.
+   2020 canopy, this copy of the County raster against the County's own figure, 33 block groups wholly on the grid: 13,838 against 13,834 acres; block-group ratio 0.999 to 1.003.
+   2010-2020 change from the County's map tiles against its figure, same block groups: -1,575 against -1,698 acres (correlation 0.9999; mean miss 3.7 acres a block group). The tiles understate the loss a little.
+
+2. Block groups (block_groups.csv, 37 with an acre or more inside the planning jurisdiction)
+   The County's report, Apex rows: corporate limits 16,217 acres, canopy 58.2% in 2010 and 44.6% in 2020 (-2,200 acres); ETJ outside them 7,994 acres, canopy 62.0% in 2010 and 62.2% in 2020 (+19 acres); planning jurisdiction 24,199 acres, canopy 59.4% in 2010 and 50.4% in 2020 (-2,180 acres). Wake County side only, boundaries as the County had them.
+   Since mid-2020, inside the jurisdiction: 1,508.2 acres of 2020 canopy cleared in these block groups (11.6 more on 250 acres the block-group layer does not cover).
+   Classes (Claude's thresholds: lost or gained = the report's canopy acres moved 2% or more; clearing = 2% or more of the 2020 canopy inside the jurisdiction, and at least 5 acres, cleared since):
+     kept losing: 14 block groups, report change -2,573 acres (whole block groups), cleared since 1,245.8 acres
+     started: 3 block groups, report change -1 acres (whole block groups), cleared since 254.2 acres
+     lost 2010-2020, little clearing since: 8 block groups, report change -271 acres (whole block groups), cleared since 1.3 acres
+     no loss in either period: 12 block groups, report change +42 acres (whole block groups), cleared since 6.9 acres
+   5 block groups change class when 2010-2020 is measured only inside the jurisdiction (from the map tiles): 370370207021 (kept losing -> started, 43% inside), 371830534093 (no loss in either period -> lost 2010-2020, little clearing since, 37% inside), 371830534343 (lost 2010-2020, little clearing since -> no loss in either period, 100% inside), 371830534242 (lost 2010-2020, little clearing since -> no loss in either period, 17% inside), 371830534191 (lost 2010-2020, little clearing since -> no loss in either period, 28% inside)
+   geoid         class                                  in-jur%  report 2010-20  per yr | in-jur 2010-20 | cleared since  %2020  per yr | canopy 2020 -> now
+   371830534321  kept losing                               50%    -456.7 ac   -45.7 |    -129.6 ac   |    341.2 ac  22.2%   54.0 | 70.5% -> 54.9%
+   371830534312  started                                  100%     -11.1 ac    -1.1 |      -7.9 ac   |    235.2 ac  19.7%   37.3 | 67.1% -> 53.9%
+   371830534282  kept losing                               38%    -324.1 ac   -32.4 |    -251.3 ac   |    228.5 ac  27.9%   36.2 | 50.0% -> 36.1%
+   371830534271  kept losing                               88%    -261.7 ac   -26.2 |    -253.7 ac   |    130.9 ac  21.0%   20.7 | 46.6% -> 36.9%
+   371830534262  kept losing                               61%    -425.2 ac   -42.5 |    -375.4 ac   |    125.7 ac  12.1%   19.9 | 53.8% -> 47.3%
+   371830534331  kept losing                              100%     -26.7 ac    -2.7 |     -24.6 ac   |    114.1 ac  49.1%   18.1 | 54.4% -> 27.7%
+   371830534281  kept losing                               25%    -269.7 ac   -27.0 |    -256.1 ac   |     95.2 ac  14.1%   15.1 | 59.0% -> 50.7%   [conflict flag]
+   371830534283  kept losing                               96%    -401.3 ac   -40.1 |    -387.1 ac   |     52.8 ac   4.1%    8.4 | 49.0% -> 47.0%
+   371830534311  kept losing                              100%     -56.6 ac    -5.7 |     -52.0 ac   |     50.0 ac   9.2%    7.9 | 49.1% -> 44.6%
+   371830534261  kept losing                               31%    -188.5 ac   -18.8 |    -156.4 ac   |     28.4 ac  15.3%    4.5 | 33.9% -> 28.7%
+   370370207021  kept losing                               43%     -78.4 ac    -7.8 |      +6.6 ac   |     26.0 ac  23.7%    4.1 | 85.8% -> 65.5%
+   371830534172  kept losing                               96%     -47.4 ac    -4.7 |     -43.3 ac   |     24.4 ac   2.5%    3.9 | 55.5% -> 54.1%   [conflict flag]
+   371830534272  kept losing                              100%      -9.1 ac    -0.9 |      -6.1 ac   |     15.1 ac  10.2%    2.4 | 40.4% -> 36.2%
+   371830534153  started                                  100%      +3.7 ac    +0.4 |      +8.1 ac   |     12.4 ac   4.5%    2.0 | 31.5% -> 30.1%
+   371830534171  kept losing                              100%     -11.4 ac    -1.1 |      -9.3 ac   |      7.2 ac   4.4%    1.1 | 36.0% -> 34.5%   [conflict flag]
+   371830534091  started                                  100%      +5.9 ac    +0.6 |      +8.4 ac   |      6.6 ac   3.6%    1.0 | 45.2% -> 43.5%
+   371830534292  kept losing                              100%     -16.2 ac    -1.6 |     -12.4 ac   |      6.3 ac   2.8%    1.0 | 34.8% -> 33.8%
+   371830534192  no loss in either period                 100%      +2.3 ac    +0.2 |      +4.5 ac   |      2.6 ac   1.4%    0.4 | 49.9% -> 49.2%
+   371830534291  no loss in either period                 100%      +1.5 ac    +0.1 |      +2.6 ac   |      1.9 ac   2.2%    0.3 | 41.5% -> 40.6%
+   371830534362  no loss in either period                 100%      -1.1 ac    -0.1 |      +0.1 ac   |      1.4 ac   1.0%    0.2 | 37.9% -> 37.5%
+   371830534351  lost 2010-2020, little clearing since    100%    -102.3 ac   -10.2 |     -98.2 ac   |      1.2 ac   0.3%    0.2 | 46.4% -> 46.3%
+   371830534093  no loss in either period                  37%     +16.3 ac    +1.6 |      -7.2 ac   |      0.5 ac   0.6%    0.1 | 39.5% -> 39.3%
+   371830534301  no loss in either period                 100%      -6.9 ac    -0.7 |      -5.2 ac   |      0.3 ac   0.1%    0.0 | 56.5% -> 56.4%
+   371830534302  no loss in either period                 100%      +1.1 ac    +0.1 |      +1.8 ac   |      0.2 ac   0.2%    0.0 | 40.1% -> 40.0%
+   371830534343  lost 2010-2020, little clearing since    100%      -5.3 ac    -0.5 |      -2.7 ac   |      0.1 ac   0.1%    0.0 | 44.3% -> 44.3%
+
+3. Potential Planting Areas (County layer, composite priority) against cases and clearings (ppa_priority_overlay.csv, ppa_by_case.csv)
+   Cases: 78 approved and numbered 2022 or later, 42 approved and numbered 2020-2021, 16 pending (cases_used.csv). Clearings: 884 outlines since mid-2020.
+   Acres inside the planning jurisdiction. Planting areas exist on the Wake County side only.
+   priority            mapped | approved 2022+ | approved 2020-21 only | pending only | any case | in a clearing | case or clearing (once)
+   Very High            292.1 |            5.6 |                   3.2 |          0.3 |      9.1 |           0.0 |      9.1 (3.1%)
+   High                 494.4 |            6.6 |                   7.6 |          0.2 |     14.4 |           0.6 |     14.8 (3.0%)
+   Moderate             687.7 |           26.4 |                  15.5 |          0.0 |     41.9 |           2.1 |     42.4 (6.2%)
+   Low                1,719.7 |          123.9 |                  40.4 |         25.8 |    190.1 |           7.3 |    194.2 (11.3%)
+   Very Low           1,495.1 |          254.7 |                 126.0 |          4.9 |    385.5 |          32.0 |    401.6 (26.9%)
+   Very High + High     786.5 |           12.2 |                  10.8 |          0.5 |     23.5 |           0.7 |     23.9 (3.0%)
+   All classes        4,689.0 |          417.1 |                 192.7 |         31.2 |    641.0 |          42.1 |    662.1 (14.1%)
+   With 23CZ13: any case 23.5 acres of Very High + High, 643.2 of all classes.
+   Cases holding the most Very High + High planting area:
+     21CZ32 CHAPEL RIDGE PUD                           on zoning map     5.9 ac (all classes 7.1)
+     24CZ14 BROADSTONE AMEND                           on zoning map     4.4 ac (all classes 4.4)
+     22CZ05 MORRIS TRACT PUD                           on zoning map     3.9 ac (all classes 3.9)
+     21CZ02 ABBEY SPRING PUD                           on zoning map     3.0 ac (all classes 3.0)
+     22CZ27 Center City Townhomes                      Approved          1.5 ac (all classes 1.5)
+     26CZ13 Elevation Apartment Multi-Family           Proposed          1.5 ac (all classes 1.5)
+     22CZ07 CHAPEL RIDGE N                             on zoning map     1.1 ac (all classes 4.0)
+     21CZ18 OLV CHPL PROF PK                           on zoning map     0.8 ac (all classes 3.6)
+     20CZ03 [private applicant]                            on zoning map     0.7 ac (all classes 0.7)
+     23CZ23 Saunders Street Parking Lot                Approved          0.4 ac (all classes 0.4)
+     23CZ14 SALEM ST TOWNHOM                           on zoning map     0.3 ac (all classes 0.3)
+     22CZ19 [street address] PUD                         Approved          0.3 ac (all classes 0.3)
+
+4. Canopy now: the County's 2020 canopy minus clearing since (canopy_estimate_by_geography.csv). ESTIMATE: it subtracts clearings and adds no growth.
+   geography (boundary)                                           acres   2010 est  2020     cleared since      now est   | release rule  +small  +unrecorded
+   Corporate limits (Town layer, pulled 2026-11-24)                 18,079   58.2%   46.9%    1,452 ac (17.1%)   38.8%   |  39.1%   38.0%   35.8%
+   ETJ outside corporate limits (Town layer, pulled 2026-11-24)      6,909   60.6%   60.6%       68 ac (1.6%)   59.6%   |  59.9%   58.6%   57.5%
+   Planning jurisdiction (Town layers, pulled 2026-11-24)           24,988   58.8%   50.7%    1,520 ac (12.0%)   44.6%   |  44.8%   43.7%   41.8%
+   Corporate limits (as in the County report, Wake side)            16,217   57.6%   44.6%    1,083 ac (15.0%)   37.9%   |  38.1%   37.1%   35.1%
+   ETJ outside corporate limits (as in the County report, Wake side)    7,986   61.7%   62.2%      321 ac (6.5%)   58.2%   |  58.5%   57.2%   55.8%
+   Planning jurisdiction (as in the County report, Wake side)       24,187   58.9%   50.4%    1,404 ac (11.5%)   44.6%   |  44.8%   43.7%   42.0%
+   Planning jurisdiction: 12,658 acres of canopy in 2020, 1,520 cleared since, 11,138 now. 250 acres on the Chatham side are outside the County's study area; their 2020 canopy (64 acres) is from NAIP 2020 by the release's recipe.
+   Columns after the bar: the same estimate with the release's stricter rule; with event patches under an acre added; and with those plus 544 acres of cells that were forest by both sources in summer 2020, are not forest-like in Jul-Sep 2026, and have no event on record (478 acres of canopy). Most of those cells were never in the 2017 forest baseline, so the detection could not see them.
+   2020 forest cells in the planning jurisdiction (12,549 acres): standing now 9,034; cleared in patches of an acre or more 1,526; event under an acre 221; changed with no event 544; tree cover the satellite cannot read as forest in either year 1,224.
+   NAIP cross-check (naip_crosscheck.csv): the release's canopy recipe on the July 2020 flight and on the July 25, 2025 flight, the latest. Share of each cell that is canopy:
+     cells, by what the detection says                                   acres   County 2020   NAIP 2020 -> NAIP 2025   NAIP change
+     cleared, patches of an acre or more, first seen by 2025Q2             1,170     0.95        0.80 -> 0.07               -858 ac
+     event in a patch under an acre, by 2025Q2                               183     0.76        0.61 -> 0.31                -54 ac
+     first seen after the 2025 flight (2025Q3 on)                            552     0.88        0.77 -> 0.67                -54 ac
+     forest in 2020, not forest-like in 2026, no event                       544     0.88        0.50 -> 0.21               -158 ac
+     cleared before mid-2020                                                 901     0.26        0.15 -> 0.20                +43 ac
+     forest in 2020 and forest-like in 2026, no event                      8,902     0.96        0.79 -> 0.73               -526 ac
+     everything else (yards, fields, roofs, partial tree cover)           12,736     0.13        0.10 -> 0.12               +243 ac
+     Planning jurisdiction                                                24,988     0.51        0.41 -> 0.36             -1,365 ac
+     Read it row by row, not as a total. The recipe is not steady between flights: forest that stood the whole time reads 0.79 in 2020 and 0.73 in 2025, and it counts less canopy than the County's map throughout. So the NAIP totals (41.0% and 35.6%) are not a second estimate of the level.
+     What it does show: the cells the detection calls cleared went from 0.80 canopy to 0.07; cells first seen cleared after the flight were still mostly canopy on it; and the cells with no event that changed between two dates lost about half their canopy. Estimate for mid-2025, the flight date: 50.7% -> 46.2% (-1,111 acres).
+
+5. Peak Plan 2055 (context_areas.csv, place_types.csv)
+   The Town has published both layers on its public map server: Context Areas ("STAFF DRAFT", last edited 2026-09-17) and Place Types ("Public Forum 3", last edited 2026-11-06). No georeferencing of the slide was needed.
+   Inside the planning jurisdiction (clearing detection exists nowhere else):
+   context area                     acres  | canopy 2020        | cleared since    | canopy now est | forest standing now | of it in approved 2022+ / 2020+ / pending
+   Town Center                       1,472 |     570 ac  38.7% |     11 ac   1.9% |  38.0%         |      336 ac         | 2 / 7 / 1 ac
+   Rural                             1,636 |   1,196 ac  73.1% |     79 ac   6.6% |  68.3%         |    1,033 ac         | 11 / 12 / 0 ac
+   Suburban                         18,222 |   8,735 ac  47.9% |  1,102 ac  12.6% |  41.9%         |    6,096 ac         | 745 / 959 / 24 ac
+   Transit-Oriented Development      3,649 |   2,153 ac  59.0% |    327 ac  15.2% |  50.1%         |    1,566 ac         | 626 / 631 / 73 ac
+   All four                         24,979 |  12,655 ac  50.7% |  1,520 ac  12.0% |  44.6%         |    9,031 ac         | 1,383 / 1,610 / 98 ac
+   Rural: 8,376 acres in all; 6,741 lie outside the jurisdiction, 5,488 of them on the analysis grid with 3,903 acres of 2020 canopy (71.4%). No clearing detection there; 132 acres of its 2020 forest cells are not forest-like in Jul-Sep 2026 (two dates only, unverified).
+   Suburban: 19,344 acres in all; 1,122 lie outside the jurisdiction, 1,122 of them on the analysis grid with 749 acres of 2020 canopy (67.2%). No clearing detection there; 44 acres of its 2020 forest cells are not forest-like in Jul-Sep 2026 (two dates only, unverified).
+   With 23CZ13: forest standing in approved 2022+ cases, all four areas, 1,436 acres.
+   Place types holding the most standing forest:
+     POS: Passive Open Space                                3,682 ac, canopy 2020 68.2%, cleared since 191 ac, standing 2,048 ac, in approved 2022+ cases 81 ac
+     SF3: Single-Family 3                                   6,518 ac, canopy 2020 45.2%, cleared since 324 ac, standing 1,918 ac, in approved 2022+ cases 147 ac
+     MUCC: Mixed-Use Centers and Corridors                  2,985 ac, canopy 2020 66.0%, cleared since 249 ac, standing 1,520 ac, in approved 2022+ cases 492 ac
+     MXD1: Mixed-Density Community 1                        1,859 ac, canopy 2020 60.6%, cleared since 243 ac, standing 788 ac, in approved 2022+ cases 233 ac
+     SF2: Single-Family 2                                   1,170 ac, canopy 2020 71.9%, cleared since 10 ac, standing 750 ac, in approved 2022+ cases 3 ac
+     IND1: Industrial 1                                     1,403 ac, canopy 2020 53.7%, cleared since 166 ac, standing 443 ac, in approved 2022+ cases 244 ac
+     not in a parcel of the layer (roads, right-of-way, g   3,625 ac, canopy 2020 19.1%, cleared since 137 ac, standing 228 ac, in approved 2022+ cases 11 ac
+     AOS: Active Open Space and Recreation Areas              571 ac, canopy 2020 44.8%, cleared since 4 ac, standing 219 ac, in approved 2022+ cases 10 ac

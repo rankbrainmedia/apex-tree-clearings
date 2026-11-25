@@ -1,0 +1,376 @@
+id,set,image,image_exists,frame_m,panels,naip_before,naip_first_after,naip_during,naip_after,state_photo,state_photo_vs_first_detection,s2_before,s2_before_gap_share,s2_latest
+C001,release,release/C001.png,True,880,5,2022-09-02; 2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C002,release,release/C002.png,True,1020,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C003,release,release/C003.png,True,760,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C004,release,release/C004.png,True,620,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C005,release,release/C005.png,True,640,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C006,release,release/C006.png,True,600,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C007,release,release/C007.png,True,540,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C008,release,release/C008.png,True,780,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C009,release,release/C009.png,True,580,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.01,2026Q4
+C010,release,release/C010.png,True,680,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C011,release,release/C011.png,True,560,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C012,release,release/C012.png,True,560,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C013,release,release/C013.png,True,600,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C014,release,release/C014.png,True,560,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C015,release,release/C015.png,True,540,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C016,release,release/C016.png,True,620,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C017,release,release/C017.png,True,600,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C018,release,release/C018.png,True,780,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C019,release,release/C019.png,True,740,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C020,release,release/C020.png,True,840,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C021,release,release/C021.png,True,600,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C022,release,release/C022.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C023,release,release/C023.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C024,release,release/C024.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C025,release,release/C025.png,True,480,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C026,release,release/C026.png,True,600,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C027,release,release/C027.png,True,540,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.02,2026Q4
+C028,release,release/C028.png,True,560,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C029,release,release/C029.png,True,560,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C030,release,release/C030.png,True,560,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C031,release,release/C031.png,True,800,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C032,release,release/C032.png,True,640,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C033,release,release/C033.png,True,540,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C034,release,release/C034.png,True,700,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C035,release,release/C035.png,True,400,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C036,release,release/C036.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C037,release,release/C037.png,True,460,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C038,release,release/C038.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C039,release,release/C039.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C040,release,release/C040.png,True,440,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C041,release,release/C041.png,True,460,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C042,release,release/C042.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C043,release,release/C043.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C044,release,release/C044.png,True,420,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C045,release,release/C045.png,True,420,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C046,release,release/C046.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C047,release,release/C047.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C048,release,release/C048.png,True,580,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C049,release,release/C049.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C050,release,release/C050.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C051,release,release/C051.png,True,460,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C052,release,release/C052.png,True,620,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C053,release,release/C053.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C054,release,release/C054.png,True,520,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C055,release,release/C055.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C056,release,release/C056.png,True,420,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C057,release,release/C057.png,True,380,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C058,release,release/C058.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C059,release,release/C059.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C060,release,release/C060.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C061,release,release/C061.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C062,release,release/C062.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C063,release,release/C063.png,True,520,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C064,release,release/C064.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C065,release,release/C065.png,True,460,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C066,release,release/C066.png,True,520,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C067,release,release/C067.png,True,460,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C068,release,release/C068.png,True,500,5,2022-10-06,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C069,release,release/C069.png,True,380,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C070,release,release/C070.png,True,500,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C071,release,release/C071.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C072,release,release/C072.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C073,release,release/C073.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C074,release,release/C074.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C075,release,release/C075.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C076,release,release/C076.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C077,release,release/C077.png,True,380,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C078,release,release/C078.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C079,release,release/C079.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C080,release,release/C080.png,True,420,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C081,release,release/C081.png,True,440,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C082,release,release/C082.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C083,release,release/C083.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C084,release,release/C084.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C085,release,release/C085.png,True,440,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C086,release,release/C086.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C087,release,release/C087.png,True,440,5,2022-10-06,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C088,release,release/C088.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C089,release,release/C089.png,True,380,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C090,release,release/C090.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C091,release,release/C091.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C092,release,release/C092.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C093,release,release/C093.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C094,release,release/C094.png,True,620,6,2022-09-14; 2022-10-06,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C095,release,release/C095.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C096,release,release/C096.png,True,420,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.01,2026Q4
+C097,release,release/C097.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C098,release,release/C098.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.01,2026Q4
+C099,release,release/C099.png,True,360,5,2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C100,release,release/C100.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C101,release,release/C101.png,True,400,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.01,2026Q4
+C102,release,release/C102.png,True,380,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C103,release,release/C103.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C104,release,release/C104.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C105,release,release/C105.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C106,release,release/C106.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C107,release,release/C107.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C108,release,release/C108.png,True,360,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C109,release,release/C109.png,True,500,6,2022-10-06,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C110,release,release/C110.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C111,release,release/C111.png,True,340,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C112,release,release/C112.png,True,400,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C113,release,release/C113.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C114,release,release/C114.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C115,release,release/C115.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C116,release,release/C116.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C117,release,release/C117.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C118,release,release/C118.png,True,380,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C119,release,release/C119.png,True,380,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C120,release,release/C120.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C121,release,release/C121.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C122,release,release/C122.png,True,420,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C123,release,release/C123.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C124,release,release/C124.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C125,release,release/C125.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C126,release,release/C126.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C127,release,release/C127.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C128,release,release/C128.png,True,380,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C129,release,release/C129.png,True,360,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C130,release,release/C130.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C131,release,release/C131.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C132,release,release/C132.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C133,release,release/C133.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C134,release,release/C134.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C135,release,release/C135.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C136,release,release/C136.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C137,release,release/C137.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C138,release,release/C138.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C139,release,release/C139.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C140,release,release/C140.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C141,release,release/C141.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C142,release,release/C142.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C143,release,release/C143.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C144,release,release/C144.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C145,release,release/C145.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C146,release,release/C146.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C147,release,release/C147.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C148,release,release/C148.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C149,release,release/C149.png,True,460,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C150,release,release/C150.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C151,release,release/C151.png,True,360,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C152,release,release/C152.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C153,release,release/C153.png,True,480,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C154,release,release/C154.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C155,release,release/C155.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C156,release,release/C156.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C157,release,release/C157.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C158,release,release/C158.png,True,360,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C159,release,release/C159.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C160,release,release/C160.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C161,release,release/C161.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C162,release,release/C162.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C163,release,release/C163.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C164,release,release/C164.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C165,release,release/C165.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C166,release,release/C166.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C167,release,release/C167.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C168,release,release/C168.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C169,release,release/C169.png,True,380,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C170,release,release/C170.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C171,release,release/C171.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C172,release,release/C172.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.04,2026Q4
+C173,release,release/C173.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C174,release,release/C174.png,True,340,5,2022-10-06,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C175,release,release/C175.png,True,460,5,2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C176,release,release/C176.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C177,release,release/C177.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C178,release,release/C178.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C179,release,release/C179.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C180,release,release/C180.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C181,release,release/C181.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C182,release,release/C182.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C183,release,release/C183.png,True,300,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C184,release,release/C184.png,True,420,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C185,release,release/C185.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C186,release,release/C186.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+C187,release,release/C187.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C188,release,release/C188.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C189,release,release/C189.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C190,release,release/C190.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C191,release,release/C191.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C192,release,release/C192.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C193,release,release/C193.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C194,release,release/C194.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C195,release,release/C195.png,True,320,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C196,release,release/C196.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C197,release,release/C197.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C198,release,release/C198.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C199,release,release/C199.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C200,release,release/C200.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C201,release,release/C201.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C202,release,release/C202.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C203,release,release/C203.png,True,300,5,2022-10-06,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C204,release,release/C204.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C205,release,release/C205.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C206,release,release/C206.png,True,420,5,2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C207,release,release/C207.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C208,release,release/C208.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C209,release,release/C209.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C210,release,release/C210.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C211,release,release/C211.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C212,release,release/C212.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C213,release,release/C213.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C214,release,release/C214.png,True,300,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C215,release,release/C215.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C216,release,release/C216.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C217,release,release/C217.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C218,release,release/C218.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C219,release,release/C219.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C220,release,release/C220.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C221,release,release/C221.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C222,release,release/C222.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C223,release,release/C223.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C224,release,release/C224.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.01,2026Q4
+C225,release,release/C225.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C226,release,release/C226.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+C227,release,release/C227.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+C228,release,release/C228.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C229,release,release/C229.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C230,release,release/C230.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C231,release,release/C231.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C232,release,release/C232.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C233,release,release/C233.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+C234,release,release/C234.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+C235,release,release/C235.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C236,release,release/C236.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+C237,release,release/C237.png,True,300,6,2022-09-14; 2022-10-06,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+C238,release,release/C238.png,True,300,5,2022-09-02; 2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0106,sample,sample/D0106.png,True,480,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0067,sample,sample/D0067.png,True,580,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0023,sample,sample/D0023.png,True,660,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.01,2026Q4
+D0268,sample,sample/D0268.png,True,320,6,2016-05-27,2018-08-27,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.11,2026Q4
+D0460,sample,sample/D0460.png,True,340,6,2016-05-27,2018-08-27,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.3,2026Q4
+D0262,sample,sample/D0262.png,True,400,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0061,sample,sample/D0061.png,True,520,7,2016-07-25,2020-07-11,2018-11-21,2025-07-25,2025-02-14,AFTER first detection,2018Q3,0.01,2026Q4
+D0128,sample,sample/D0128.png,True,500,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.02,2026Q4
+D0006,sample,sample/D0006.png,True,760,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.03,2026Q4
+D0264,sample,sample/D0264.png,True,380,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.01,2026Q4
+D0466,sample,sample/D0466.png,True,340,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0233,sample,sample/D0233.png,True,320,7,2016-05-27,2020-07-11,2018-08-27,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.01,2026Q4
+D0371,sample,sample/D0371.png,True,360,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.01,2026Q4
+D0318,sample,sample/D0318.png,True,440,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.02,2026Q4
+D0303,sample,sample/D0303.png,True,340,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.01,2026Q4
+D0380,sample,sample/D0380.png,True,320,7,2016-07-25,2020-07-11,2018-11-21,2025-07-25,2025-02-14,AFTER first detection,2018Q3,0.0,2026Q4
+D0063,sample,sample/D0063.png,True,500,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0168,sample,sample/D0168.png,True,460,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.01,2026Q4
+D0444,sample,sample/D0444.png,True,320,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0378,sample,sample/D0378.png,True,380,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2018Q3,0.0,2026Q4
+D0467,sample,sample/D0467.png,True,300,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2018Q3,0.0,2026Q4
+D0355,sample,sample/D0355.png,True,300,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2018Q3,0.0,2026Q4
+D0138,sample,sample/D0138.png,True,420,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0095,sample,sample/D0095.png,True,500,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0170,sample,sample/D0170.png,True,400,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.01,2026Q4
+D0001,sample,sample/D0001.png,True,1020,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0228,sample,sample/D0228.png,True,420,7,2018-11-21,2022-09-14,2020-07-11,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0266,sample,sample/D0266.png,True,320,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.05,2026Q4
+D0495,sample,sample/D0495.png,True,320,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0205,sample,sample/D0205.png,True,380,7,2018-11-21,2022-09-14,2020-07-11,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0387,sample,sample/D0387.png,True,320,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0140,sample,sample/D0140.png,True,380,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.01,2026Q4
+D0161,sample,sample/D0161.png,True,360,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0039,sample,sample/D0039.png,True,540,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0339,sample,sample/D0339.png,True,320,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0359,sample,sample/D0359.png,True,340,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0283,sample,sample/D0283.png,True,300,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0276,sample,sample/D0276.png,True,320,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.04,2026Q4
+D0411,sample,sample/D0411.png,True,300,6,2020-07-11,2022-10-06,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0231,sample,sample/D0231.png,True,340,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.1,2026Q4
+D0156,sample,sample/D0156.png,True,400,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0068,sample,sample/D0068.png,True,440,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0007,sample,sample/D0007.png,True,780,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0302,sample,sample/D0302.png,True,320,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0385,sample,sample/D0385.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0217,sample,sample/D0217.png,True,360,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.02,2026Q4
+D0190,sample,sample/D0190.png,True,440,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0310,sample,sample/D0310.png,True,380,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0148,sample,sample/D0148.png,True,380,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0182,sample,sample/D0182.png,True,420,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0153,sample,sample/D0153.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0134,sample,sample/D0134.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0002,sample,sample/D0002.png,True,880,5,2022-09-02; 2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0278,sample,sample/D0278.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.05,2026Q4
+D0481,sample,sample/D0481.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0206,sample,sample/D0206.png,True,580,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0398,sample,sample/D0398.png,True,300,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0204,sample,sample/D0204.png,True,320,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0245,sample,sample/D0245.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0429,sample,sample/D0429.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0485,sample,sample/D0485.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.05,2026Q4
+D0177,sample,sample/D0177.png,True,440,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0099,sample,sample/D0099.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+D0145,sample,sample/D0145.png,True,360,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.0,2026Q4
+D0044,sample,sample/D0044.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0441,sample,sample/D0441.png,True,300,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0253,sample,sample/D0253.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2024Q3,0.01,2026Q4
+D0338,sample,sample/D0338.png,True,440,5,2022-09-14; 2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0373,sample,sample/D0373.png,True,380,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0230,sample,sample/D0230.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0184,sample,sample/D0184.png,True,460,5,2022-10-06,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0187,sample,sample/D0187.png,True,400,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0172,sample,sample/D0172.png,True,440,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0069,sample,sample/D0069.png,True,440,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0038,sample,sample/D0038.png,True,740,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+D0037,sample,sample/D0037.png,True,560,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0033,sample,sample/D0033.png,True,960,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0285,sample,sample/D0285.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0225,sample,sample/D0225.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0333,sample,sample/D0333.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0368,sample,sample/D0368.png,True,360,5,2022-10-06,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0267,sample,sample/D0267.png,True,340,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0404,sample,sample/D0404.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0381,sample,sample/D0381.png,True,300,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0274,sample,sample/D0274.png,True,380,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0057,sample,sample/D0057.png,True,420,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0094,sample,sample/D0094.png,True,500,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0076,sample,sample/D0076.png,True,640,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+D0059,sample,sample/D0059.png,True,480,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0019,sample,sample/D0019.png,True,740,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0011,sample,sample/D0011.png,True,700,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0344,sample,sample/D0344.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0305,sample,sample/D0305.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+D0450,sample,sample/D0450.png,True,340,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+D0480,sample,sample/D0480.png,True,300,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+D0357,sample,sample/D0357.png,True,520,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+D0329,sample,sample/D0329.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0214,sample,sample/D0214.png,True,420,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0238,sample,sample/D0238.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0464,sample,sample/D0464.png,True,320,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0010,large,large/D0010.png,True,760,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0047,large,large/D0047.png,True,540,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0017,large,large/D0017.png,True,740,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0040,large,large/D0040.png,True,560,6,2016-07-25,2018-11-21,,2025-07-25,2025-02-14,AFTER first detection,2017MS,0.0,2026Q4
+D0008,large,large/D0008.png,True,1100,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.01,2026Q4
+D0012,large,large/D0012.png,True,700,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0021,large,large/D0021.png,True,840,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0030,large,large/D0030.png,True,680,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0042,large,large/D0042.png,True,680,6,2018-11-21,2020-07-11,,2025-07-25,2025-02-14,AFTER first detection,2019Q3,0.0,2026Q4
+D0014,large,large/D0014.png,True,700,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0020,large,large/D0020.png,True,740,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0031,large,large/D0031.png,True,520,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0043,large,large/D0043.png,True,640,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.0,2026Q4
+D0046,large,large/D0046.png,True,540,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2020Q3,0.01,2026Q4
+D0003,large,large/D0003.png,True,1120,6,2020-07-11,2022-09-14,,2025-07-25,2025-02-14,AFTER first detection,2021Q3,0.0,2026Q4
+D0029,large,large/D0029.png,True,680,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0032,large,large/D0032.png,True,500,5,2022-10-06,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0034,large,large/D0034.png,True,620,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0035,large,large/D0035.png,True,600,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0048,large,large/D0048.png,True,660,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2022Q3,0.0,2026Q4
+D0013,large,large/D0013.png,True,640,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0025,large,large/D0025.png,True,700,5,2022-09-14,,,2025-07-25,2025-02-14,AFTER first detection,2023Q3,0.0,2026Q4
+D0004,large,large/D0004.png,True,1120,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0005,large,large/D0005.png,True,920,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+D0009,large,large/D0009.png,True,780,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0016,large,large/D0016.png,True,700,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+D0018,large,large/D0018.png,True,700,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0022,large,large/D0022.png,True,540,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+D0024,large,large/D0024.png,True,680,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0027,large,large/D0027.png,True,660,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+D0028,large,large/D0028.png,True,600,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.01,2026Q4
+D0036,large,large/D0036.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0045,large,large/D0045.png,True,600,6,2022-09-14,,2025-07-25,none,2025-02-14,BEFORE first detection,2024Q3,0.0,2026Q4
+D0049,large,large/D0049.png,True,500,5,2022-09-14,,,2025-07-25,2025-02-14,DURING the first-detection quarter,2024Q3,0.0,2026Q4
+D0015,large,large/D0015.png,True,760,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2025Q3,0.0,2026Q4
+D0026,large,large/D0026.png,True,600,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4
+D0041,large,large/D0041.png,True,580,5,2025-07-25,,,none,2025-02-14,BEFORE first detection,2026Q3,0.0,2026Q4

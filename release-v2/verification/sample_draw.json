@@ -1,0 +1,246 @@
+{
+ "seed": 20261124,
+ "generator": "numpy.random.default_rng(seed); rng.choice(sorted ids of the stratum, n, replace=False), strata taken by year then size class (under 3, 3 to 10, over 10)",
+ "n_sample": 100,
+ "fixed_years": {
+  "2025": 15,
+  "2026": 15
+ },
+ "min_per_other_year": 4,
+ "size_classes": [
+  "under 3 ac",
+  "3 to 10 ac",
+  "over 10 ac"
+ ],
+ "frame": {
+  "source": "apex-canopy/prerezoning_cache/detect_2017.npz (kept_event, first_event)",
+  "clearings": 497,
+  "acres": 2291.8,
+  "connected_patches": 219
+ },
+ "per_year": {
+  "2025": 15,
+  "2026": 15,
+  "2017": 6,
+  "2018": 10,
+  "2019": 6,
+  "2020": 9,
+  "2021": 9,
+  "2022": 8,
+  "2023": 13,
+  "2024": 9
+ },
+ "allocation": [
+  {
+   "year": 2017,
+   "size_class": "3 to 10 ac",
+   "clearings": 10,
+   "acres": 59.5,
+   "drawn": 2
+  },
+  {
+   "year": 2017,
+   "size_class": "over 10 ac",
+   "clearings": 3,
+   "acres": 53.6,
+   "drawn": 1
+  },
+  {
+   "year": 2017,
+   "size_class": "under 3 ac",
+   "clearings": 19,
+   "acres": 31.0,
+   "drawn": 3
+  },
+  {
+   "year": 2018,
+   "size_class": "3 to 10 ac",
+   "clearings": 13,
+   "acres": 77.2,
+   "drawn": 2
+  },
+  {
+   "year": 2018,
+   "size_class": "over 10 ac",
+   "clearings": 3,
+   "acres": 69.6,
+   "drawn": 1
+  },
+  {
+   "year": 2018,
+   "size_class": "under 3 ac",
+   "clearings": 37,
+   "acres": 65.3,
+   "drawn": 7
+  },
+  {
+   "year": 2019,
+   "size_class": "3 to 10 ac",
+   "clearings": 10,
+   "acres": 49.9,
+   "drawn": 2
+  },
+  {
+   "year": 2019,
+   "size_class": "under 3 ac",
+   "clearings": 20,
+   "acres": 30.4,
+   "drawn": 4
+  },
+  {
+   "year": 2020,
+   "size_class": "3 to 10 ac",
+   "clearings": 13,
+   "acres": 69.0,
+   "drawn": 3
+  },
+  {
+   "year": 2020,
+   "size_class": "over 10 ac",
+   "clearings": 6,
+   "acres": 164.0,
+   "drawn": 1
+  },
+  {
+   "year": 2020,
+   "size_class": "under 3 ac",
+   "clearings": 28,
+   "acres": 50.1,
+   "drawn": 5
+  },
+  {
+   "year": 2021,
+   "size_class": "3 to 10 ac",
+   "clearings": 9,
+   "acres": 41.0,
+   "drawn": 2
+  },
+  {
+   "year": 2021,
+   "size_class": "over 10 ac",
+   "clearings": 6,
+   "acres": 88.1,
+   "drawn": 1
+  },
+  {
+   "year": 2021,
+   "size_class": "under 3 ac",
+   "clearings": 31,
+   "acres": 48.9,
+   "drawn": 6
+  },
+  {
+   "year": 2022,
+   "size_class": "3 to 10 ac",
+   "clearings": 11,
+   "acres": 55.2,
+   "drawn": 2
+  },
+  {
+   "year": 2022,
+   "size_class": "over 10 ac",
+   "clearings": 2,
+   "acres": 81.4,
+   "drawn": 1
+  },
+  {
+   "year": 2022,
+   "size_class": "under 3 ac",
+   "clearings": 29,
+   "acres": 52.5,
+   "drawn": 5
+  },
+  {
+   "year": 2023,
+   "size_class": "3 to 10 ac",
+   "clearings": 19,
+   "acres": 105.5,
+   "drawn": 4
+  },
+  {
+   "year": 2023,
+   "size_class": "over 10 ac",
+   "clearings": 6,
+   "acres": 115.4,
+   "drawn": 1
+  },
+  {
+   "year": 2023,
+   "size_class": "under 3 ac",
+   "clearings": 44,
+   "acres": 77.8,
+   "drawn": 8
+  },
+  {
+   "year": 2024,
+   "size_class": "3 to 10 ac",
+   "clearings": 18,
+   "acres": 98.3,
+   "drawn": 3
+  },
+  {
+   "year": 2024,
+   "size_class": "over 10 ac",
+   "clearings": 3,
+   "acres": 50.1,
+   "drawn": 1
+  },
+  {
+   "year": 2024,
+   "size_class": "under 3 ac",
+   "clearings": 28,
+   "acres": 46.3,
+   "drawn": 5
+  },
+  {
+   "year": 2025,
+   "size_class": "3 to 10 ac",
+   "clearings": 21,
+   "acres": 118.3,
+   "drawn": 4
+  },
+  {
+   "year": 2025,
+   "size_class": "over 10 ac",
+   "clearings": 15,
+   "acres": 289.4,
+   "drawn": 3
+  },
+  {
+   "year": 2025,
+   "size_class": "under 3 ac",
+   "clearings": 42,
+   "acres": 76.3,
+   "drawn": 8
+  },
+  {
+   "year": 2026,
+   "size_class": "3 to 10 ac",
+   "clearings": 15,
+   "acres": 81.8,
+   "drawn": 4
+  },
+  {
+   "year": 2026,
+   "size_class": "over 10 ac",
+   "clearings": 5,
+   "acres": 94.1,
+   "drawn": 2
+  },
+  {
+   "year": 2026,
+   "size_class": "under 3 ac",
+   "clearings": 31,
+   "acres": 51.9,
+   "drawn": 9
+  }
+ ],
+ "versions": {
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "pandas": "3.1.0",
+  "geopandas": "1.2.0",
+  "shapely": "2.2.0"
+ }
+}

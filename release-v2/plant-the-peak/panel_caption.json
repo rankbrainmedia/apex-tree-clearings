@@ -1,0 +1,29 @@
+{
+ "site": "Jordan Pointe",
+ "clearing_id": "D0010",
+ "acres_cleared": 26.5,
+ "first_detected": "2017Q4",
+ "frame_metres": 760,
+ "photo_dates": {
+  "2016": [
+   "2016-07-25"
+  ],
+  "2022": [
+   "2022-09-14"
+  ],
+  "2025": [
+   "2025-07-25"
+  ]
+ },
+ "trees_marked_in_frame": 42,
+ "ring_positions_in_frame": 39,
+ "points_inside_the_outline": 16,
+ "points_clearly_inside_10m": 11,
+ "all_points_inside_any_series_outline": 96,
+ "all_points_clearly_inside_10m": 45,
+ "all_points_clearly_inside_20m": 17,
+ "accent_colour": "#a42528",
+ "imagery": "USDA National Agriculture Imagery Program (NAIP) aerial photos, from Microsoft Planetary Computer's public storage",
+ "points": "Town of Apex, Plant the Peak public map layer, pulled November 25, 2026",
+ "caption": "Jordan Pointe, southwest Apex. The outline is 26.5 acres of forest the satellite count shows cleared, first detected in late 2017. Aerial photos of July 25, 2016, September 14, 2022 and July 25, 2025. The red rings on the last photo mark the 42 Plant the Peak trees on the Town's map inside this frame, at 39 spots (some trees share a spot on the map); 16 are inside the outline and 11 are at least 10 metres inside it. Other planting visible in the photo, such as street trees and yard trees planted by builders or owners, is not marked."
+}

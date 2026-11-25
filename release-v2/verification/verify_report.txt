@@ -1,0 +1,66 @@
+VERIFICATION REPORT
+Log: out_verify/verify_log.csv
+
+==============================================================================================================
+RELEASE SET: all 238 clearings of the public release
+Rows 238; reviewed 238; not yet reviewed 0. Reviewers: Adam.
+Verdicts: cleared 207 (815.2 ac); partly 31 (114.0 ac); not cleared 0 (0.0 ac); can't tell 0 (0.0 ac)
+
+Share confirmed (cleared):            87.0%   95% interval 82.1% to 90.7%   [bootstrap 82.8% to 91.2%]
+Share cleared or partly:              100.0%   95% interval 98.4% to 100.0%   [bootstrap 100.0% to 100.0%]
+Acres-weighted share confirmed:       99.3%   95% interval 95.0% to 99.9%   [bootstrap 99.0% to 99.6%]
+Based on 238 rows with a verdict other than can't tell (0 can't tell left out); effective sample size 238 (by count), 98 (by acres).
+The largest single row, C001, carries 4.8% of the weighted acres.
+Every release clearing was reviewed, so the shares are a full count; the interval only shows how much a share of this size could move by chance.
+
+By year of first detection:
+  group         rows reviewed  cleared  partly   not cant tell   confirmed        95% interval       acres-weighted        95% interval
+  2022             5        5        4       1     0         0       80.0%      37.6% to 96.4%                97.9%     47.5% to 100.0%
+  2023            57       57       52       5     0         0       91.2%      81.1% to 96.2%                99.4%     81.1% to 100.0%
+  2024            43       43       33      10     0         0       76.7%      62.3% to 86.8%                99.0%      84.6% to 99.9%
+  2025            93       93       80      13     0         0       86.0%      77.5% to 91.6%                99.2%      90.9% to 99.9%
+  2026            40       40       38       2     0         0       95.0%      83.5% to 98.6%                99.9%     82.4% to 100.0%
+
+By size class:
+  group         rows reviewed  cleared  partly   not cant tell   confirmed        95% interval       acres-weighted        95% interval
+  under 3 ac     152      152      132      20     0         0       86.8%      80.5% to 91.3%                99.2%      95.8% to 99.8%
+  3 to 10 ac      67       67       58       9     0         0       86.6%      76.4% to 92.8%                99.3%      92.7% to 99.9%
+  over 10 ac      19       19       17       2     0         0       89.5%      68.6% to 97.1%                99.5%     79.0% to 100.0%
+
+==============================================================================================================
+SAMPLE SET: 100 drawn at random from the 497 clearings of the 2017-2026 detection, by year and size
+Rows 137; reviewed 137; not yet reviewed 0. Reviewers: Adam.
+Optional large set: 37 more clearings over 10 acres added; fully counted strata: 2017 | over 10 ac, 2018 | over 10 ac, 2020 | over 10 ac, 2021 | over 10 ac, 2022 | over 10 ac, 2023 | over 10 ac, 2024 | over 10 ac, 2025 | over 10 ac, 2026 | over 10 ac.
+Verdicts: cleared 116 (1,166.3 ac); partly 18 (90.5 ac); not cleared 1 (1.8 ac); can't tell 2 (3.0 ac)
+The rows with a usable verdict stand for 497 of the 497 clearings in the 2017-2026 detection.
+
+Share confirmed (cleared):            83.3%   95% interval 74.9% to 89.3%   [bootstrap 76.0% to 90.5%]
+Share cleared or partly:              98.9%   95% interval 94.5% to 99.8%   [bootstrap 96.7% to 100.0%]
+Acres-weighted share confirmed:       98.5%   95% interval 93.6% to 99.7%   [bootstrap 97.4% to 99.4%]
+Based on 135 rows with a verdict other than can't tell (2 can't tell left out); effective sample size 102 (by count), 94 (by acres).
+Floor, counting every can't tell as not confirmed: 82.2% by count, 98.0% by acres.
+The largest single row, D0001, carries 2.8% of the weighted acres.
+Applied to the clearings these rows stand for: about 414 of 497 confirmed as cleared.
+
+By year of first detection:
+  group         rows reviewed  cleared  partly   not cant tell   confirmed        95% interval       acres-weighted        95% interval
+  2017             8        8        8       0     0         0      100.0%     60.6% to 100.0%               100.0%     62.0% to 100.0%
+  2018            12       12       11       0     1         0       90.0%      59.5% to 98.2%                95.8%      60.1% to 99.7%
+  2019             6        6        5       1     0         0       83.3%      43.6% to 97.0%                95.8%      42.1% to 99.9%
+  2020            14       14       12       2     0         0       78.9%      48.0% to 93.8%                98.6%     69.0% to 100.0%
+  2021            14       14       13       1     0         0       88.8%      58.6% to 97.8%                99.4%     75.6% to 100.0%
+  2022             9        9        8       1     0         0       86.2%      50.8% to 97.4%                99.5%     62.7% to 100.0%
+  2023            18       18       16       2     0         0       90.6%      65.8% to 98.0%                99.4%     75.4% to 100.0%
+  2024            11       11        9       2     0         0       77.1%      44.6% to 93.4%                98.9%     67.9% to 100.0%
+  2025            27       27       19       7     0         1       66.3%      42.2% to 84.2%                97.8%      80.3% to 99.8%
+  2026            18       18       15       2     0         1       84.8%      59.4% to 95.5%                99.5%     75.0% to 100.0%
+
+By size class:
+  group         rows reviewed  cleared  partly   not cant tell   confirmed        95% interval       acres-weighted        95% interval
+  under 3 ac      60       60       45      12     1         2       77.6%      65.2% to 86.4%                95.3%      85.9% to 98.6%
+  3 to 10 ac      28       28       26       2     0         0       93.1%      77.4% to 98.2%                99.3%     85.2% to 100.0%
+  over 10 ac      49       49       45       4     0         0       91.8%      80.8% to 96.8%                99.7%     90.0% to 100.0%
+
+Rows marked not cleared or can't tell: D0318 (1.75 ac, 2018Q2, not cleared); D0344 (1.61 ac, 2026Q3, can't tell); D0381 (1.43 ac, 2025Q3, can't tell)
+
+Small groups have wide intervals: a year with nine rows cannot settle a share to better than about 30 points either way.

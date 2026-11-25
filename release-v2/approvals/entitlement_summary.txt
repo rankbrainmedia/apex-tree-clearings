@@ -1,0 +1,463 @@
+Clearings: 238, 929.2 acres, est. 127,926 trees (acres x 0.84 x 163.9).
+Conflict flag: 23CZ13 stays in every table, flagged. Headline tables and totals below leave it out: 0 clearings (0.0 ac) are governed by it.
+Public-owner case: public bodies own at least 50% of the case area (current county parcel records).
+
+1-2. Entitlement type x timing (each clearing counted once, under the zoning-map case covering most of it)
+              entitlement_type                                           timing  clearings  acres  est_trees  clearings_excl_public_owner_cases  acres_excl_public_owner_cases
+         new_rezoning_2022plus cleared_before_case_filed_earlier_case_same_year          1    1.1        100                                  1                            1.1
+         new_rezoning_2022plus                           cleared_after_approval         43  180.4      24800                                 43                          180.4
+amendment_of_2022plus_original                           cleared_after_approval          5   45.6       6300                                  5                           45.6
+ amendment_of_pre2022_original                   cleared_under_earlier_approval         23   82.3      11300                                 23                           82.3
+ amendment_of_pre2022_original              cleared_between_filing_and_approval         15   39.8       5500                                 15                           39.8
+ amendment_of_pre2022_original                           cleared_after_approval         27   77.3      10600                                 27                           77.3
+               pre2022_or_none                           cleared_after_approval        120  496.7      68400                                115                          443.1
+               pre2022_or_none                                          undated          4    6.0        800                                  4                            6.0
+
+   by entitlement type:
+                                clearings  acres  est_trees  clearings_excl_public_owner_cases  acres_excl_public_owner_cases
+entitlement_type                                                                                                             
+new_rezoning_2022plus                  44  181.5      25000                                 44                          181.5
+amendment_of_2022plus_original          5   45.6       6300                                  5                           45.6
+amendment_of_pre2022_original          65  199.4      27400                                 65                          199.4
+pre2022_or_none                       124  502.7      69200                                119                          449.1
+
+   entitled since 2022 (new + amendment of a 2022+ original): 49 clearings, 227.1 ac; without public-owner cases 49, 227.1 ac
+   all clearings: 238, 929.2 ac; without public-owner cases 233, 875.6 ac
+   also leaving out clearings that are themselves at least 50% on public parcels: 231, 857.8 ac
+
+   clearings under public-owner cases:
+                                                                                            clearings  acres
+governing_case case_name       entitlement_type public_owners_of_case                                       
+20CZ12         FELTON GROVE HS pre2022_or_none  Wake County Board of Education (WCPSS) 99%          5   53.6
+   clearings at least 50% on public parcels, whatever the case: 7 (71.4 ac); 2 of them (17.8 ac) are under a case that is not public-owner: C005 16.58 ac, 20CZ01 LENNAR, Town of Apex 92%; C208 1.19 ac, 07ETJ24 TOWN OF APEX, Wake County 85%
+
+   new_rezoning_2022plus clearings whose case sits on ground with an earlier conditional case also numbered 2022+ (name does not say amendment, so they stay 'new'): 28 (103.8 ac)
+   22CZ23 over 22CZ06: 5 (13.8 ac); 22CZ24 over 22CZ02: 7 (36.9 ac); 23CZ09 over 22CZ12: 7 (11.2 ac); 24CZ09 over 23CZ21: 9 (41.8 ac)
+   clearings on a district whose own chain would give a different type than the case's: 0 (0.0 ac)
+
+   pre2022_or_none, by the kind of case governing the ground:
+                     clearings  acres
+governing_case_kind                  
+ETJ zoning                   6   23.5
+conditional use              3    5.5
+conditional zoning         110  465.7
+general rezoning             1    2.1
+none or base zoning          4    6.0
+
+   clearings whose ground is under a conditional zoning or conditional use case of any year: 227 of 238, 897.6 of 929.2 acres (96.6%)
+   of the release's 22 'no case' clearings (99.6 ac): ETJ zoning: 2 (4.0 ac); conditional use: 1 (3.2 ac); conditional zoning: 17 (89.5 ac); none or base zoning: 2 (2.9 ac)
+
+   amendments x timing, split by whether a conditional approval already existed before the clearing year:
+                                                                                                          clearings  acres
+entitlement_type               timing                              conditional_case_year_before_clearing                  
+amendment_of_2022plus_original cleared_after_approval              yes                                            5   45.6
+amendment_of_pre2022_original  cleared_after_approval              yes                                           27   77.3
+                               cleared_between_filing_and_approval yes                                           15   39.8
+                               cleared_under_earlier_approval      yes                                           23   82.3
+
+   clearings where the governing case covers under half the clearing: 0 (0.0 ac)
+
+   amendments, by how they were identified:
+                                                                clearings  acres
+entitlement_type               amendment_basis                                  
+amendment_of_2022plus_original name                                     5   45.6
+amendment_of_pre2022_original  earlier case on the ground              19   70.3
+                               name+earlier case on the ground         46  129.1
+
+   same table, against development plan records instead of the zoning case:
+                                                                  clearings  acres
+entitlement_type               plan_timing                                        
+new_rezoning_2022plus          cleared_after_plan_approval               30  152.2
+                               cleared_before_plan_approval               1    6.1
+                               no approved plan record                    6   12.0
+                               plan record undated                        7   11.2
+amendment_of_2022plus_original cleared_after_plan_approval                5   45.6
+amendment_of_pre2022_original  cleared_after_plan_approval               51  157.1
+                               cleared_before_plan_approval              12   24.7
+                               plan approved in the same quarter          2   17.6
+pre2022_or_none                cleared_after_plan_approval               96  370.9
+                               cleared_before_plan_approval               1    6.4
+                               no approved plan record                   22   99.8
+                               plan record undated                        5   25.7
+
+   largest governing cases:
+                                                                                                        clearings  acres
+governing_case case_name                      entitlement_type               original_conditional_case                  
+25CZ18         Veridea SD Plan Amendment      amendment_of_pre2022_original  09CZ07                            43  115.0
+18CZ04         Horton Park PUD Amendment      pre2022_or_none                17CZ19                            23   83.9
+21CZ16         MORNINGSTAR LG                 pre2022_or_none                19CZ21                            18   61.3
+20CZ12         FELTON GROVE HS                pre2022_or_none                12CZ14                             5   53.6
+17CZ18         GRACEWOOD PUD                  pre2022_or_none                                                  13   50.6
+23CZ15         Apex Gateway Phase 2 Amendment amendment_of_2022plus_original 22CZ26                             5   45.6
+24CZ09         CASTLEBERRY RESE               new_rezoning_2022plus          23CZ04                             9   41.8
+22CZ24         APEX GATEWAY PH1               new_rezoning_2022plus          22CZ02                             7   36.9
+23CZ01         CASH CORPORATE                 amendment_of_pre2022_original  21CZ08                            10   32.0
+07ETJ24        TOWN OF APEX                   pre2022_or_none                                                   6   23.5
+21CZ04         WILLIAMS FARM PD               pre2022_or_none                                                   7   22.8
+22CZ22         Elevate 64                     new_rezoning_2022plus                                             4   22.4
+14CZ29         APEX OLIVE, LLC                pre2022_or_none                                                   4   22.2
+21CZ12         LEGACY PUD                     pre2022_or_none                                                   2   21.5
+
+3. Cases approved and numbered 2022 or later: 79 (40 with a petition boundary and filing date in the Rezoning layer, 39 from the zoning map only)
+   current_forest = 2022 baseline forest cells that are still forest-like in the 2026Q3 composite (the detection step's own test).
+   forest_remaining = the earlier measure: 2022 baseline forest outside clearing outlines of an acre or more. diff = remaining - current.
+  case                                  name                           type original   approved  total_acres  forest_2022  cleared  remaining  current  diff  trees_current  public conflict
+25CZ18             Veridea SD Plan Amendment  amendment_of_pre2022_original   09CZ07 2026-01-13       1123.7        718.1    133.6      584.5    557.2  27.3          91320   False         
+25CZ15                  Veridea West Village          new_rezoning_2022plus          2025-12-09        130.6         96.6      0.0       96.6     94.8   1.8          15540   False         
+23CZ15        Apex Gateway Phase 2 Amendment amendment_of_2022plus_original   22CZ26 2024-02-13        236.4        104.7     45.8       58.9     71.1 -12.2          11660   False         
+25CZ10                   Welch Homestead PUD          new_rezoning_2022plus          2026-04-28         83.1         71.5      0.0       71.5     69.5   2.0          11390   False         
+25CZ23             Horton Park PUD Amendment  amendment_of_pre2022_original   18CZ04 2026-08-11         89.9         79.5     25.3       54.2     56.6  -2.4           9270   False         
+23CZ13                 Seymour Mixed Use PUD          new_rezoning_2022plus          2024-02-13         84.8         48.8      0.0       48.8     47.7   1.1           7820   False  Seymour
+24CZ20                        HOPSON GATEWAY          new_rezoning_2022plus   24CZ08 2025-12-09         99.7         48.1      0.0       48.1     46.2   2.0           7570   False         
+24CZ23              Greenway Wates Solutions  amendment_of_pre2022_original   09CZ07 2025-06-10        141.2         64.0     20.3       43.7     41.7   2.0           6840   False         
+24CZ08 Town of Apex Yard Waste Transfer Site          new_rezoning_2022plus          2024-08-13         48.7         41.0      0.0       41.0     40.2   0.8           6590    True         
+25CZ09               Jessie Drive Industrial          new_rezoning_2022plus          2025-10-14         51.8         40.8      0.6       40.3     40.0   0.2           6560   False         
+24CZ19                      NEW HILL COMMONS          new_rezoning_2022plus   22CZ09 2025-05-27         55.5         35.5      0.1       35.4     33.6   1.8           5500   False         
+22CZ24                      APEX GATEWAY PH1          new_rezoning_2022plus   22CZ02 2022-03-21        131.8         75.3     36.1       39.2     32.3   6.9           5290   False         
+23CZ11                    Smith Farm Phase 5  amendment_of_pre2022_original   15CZ32 2023-08-08         30.1         25.1      0.0       25.1     25.0   0.1           4090   False         
+24CZ03                  New Hill Holleman Rd          new_rezoning_2022plus          2024-05-28         25.7         22.0      0.0       22.0     21.9   0.1           3590   False         
+24CZ09                      CASTLEBERRY RESE          new_rezoning_2022plus   23CZ04 2024-06-27        104.1         63.8     41.8       22.0     20.3   1.8           3320   False         
+25CZ19                      Camp Branch Lane          new_rezoning_2022plus          2026-05-28         21.4         18.2      0.0       18.2     18.1   0.0           2970   False         
+23CZ01                        CASH CORPORATE  amendment_of_pre2022_original   21CZ08 2023-05-09         83.1         48.3     29.6       18.7     17.6   1.1           2880   False         
+26CZ03          Veridea SD-CZ Text Amendment  amendment_of_pre2022_original   09CZ07 2026-08-25         34.2         23.4      8.5       14.8     14.2   0.7           2320   False         
+22CZ09                       UTLEY FARMS PUD          new_rezoning_2022plus          2022-11-08         46.8         31.6     19.2       12.5     11.4   1.1           1860   False         
+25CZ06                      NHOC RD ASSEMBLA          new_rezoning_2022plus          2025-08-12         16.7         12.0      0.0       12.0     11.3   0.7           1850   False         
+22CZ23                      YELLOWBRIDGE PUD          new_rezoning_2022plus   22CZ06 2022-09-27         48.2         26.2     13.7       12.5     11.3   1.2           1850   False         
+24CZ16                 Lawrence Property PUD          new_rezoning_2022plus          2025-06-24         38.2         11.7      0.0       11.7     10.9   0.8           1790   False         
+24CZ10                           ASHBURN PUD          new_rezoning_2022plus          2025-11-13         15.3         11.1      0.0       11.1     10.6   0.5           1730   False         
+26CZ10                   Veridea Expansion V amendment_of_2022plus_original          2026-11-10         23.1         10.7      0.4       10.3      9.9   0.4           1620   False         
+23CZ05                         PLEASANT PARK          new_rezoning_2022plus          2023-06-13         92.2          7.8      0.0        7.8      7.6   0.2           1250    True         
+24CZ22                      COURTYARDS ON WI          new_rezoning_2022plus          2025-05-27         24.0          6.2      3.3        2.9      5.9  -3.0            970   False         
+25CZ17                          0 Smith Road          new_rezoning_2022plus          2026-02-24          5.3          5.3      0.1        5.2      5.2   0.0            850   False         
+25CZ07                      1211 OLD RALEIGH          new_rezoning_2022plus          2025-10-14          6.5          5.2      0.0        5.2      5.1   0.1            840   False         
+22CZ15                             CAR SPACE  amendment_of_pre2022_original   14CZ30 2022-09-13          6.9          4.0      0.0        4.0      3.8   0.1            620   False         
+22CZ22                            Elevate 64          new_rezoning_2022plus          2023-04-11         35.3         26.6     21.9        4.8      3.7   1.1            600   False         
+
+   Union totals: each piece of ground counted once within a line. Headline lines leave out 23CZ13.
+   -- with public-owner cases
+   all cases                                                   78 cases  2,992 ac | forest 2022  1,694 | cleared  448 | remaining  1,246 | current  1,187 | diff   59 | est.  194,573 trees
+   new_rezoning_2022plus                                       56 cases  1,287 ac | forest 2022    727 | cleared  181 | remaining    546 | current    507 | diff   39 | est.   83,115 trees
+   amendment_of_2022plus_original                               2 cases    258 ac | forest 2022    115 | cleared   46 | remaining     69 | current     81 | diff  -12 | est.   13,276 trees
+   amendment_of_pre2022_original                               20 cases  1,578 ac | forest 2022    948 | cleared  220 | remaining    728 | current    694 | diff   34 | est.  113,742 trees
+   entitled since 2022 (new + amendment of 2022+ original)     58 cases  1,545 ac | forest 2022    843 | cleared  228 | remaining    615 | current    588 | diff   27 | est.   96,383 trees
+   -- without public-owner cases, and without the ground they cover
+   all cases                                                   74 cases  2,847 ac | forest 2022  1,644 | cleared  448 | remaining  1,196 | current  1,139 | diff   57 | est.  186,704 trees
+   new_rezoning_2022plus                                       54 cases  1,146 ac | forest 2022    678 | cleared  181 | remaining    497 | current    459 | diff   38 | est.   75,282 trees
+   amendment_of_2022plus_original                               2 cases    258 ac | forest 2022    115 | cleared   46 | remaining     69 | current     81 | diff  -12 | est.   13,276 trees
+   amendment_of_pre2022_original                               18 cases  1,574 ac | forest 2022    947 | cleared  220 | remaining    727 | current    694 | diff   33 | est.  113,705 trees
+   entitled since 2022 (new + amendment of 2022+ original)     56 cases  1,404 ac | forest 2022    794 | cleared  228 | remaining    566 | current    540 | diff   26 | est.   88,550 trees
+
+   Amendments at their parent project's full boundary instead of the petition area (parent_projects.csv):
+   -- with public-owner cases
+   parent projects whose original is pre-2022                  16 parents 2,399 ac | forest 2022  1,094 | cleared  302 | remaining    791 | current    741 | diff   50 | est.  121,473 trees
+   parent projects whose original is 2022 or later              1 parents   235 ac | forest 2022    105 | cleared   46 | remaining     59 | current     71 | diff  -12 | est.   11,656 trees
+   expansions onto new ground (their petition areas)            1 cases     23 ac | forest 2022     11 | cleared    0 | remaining     10 | current     10 | diff    0 | est.    1,620 trees
+   all cases, amendments counted at the parent boundary        74 areas  3,944 ac | forest 2022  1,936 | cleared  530 | remaining  1,406 | current  1,329 | diff   77 | est.  217,857 trees
+   -- without public-owner cases, and without the ground they cover
+   parent projects whose original is pre-2022                  14 parents 2,225 ac | forest 2022  1,069 | cleared  302 | remaining    767 | current    722 | diff   45 | est.  118,331 trees
+   parent projects whose original is 2022 or later              1 parents   235 ac | forest 2022    105 | cleared   46 | remaining     59 | current     71 | diff  -12 | est.   11,656 trees
+   expansions onto new ground (their petition areas)            1 cases     23 ac | forest 2022     11 | cleared    0 | remaining     10 | current     10 | diff    0 | est.    1,620 trees
+   all cases, amendments counted at the parent boundary        70 areas  3,629 ac | forest 2022  1,863 | cleared  530 | remaining  1,333 | current  1,262 | diff   71 | est.  206,881 trees
+
+   Parent projects (forest measured on the whole original boundary):
+               parent_project  acres  forest_2022  cleared  remaining  current  clearings  clearing_ac  current_by_petitions
+             Veridea (09CZ07) 1148.3        670.2    144.4      525.7    497.2         49        147.5                 623.0
+Apex Gateway Phase 2 (22CZ26)  236.5        104.7     45.8       58.9     71.1          5         45.6                  71.1
+                       15CZ32  271.8         71.4      0.0       71.4     68.6          0          0.0                  25.0
+Horton Park (17CZ19 + 18CZ04)  146.9        134.9     82.3       52.6     54.7         24         85.6                  56.6
+                       15CZ33  163.3         39.7      0.0       39.7     37.8          0          0.0                   1.2
+                       21CZ08  121.3         54.7     29.7       25.0     23.5         10         32.0                  17.6
+              17CZ04 + 18CZ02  198.0         47.2     19.3       27.8     21.4          4         20.6                   2.6
+                       07CZ05  171.1         23.1      0.0       23.1     18.9          0          0.0                   0.0
+                       14CZ30   25.4          8.6      1.2        7.5      6.7          1          2.1                   3.8
+                       14CZ09   56.1         27.6     18.1        9.5      6.6          5         18.2                   6.5
+                       19CZ03   20.0         10.4      6.3        4.1      3.3          1          6.3                   0.0
+                       20CZ04   24.6          3.9      1.1        2.8      2.1          1          1.1                   0.0
+                       09CZ12    2.8          1.5      0.0        1.5      0.3          0          0.0                   0.2
+                       16CZ27    2.0          0.0      0.0        0.0      0.0          0          0.0                   0.0
+                       08CZ10    0.2          0.0      0.0        0.0      0.0          0          0.0                   0.0
+                       11CZ04    1.0          0.1      0.0        0.1      0.0          0          0.0                   0.0
+                       18CZ01   45.9          0.6      0.0        0.6      0.0          0          0.0                   0.0
+
+   Each amendment against its parent:
+  case                           name                parent_project  petition_ac parent_ac share outside_ac                              scope                                   district                 found_by
+23CZ06                 HUNTER ST PARK                        07CZ05          1.7     171.1  0.01        0.0  carve-out to a different district              differs: CB-CZ against PUD-CZ earlier conditional case
+25CZ03             [street address]                        08CZ10          0.2       0.2  1.09        0.0 same district, conditions or phase no other district of the parent to compare earlier conditional case
+23CZ23    Saunders Street Parking Lot                        09CZ12          2.5       2.8   0.9        0.0  carve-out to a different district             differs: B2-CZ against MORR-CZ earlier conditional case
+25CZ16                  3521 Old US 1                        11CZ04          1.0       1.0   1.0        0.0  carve-out to a different district               differs: PC-CZ against LD-CZ earlier conditional case
+22CZ21               APEX LIGHT INDUS                        14CZ09         48.0      56.1  0.86        0.0 same district, conditions or phase                                       same earlier conditional case
+26CZ06  Apex Light Industrial Phase 3                        14CZ09          8.1      56.1  0.15        0.0 same district, conditions or phase                                       same earlier conditional case
+22CZ15                      CAR SPACE                        14CZ30          6.9      25.4  0.27        0.0  carve-out to a different district               differs: LI-CZ against TF-CZ earlier conditional case
+23CZ11             Smith Farm Phase 5                        15CZ32         30.1     271.8  0.11        0.0 same district, conditions or phase                                       same earlier conditional case
+25CZ05     West Village PUD Amendment                        15CZ33          6.2     163.3  0.04        0.0 same district, conditions or phase                                       same earlier conditional case
+24CZ06                 HUMIE OLIVE PL                        16CZ27          2.0       2.0   1.0        0.0 same district, conditions or phase no other district of the parent to compare earlier conditional case
+23CZ16               FRIENDSHIP STA 3               17CZ04 + 18CZ02          5.9     198.0  0.03        0.0 same district, conditions or phase                                       same earlier conditional case
+23CZ20                  EXPERIENCEONE                        18CZ01          9.6      45.9  0.21        0.0 same district, conditions or phase                                       same earlier conditional case
+24CZ18                  EXPERIENCEONE                        18CZ01         36.3      45.9  0.79        0.0 same district, conditions or phase                                       same earlier conditional case
+24CZ14               BROADSTONE AMEND                        19CZ03          5.8      20.0  0.29        0.0 same district, conditions or phase                                       same earlier conditional case
+22CZ10                      CALYX PUD                        20CZ04          5.7      24.6  0.23        0.0 same district, conditions or phase                                       same earlier conditional case
+23CZ01                 CASH CORPORATE                        21CZ08         83.1     121.3  0.68        0.0 same district, conditions or phase                                       same earlier conditional case
+23CZ15 Apex Gateway Phase 2 Amendment Apex Gateway Phase 2 (22CZ26)        236.4     236.5   1.0        0.0 same district, conditions or phase no other district of the parent to compare earlier conditional case
+25CZ23      Horton Park PUD Amendment Horton Park (17CZ19 + 18CZ04)         89.9     146.9  0.61       14.0 same district, conditions or phase                                       same earlier conditional case
+24CZ23       Greenway Wates Solutions              Veridea (09CZ07)        141.2    1148.3  0.12        0.2  carve-out to a different district               differs: LI-CZ against SD-CZ earlier conditional case
+25CZ18      Veridea SD Plan Amendment              Veridea (09CZ07)       1123.7    1148.3  0.98      134.6 same district, conditions or phase                                       same earlier conditional case
+26CZ03   Veridea SD-CZ Text Amendment              Veridea (09CZ07)         34.2    1148.3  0.03        0.0 same district, conditions or phase                                       same earlier conditional case
+26CZ10            Veridea Expansion V              Veridea (09CZ07)         23.1    1148.3  0.02       23.1          expansion onto new ground                                       same adjoining district of th
+   carve-out to a different district: 5: 24CZ23 (12% of parent), 22CZ15 (27% of parent), 23CZ23 (90% of parent), 25CZ16 (100% of parent), 23CZ06 (1% of parent)
+   expansion onto new ground: 1: 26CZ10 (2% of parent)
+   same district, conditions or phase: 16: 25CZ18 (98% of parent), 23CZ15 (100% of parent), 25CZ23 (61% of parent), 23CZ11 (11% of parent), 23CZ01 (68% of parent), 26CZ03 (3% of parent), 26CZ06 (15% of parent), 22CZ21 (86% of parent), 23CZ16 (3% of parent), 25CZ05 (4% of parent), 24CZ14 (29% of parent), 22CZ10 (23% of parent), 23CZ20 (21% of parent), 25CZ03 (109% of parent), 24CZ18 (79% of parent), 24CZ06 (100% of parent)
+   'same district' with nothing to compare against (the amendment covers every district of its parent): 23CZ15, 25CZ03, 24CZ06
+   amendments with no parent found: none
+   -- for reference
+   all cases including 23CZ13                                  79 cases  3,077 ac | forest 2022  1,743 | cleared  448 | remaining  1,295 | current  1,235 | diff   60 | est.  202,398 trees
+   public-owner cases only                                      4 cases    145 ac | forest 2022     50 | cleared    0 | remaining     50 | current     48 | diff    2 | est.    7,869 trees
+   ground on public parcels inside any case (parcel-based)                 167 ac | forest 2022     63 | cleared    4 | remaining     60 | current     57
+
+   The three types overlap on the ground (a later case can sit on top of an earlier one), so their lines add up to more than 'all cases'.
+   Counted once, giving shared ground to the first type in this order: new, amendment of 2022+ original, amendment of pre-2022 original:
+   -- with public-owner cases: new_rezoning_2022plus: forest 2022 727, cleared 181, remaining 546, current 507 | amendment_of_2022plus_original: forest 2022 115, cleared 46, remaining 69, current 81 | amendment_of_pre2022_original: forest 2022 851, cleared 220, remaining 631, current 599
+   -- without public-owner cases: new_rezoning_2022plus: forest 2022 678, cleared 181, remaining 497, current 459 | amendment_of_2022plus_original: forest 2022 115, cleared 46, remaining 69, current 81 | amendment_of_pre2022_original: forest 2022 850, cleared 220, remaining 630, current 599
+
+   Why remaining and current differ (all cases, without 23CZ13): remaining 1,246 - current 1,187 = 59 ac
+      +     28 ac  baseline cells outside outlines that fail the forest-like test now and also failed it in 2022Q3 (partial-canopy and edge cells: not a loss, the test never counted them)
+      +     57 ac  forest-like in 2022Q3, not now, outside the 1-acre outlines (clearings under an acre, edges, thinning)
+      +      0 ac  no valid observation in the 2026Q3 composite
+      -     26 ac  inside an outline but still forest-like in 2026Q3; 21 ac of it is in outlines first detected after 2026Q3 (provisional), so that much of 'current' has since been cut
+      like for like under the same test: forest-like in 2022Q3 1,660 ac -> forest-like in 2026Q3 1,187 ac
+      current forest less the outlines first detected after 2026Q3: 1,166 ac (est. 191,110 trees)
+   sum of rows (double-counts overlapping cases): 1,403 ac current, 1,466 ac remaining
+
+   public-owner cases in this table:
+  case                                  name              entitlement_type  total_acres  current_forest_acres  public_share_of_case     public_owners
+24CZ08 Town of Apex Yard Waste Transfer Site         new_rezoning_2022plus         48.7                  40.2                   1.0 Town of Apex 100%
+23CZ05                         PLEASANT PARK         new_rezoning_2022plus         92.2                   7.6                   1.0 Town of Apex 100%
+23CZ23           Saunders Street Parking Lot amendment_of_pre2022_original          2.5                   0.2                   1.0 Town of Apex 100%
+23CZ06                        HUNTER ST PARK amendment_of_pre2022_original          1.7                   0.0                   1.0 Town of Apex 100%
+   not flagged, but 10% to 50% public: 24CZ20 HOPSON GATEWAY (Town of Apex 49%)
+
+   Timing names: 'before the case was filed' is reported as cleared_under_earlier_approval where a conditional case from an earlier year was already on the ground,
+   cleared_before_any_approval where none was, and cleared_before_case_filed_earlier_case_same_year where the only earlier case is numbered the same year as the clearing.
+
+4. Clearing-case pairs where the first-detection quarter ended before the case was filed: 75 pairs, 63 clearings, 293.1 acres (0 pairs involve 23CZ13)
+                                                                                   clearings  overlap_acres            filing  robust
+case   case_name                     case_status   case_type                                                                         
+25CZ18 Veridea SD Plan Amendment     Approved      amendment_of_pre2022_original          28           76.9        2025-10-01      28
+26CZ18 Apex Gateway Phase 2          Proposed      new_rezoning_2022plus                   5           29.5        2026-11-02       5
+25CZ23 Horton Park PUD Amendment     Approved      amendment_of_pre2022_original          23           22.0        2025-12-01      23
+26CZ15 Elevate 64 West PUD Amendment Proposed      amendment_of_2022plus_original          4           22.0        2026-10-01       4
+24CZ23 Greenway Wates Solutions      Approved      amendment_of_pre2022_original           1           11.6        2024-12-02       1
+26CZ03 Veridea SD-CZ Text Amendment  Approved      amendment_of_pre2022_original           3            8.6        2026-03-02       3
+23CZ09 HATCHER PROPERTY              on zoning map new_rezoning_2022plus                   1            0.9  2023 (year only)       0
+24CZ14 BROADSTONE AMEND              on zoning map amendment_of_pre2022_original           1            0.5  2024 (year only)       1
+25CZ09 Jessie Drive Industrial       Approved      new_rezoning_2022plus                   4            0.5        2025-07-01       4
+26CZ10 Veridea Expansion V           Approved      amendment_of_2022plus_original          2            0.4        2026-08-03       2
+25CZ22 [street address]        Approved      new_rezoning_2022plus                   1            0.2        2025-12-01       1
+25CZ17 0 Smith Road                  Approved      new_rezoning_2022plus                   1            0.1        2025-10-01       1
+26CZ07 Holland Road Assemblage       Proposed      new_rezoning_2022plus                   1            0.1        2026-06-01       1
+
+   the same pairs by timing class:
+                                                  pairs  clearings  overlap_acres
+timing                                                                           
+cleared_before_any_approval                           2          2            2.0
+cleared_before_case_filed_earlier_case_same_year      2          1            1.1
+cleared_under_earlier_approval                       71         60          170.1
+   pairs not under an earlier approval:
+  id  acres  overlap_acres first_quarter                                           timing   case                 case_name      filing_date governing_case_of_clearing                 plan_timing first_approved_plan
+C230   1.06           0.89        2022Q4 cleared_before_case_filed_earlier_case_same_year 23CZ09          HATCHER PROPERTY 2023 (year only)                     23CZ09         plan record undated                    
+C230   1.06           0.17        2022Q4 cleared_before_case_filed_earlier_case_same_year 25CZ22    [street address]       2025-12-01                     23CZ09         plan record undated                    
+C149   1.73           1.73        2022Q4                      cleared_before_any_approval 25CZ23 Horton Park PUD Amendment       2025-12-01                    07ETJ24 cleared_after_plan_approval          2018-09-18
+C088   2.99           0.24        2025Q2                      cleared_before_any_approval 25CZ23 Horton Park PUD Amendment       2025-12-01                    07ETJ24 cleared_after_plan_approval          2018-09-18
+
+   clearings detected before their governing case was filed and not under an earlier-year conditional case: 1, 1.1 acres
+  id  acres first_quarter                                           timing governing_case        case_name case_filed      case_filed_basis prior_conditional_case         plan_timing                    owners_orgs_only
+C230   1.06        2022Q4 cleared_before_case_filed_earlier_case_same_year         23CZ09 HATCHER PROPERTY            case-number year only                 22CZ12 plan record undated JVI BUILDING & DEVELOPMENT INC (9%)
+
+5. Case history audit (full text: chain_audit.txt)
+   Chain audit. For each case: every piece of zoning-map ground it covers, the cases the map lists before it there (BACK1.., newest first),
+   and what each piece alone would give. 'current district' = a district now labelled with the case; 'replaced by X' = ground where a later case X now sits.
+   The first version read these two ways. The clearing table took the district under each clearing: prior = the first conditional case in its list,
+   original = the OLDEST conditional case number anywhere in its list. The 2022+ table took the first polygon of the case in file order, whatever its size.
+   Now: one answer per case, from the history covering the most acres. original = the conditional case in force at the start of 2022
+   (the newest one numbered before 2022), or the earliest 2022+ conditional case where there is none.
+   
+   25CZ18  Veridea SD Plan Amendment
+      OBJECTID 4748    933.1 ac  current district    VERIDEA SD PLAN   BACK: 09CZ07 < 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 09CZ07, original 09CZ07 (2009), earliest in list 1989, type by this piece: amendment_of_pre2022_original
+      OBJECTID 4736    130.8 ac  current district    VERIDEA SD PLAN   BACK: 25CZ15 < 07ETJ24 < WC
+                                                   -> prior 25CZ15, original 25CZ15 (2025), earliest in list 2025, type by this piece: amendment_of_2022plus_original
+      OBJECTID 4765     34.2 ac  replaced by 26CZ03  VERIDEA SD PLAN   BACK: 09CZ07 < 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 09CZ07, original 09CZ07 (2009), earliest in list 1989, type by this piece: amendment_of_pre2022_original
+      OBJECTID 4731      1.5 ac  current district    VERIDEA SD PLAN   BACK: 25CZ08 < 1963
+                                                   -> prior 25CZ08, original 25CZ08 (2025), earliest in list 2025, type by this piece: amendment_of_2022plus_original
+      OBJECTID 4677      0.6 ac  current district    VERIDEA EXPANSIO  BACK: 23CZ03 < 07ETJ24 < WC
+                                                   -> prior 23CZ03, original 23CZ03 (2023), earliest in list 2023, type by this piece: amendment_of_2022plus_original
+      first polygon in file order (what the old pipeline table read): OBJECTID 4677, 0.6 ac -> prior 23CZ03 (2023), earliest 2023
+      PER CASE NOW: prior 09CZ07 (2009), original 09CZ07 (2009), on 88% of its ground; earliest conditional year in that list 1989; type amendment_of_pre2022_original
+   
+   26CZ03  Veridea SD-CZ Text Amendment
+      OBJECTID 4765     34.2 ac  current district    VERIDEA SD PLAN   BACK: 25CZ18 < 09CZ07 < 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 25CZ18, original 09CZ07 (2009), earliest in list 1989, type by this piece: amendment_of_pre2022_original
+      first polygon in file order (what the old pipeline table read): OBJECTID 4765, 34.2 ac -> prior 25CZ18 (2025), earliest 1989
+      PER CASE NOW: prior 25CZ18 (2025), original 09CZ07 (2009), on 100% of its ground; earliest conditional year in that list 1989; type amendment_of_pre2022_original
+   
+   26CZ10  Veridea Expansion V
+      OBJECTID 4774     23.1 ac  current district    VERIDEA EXPAN V   BACK: 07ETJ24 < 089RZ01 < 1963 < WC
+                                                   -> prior none, original none (-), earliest in list -, type by this piece: amendment_of_2022plus_original
+      first polygon in file order (what the old pipeline table read): OBJECTID 4774, 23.1 ac -> prior none (-), earliest -
+      PER CASE NOW: prior none (-), original none (-), on 100% of its ground; earliest conditional year in that list -; type amendment_of_2022plus_original (name only: no earlier conditional case on this ground, so the case itself is the ground's first)
+   
+   23CZ03  (no name: not a current district, not in the Rezoning layer)
+      OBJECTID 4677      0.6 ac  replaced by 25CZ18  VERIDEA EXPANSIO  BACK: 07ETJ24 < WC
+                                                   -> prior none, original none (-), earliest in list -, type by this piece: new_rezoning_2022plus
+      PER CASE NOW: prior none (-), original none (-), on 100% of its ground; earliest conditional year in that list -; type new_rezoning_2022plus
+   
+   09CZ07  LOOKOUT VENTURES
+      OBJECTID 4748    933.1 ac  replaced by 25CZ18  VERIDEA SD PLAN   BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+      OBJECTID 4724    141.4 ac  replaced by 24CZ23  GREENWAY WASTE    BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 92CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+      OBJECTID 4405     39.6 ac  current district    LOOKOUT VENTURES  BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 92CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+      OBJECTID 4765     34.2 ac  replaced by 26CZ03  VERIDEA SD PLAN   BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                   -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+      first polygon in file order (what the old pipeline table read): OBJECTID 4405, 39.6 ac -> prior 07CZ01 (2007), earliest 1989
+      PER CASE NOW: prior 07CZ01 (2007), original 07CZ01 (2007), on 100% of its ground; earliest conditional year in that list 1989; type pre2022_or_none
+   
+   Cases whose pieces carry different chains: 43 of 577 cases (25 where the prior conditional case differs, 25 where the original differs, 5 where the type would differ). Full list: chain_varies_by_polygon.csv.
+   
+   Those numbered 2022 or later, or governing a clearing:
+      case                            case_name  pieces   acres  distinct_chains  prior_case_varies  original_case_varies  type_varies prior_conditional_case original_conditional_case  share_of_ground_with_this_history  governs_clearings                                                                  ground_by_type
+    25CZ18            Veridea SD Plan Amendment       5  1100.2                4               True                  True         True                 09CZ07                    09CZ07                               0.88                 43 amendment_of_pre2022_original 967.2 ac; amendment_of_2022plus_original 133.0 ac
+    26CZ02         Jessie Commons PUD Amendment       2    64.2                2               True                  True         True                 06CZ26                    06CZ26                               1.00                  0    amendment_of_pre2022_original 64.0 ac; amendment_of_2022plus_original 0.1 ac
+    25CZ24                 N Salem St Mixed-Use       3    32.3                3               True                  True         True                                                                                1.00                  0             new_rezoning_2022plus 32.2 ac; amendment_of_pre2022_original 0.1 ac
+    22CZ27                Center City Townhomes       2     4.1                2               True                  True         True                                                                                0.71                  0              new_rezoning_2022plus 2.9 ac; amendment_of_pre2022_original 1.2 ac
+    26CZ13     Elevation Apartment Multi-Family       2     4.1                2              False                  True         True                 22CZ27                    22CZ27                               0.71                  0              new_rezoning_2022plus 2.9 ac; amendment_of_pre2022_original 1.2 ac
+   07ETJ24                         TOWN OF APEX     193 10338.7               14               True                  True        False                                                                                0.86                  6                                                      pre2022_or_none 10338.7 ac
+   01TRZ08                         TOWN OF APEX     103  2154.2               54               True                  True        False                                                                                0.41                  1                                                       pre2022_or_none 2154.2 ac
+    26CZ17 Courtyards on Wimberly PUD Amendment       2    24.0                2               True                  True        False                 24CZ22                    24CZ22                               0.99                  0                                          amendment_of_2022plus_original 24.0 ac
+    23CZ20                        EXPERIENCEONE       2    45.9                2               True                 False        False                 23CZ12                    18CZ01                               0.79                  0                                           amendment_of_pre2022_original 45.9 ac
+      1963                                           10   718.0                2              False                 False        False                                                                                1.00                  2                                                        pre2022_or_none 718.0 ac
+    17CZ19                      MFW INVESTMENTS       5   338.7                2              False                 False        False                                                                                1.00                  1                                                        pre2022_or_none 338.7 ac
+    22CZ09                      UTLEY FARMS PUD       2   102.3                2              False                 False        False                                                                                1.00                  1                                                  new_rezoning_2022plus 102.3 ac
+    25CZ01                    Kelly Commons PUD       2    18.5                2              False                 False        False                                                                                1.00                  0                                                   new_rezoning_2022plus 18.5 ac
+   
+   Cases whose districts carry more than one approval date on the zoning map: 2 (the largest district's date is used unless the Rezoning layer has an action date): 07ETJ24 ['2007-10-02', '2026-02-24']; 25CZ09 ['2025-10-15', '2026-01-13']
+
+6. Plan records under C014 and the Veridea clearings detected before plan approval: 13 clearings, 11 plan records (7 approved or under construction). Files: plan_check/
+   The Development layer has no plan number. plan_layer_fid is the layer's own id; plan_document_id is the Town DocumentCenter id in the record's link.
+clearing_id  acres first_quarter governing_case  plan_records  approved  in_any  in_approved  in_appr_before_qtr  in_appr_by_qtr_end  in_appr_undated  ac_outside_approved
+       C014  11.64        2023Q4         24CZ23             4         4    0.05         0.05                0.01                0.01             0.00                11.11
+       C060   4.70        2025Q2         25CZ18             3         2    0.96         0.92                0.00                0.00             0.00                 0.36
+       C062   4.62        2025Q2         26CZ03             4         2    0.94         0.94                0.00                0.00             0.78                 0.27
+       C083   3.21        2025Q1         25CZ18             5         4    1.00         1.00                0.00                0.00             0.00                 0.00
+       C120   2.05        2024Q4         25CZ18             4         2    0.93         0.93                0.00                0.00             0.55                 0.15
+       C154   1.68        2025Q2         25CZ18             2         2    1.00         1.00                0.00                0.00             0.04                 0.00
+       C171   1.51        2025Q2         25CZ18             1         1    1.00         1.00                0.00                0.00             0.00                 0.00
+       C175   1.46        2025Q1         25CZ18             2         2    0.67         0.67                0.00                0.00             0.00                 0.48
+       C205   1.21        2025Q2         25CZ18             2         2    1.00         1.00                0.00                0.00             0.15                 0.00
+       C209   1.14        2025Q1         25CZ18             1         1    1.00         1.00                0.00                0.00             0.00                 0.00
+       C225   1.09        2025Q2         25CZ18             2         2    1.00         1.00                0.00                0.00             0.00                 0.00
+       C229   1.06        2025Q1         25CZ18             1         1    1.00         1.00                0.00                0.00             0.00                 0.00
+       C235   1.01        2025Q2         25CZ18             1         1    1.00         1.00                0.00                0.00             0.00                 0.00
+
+   the records:
+ plan_layer_fid plan_document_id                                        plan_name       plan_type        plan_status plan_action_taken plan_action_date  plan_total_acres
+            563                   NC 55/E Williams St/Technology Dr/ Improvements          Public           Proposed                                                 36.3
+            597            48984 Veridea East Village Non-Residential Ph 2A 3 4 5 Non-Residential Under Construction                                                 39.2
+            665            54041             Wake Tech Conlon Western Wake Campus Non-Residential           Proposed                                                 34.2
+            666            54047     Wake Tech Conlon Western Wake Campus Grading Non-Residential           Proposed                                                 34.2
+            746            57233                  Veridea Crossing Blocks B and C       Mixed-Use           Proposed                                                 12.9
+            450            40180                Veridea Big Branch Pump Station 1 Non-Residential Under Construction      TRC Approved       2023-04-27              52.5
+            569            46917       Veridea South Village East Major Site Plan Non-Residential Under Construction      TRC Approved       2025-02-07              45.1
+            600            49035                     Veridea Multi-Family Block A     Residential Under Construction      TRC Approved       2025-04-24              11.0
+            571            50980  Veridea East Village Non-Residential (Revision)       Mixed Use           Approved      TRC Approved       2025-07-24             468.6
+            629            51502                           Veridea Ph1A Mixed Use Non-Residential Under Construction      TRC Approved       2026-01-22              23.3
+            662            53805 Veridea East Village Non-Residential 1A 1B 2B 2C Non-Residential Under Construction                         2026-04-02              75.3
+
+7. Review list (review_list.csv): 40 cases numbered 2022 or later with at least 2 ac of current forest, without 23CZ13 and public-owner cases. Rows overlap, so the column does not add up to a total.
+  case                           name               entitlement_type   approved  total_acres  current_forest_acres                                                              ground_shared_with
+25CZ18      Veridea SD Plan Amendment  amendment_of_pre2022_original 2026-01-13       1123.7                 557.2 parent:09CZ07 (988.9 ac); 25CZ15 (130.6 ac); 26CZ03 (34.1 ac); 24CZ23 (29.6 ac)
+25CZ15           Veridea West Village          new_rezoning_2022plus 2025-12-09        130.6                  94.8                                                               25CZ18 (130.6 ac)
+23CZ15 Apex Gateway Phase 2 Amendment amendment_of_2022plus_original 2024-02-13        236.4                  71.1                                                        parent:22CZ26 (236.6 ac)
+25CZ10            Welch Homestead PUD          new_rezoning_2022plus 2026-04-28         83.1                  69.5                                                                                
+25CZ23      Horton Park PUD Amendment  amendment_of_pre2022_original 2026-08-11         89.9                  56.6                                                         parent:18CZ04 (75.6 ac)
+24CZ20                 HOPSON GATEWAY          new_rezoning_2022plus 2025-12-09         99.7                  46.2                                                                24CZ08 (48.6 ac)
+24CZ23       Greenway Wates Solutions  amendment_of_pre2022_original 2025-06-10        141.2                  41.7                                      parent:09CZ07 (141.0 ac); 25CZ18 (29.6 ac)
+25CZ09        Jessie Drive Industrial          new_rezoning_2022plus 2025-10-14         51.8                  40.0                                                                                
+24CZ19               NEW HILL COMMONS          new_rezoning_2022plus 2025-05-27         55.5                  33.6                                                                                
+22CZ24               APEX GATEWAY PH1          new_rezoning_2022plus 2022-03-21        131.8                  32.3                                                                                
+23CZ11             Smith Farm Phase 5  amendment_of_pre2022_original 2023-08-08         30.1                  25.0                                                         parent:15CZ32 (30.4 ac)
+24CZ03           New Hill Holleman Rd          new_rezoning_2022plus 2024-05-28         25.7                  21.9                                                                                
+24CZ09               CASTLEBERRY RESE          new_rezoning_2022plus 2024-06-27        104.1                  20.3                                                                                
+25CZ19               Camp Branch Lane          new_rezoning_2022plus 2026-05-28         21.4                  18.1                                                                                
+23CZ01                 CASH CORPORATE  amendment_of_pre2022_original 2023-05-09         83.1                  17.6                                                         parent:21CZ08 (82.8 ac)
+26CZ03   Veridea SD-CZ Text Amendment  amendment_of_pre2022_original 2026-08-25         34.2                  14.2                                       parent:09CZ07 (34.1 ac); 25CZ18 (34.1 ac)
+22CZ09                UTLEY FARMS PUD          new_rezoning_2022plus 2022-11-08         46.8                  11.4                                                                                
+25CZ06               NHOC RD ASSEMBLA          new_rezoning_2022plus 2025-08-12         16.7                  11.3                                                                                
+22CZ23               YELLOWBRIDGE PUD          new_rezoning_2022plus 2022-09-27         48.2                  11.3                                                                                
+24CZ16          Lawrence Property PUD          new_rezoning_2022plus 2025-06-24         38.2                  10.9                                                                                
+24CZ10                    ASHBURN PUD          new_rezoning_2022plus 2025-11-13         15.3                  10.6                                                                                
+26CZ10            Veridea Expansion V amendment_of_2022plus_original 2026-11-10         23.1                   9.9                                                                                
+24CZ22               COURTYARDS ON WI          new_rezoning_2022plus 2025-05-27         24.0                   5.9                                                                                
+25CZ17                   0 Smith Road          new_rezoning_2022plus 2026-02-24          5.3                   5.2                                                                                
+25CZ07               1211 OLD RALEIGH          new_rezoning_2022plus 2025-10-14          6.5                   5.1                                                                                
+22CZ15                      CAR SPACE  amendment_of_pre2022_original 2022-09-13          6.9                   3.8                                                          parent:14CZ30 (7.0 ac)
+22CZ22                     Elevate 64          new_rezoning_2022plus 2023-04-11         35.3                   3.7                                                                                
+24CZ17           Kelly Road Townhomes          new_rezoning_2022plus 2025-03-11          5.7                   3.7                                                                                
+26CZ06  Apex Light Industrial Phase 3  amendment_of_pre2022_original 2026-10-13          8.1                   3.6                                                          parent:14CZ09 (8.4 ac)
+22CZ17               TOWNES AT STATIO          new_rezoning_2022plus 2023-01-10         16.4                   3.4                                                                                
+23CZ09               HATCHER PROPERTY          new_rezoning_2022plus 2023-08-08         28.7                   3.4                                                                                
+23CZ02                  TRI HOME PH 2          new_rezoning_2022plus 2023-05-09          4.6                   3.3                                                                                
+24CZ07         The Townes at Parkside          new_rezoning_2022plus 2024-09-10          4.2                   3.2                                                                                
+22CZ21               APEX LIGHT INDUS  amendment_of_pre2022_original 2023-03-28         48.0                   2.9                                                         parent:14CZ09 (47.7 ac)
+23CZ16               FRIENDSHIP STA 3  amendment_of_pre2022_original 2024-01-12          5.9                   2.6                                                          parent:18CZ02 (5.9 ac)
+22CZ07                 CHAPEL RIDGE N          new_rezoning_2022plus 2022-11-08         22.7                   2.3                                                                                
+23CZ24        1405 and [street address]          new_rezoning_2022plus 2024-09-10          3.2                   2.2                                                                                
+24CZ05                  [street address]          new_rezoning_2022plus 2024-08-13          4.1                   2.1                                                                                
+23CZ18                 [street address]          new_rezoning_2022plus 2023-11-28         19.3                   2.1                                                                                
+25CZ02         Jordan Lutheran Chruch          new_rezoning_2022plus 2025-08-26          6.2                   2.0                                                                                
+
+8. Freshness (freshness_25CZ_26CZ.csv): every case numbered 25CZ or 26CZ in the Rezoning layer or on the zoning map, layers pulled 2026-11-24
+  case                               name                                                 source rezoning_layer_status      filed rezoning_layer_action_date        zoning_map_date replaced_on_map_by approval_date_used                                                                                           check
+25CZ01                  Kelly Commons PUD                                         Rezoning layer              Proposed 2025-01-02                                                                                                                                                                                        
+25CZ02             Jordan Lutheran Chruch                          Rezoning layer and zoning map              Approved 2025-01-02                 2025-08-26             2025-08-26                            2025-08-26                                                                                                
+25CZ03                 [street address]                          Rezoning layer and zoning map              Approved 2025-02-03                 2025-06-10             2025-06-10                            2025-06-10                                                                                                
+25CZ04                [street address]                                         Rezoning layer              Proposed 2025-02-03                                                                                                                                                                                        
+25CZ05         West Village PUD Amendment                          Rezoning layer and zoning map              Approved 2025-02-03                 2025-06-10             2025-06-10                            2025-06-10                                                                                                
+25CZ06                   NHOC RD ASSEMBLA                                             zoning map                                                                         2025-08-12                            2025-08-12                                                       not in the Rezoning layer: no filing date
+25CZ07                   1211 OLD RALEIGH                                             zoning map                                                                         2025-10-14                            2025-10-14                                                       not in the Rezoning layer: no filing date
+25CZ08                                                       zoning map, only as an earlier case                                                                                                25CZ18                                                                          not in the Rezoning layer: no filing date
+25CZ09            Jessie Drive Industrial                          Rezoning layer and zoning map              Approved 2025-07-01                 2025-10-14 2025-10-15; 2026-01-13                            2025-10-14                      dates differ: Rezoning layer 2025-10-14, zoning map 2025-10-15, 2026-01-13
+25CZ10                Welch Homestead PUD                          Rezoning layer and zoning map              Approved 2025-07-01                 2026-04-28             2026-04-28                            2026-04-28                                                                                                
+25CZ11                                                                          in neither layer                                                                                                                                         number skipped in both layers: withdrawn, denied before mapping, or never posted
+25CZ12                Apex Baptist Church                                         Rezoning layer                Denied 2025-08-01                 2026-02-24                                                   2026-02-24                                                                                                
+25CZ13  [private applicant]                          Rezoning layer and zoning map              Proposed 2025-09-02                 2026-01-13             2026-01-13                            2026-01-12 Rezoning layer says Proposed but the zoning map shows it adopted. manual value from Adam 2026-1
+25CZ14                                                                          in neither layer                                                                                                                                         number skipped in both layers: withdrawn, denied before mapping, or never posted
+25CZ15               Veridea West Village Rezoning layer and zoning map, only as an earlier case              Approved 2025-09-02                 2025-12-09                                    25CZ18         2025-12-09                                                                                                
+25CZ16                      3521 Old US 1                          Rezoning layer and zoning map              Approved 2025-10-01                 2026-01-27             2026-01-27                            2026-01-27                                                                                                
+25CZ17                       0 Smith Road                                         Rezoning layer              Approved 2025-10-01                 2026-02-24                                                   2026-02-24                                        Approved in the Rezoning layer but not on the zoning map
+25CZ18          Veridea SD Plan Amendment                          Rezoning layer and zoning map              Approved 2025-10-01                 2026-01-13             2026-01-13             26CZ03         2026-01-13                                                                                                
+25CZ19                   Camp Branch Lane                          Rezoning layer and zoning map              Approved 2025-11-03                 2026-05-28             2026-05-28                            2026-05-28                                                                                                
+25CZ20 The Townes at Parkside PUD Amendme                                         Rezoning layer              Proposed 2025-11-03                                                                                                                                                                                        
+25CZ21                    Teeter Property                                         Rezoning layer                Denied 2026-02-01                 2026-05-28                                                   2026-05-28                                                                                                
+25CZ22             [street address]                          Rezoning layer and zoning map              Approved 2025-12-01                 2026-04-28             2026-04-28                            2026-04-28                                                                                                
+25CZ23          Horton Park PUD Amendment                          Rezoning layer and zoning map              Approved 2025-12-01                 2026-08-11             2026-08-11                            2026-08-11                                                                                                
+25CZ24               N Salem St Mixed-Use                                         Rezoning layer              Proposed 2025-12-01                                                                                                                                                                                        
+26CZ01              [street address]                          Rezoning layer and zoning map              Approved 2026-03-02                 2026-04-28             2026-04-28                            2026-04-28                                                                                                
+26CZ02       Jessie Commons PUD Amendment                                         Rezoning layer              Proposed 2026-03-02                                                                                                                                                                                        
+26CZ03       Veridea SD-CZ Text Amendment                          Rezoning layer and zoning map              Approved 2026-03-02                 2026-08-25             2026-08-25                            2026-08-25                                                                                                
+26CZ04                      [street address]                                             zoning map                                                                         2026-08-25                            2026-08-25                                                       not in the Rezoning layer: no filing date
+26CZ05             [street address]                          Rezoning layer and zoning map              Proposed 2026-05-01                                        2026-08-25                            2026-08-25 Rezoning layer says Proposed but the zoning map shows it adopted. manual value from Adam 2026-1
+26CZ06      Apex Light Industrial Phase 3                          Rezoning layer and zoning map              Approved 2026-05-01                 2026-10-13             2026-10-13                            2026-10-13                                                                                                
+26CZ07            Holland Road Assemblage                                         Rezoning layer              Proposed 2026-06-01                                                                                                                                                                                        
+26CZ08                  [street address]                                         Rezoning layer             Withdrawn 2026-07-01                 2026-11-24                                                   2026-11-24                                                                                                
+26CZ09                   Prince Farms PUD                                         Rezoning layer              Proposed 2026-07-01                                                                                                                                                                                        
+26CZ10                Veridea Expansion V                          Rezoning layer and zoning map              Approved 2026-08-03                 2026-11-10             2026-11-10                            2026-11-10                                                                                                
+26CZ11                  Humie Olive Place                                         Rezoning layer              Proposed 2026-08-03                                                                                                                                                                                        
+26CZ12            Alderwood PUD Amendment                                         Rezoning layer              Proposed 2026-08-03                                                                                                                                                                                        
+26CZ13   Elevation Apartment Multi-Family                                         Rezoning layer              Proposed 2026-08-03                                                                                                                                                                                        
+26CZ14              [street address]                                         Rezoning layer              Proposed 2026-08-03                                                                                                                                                                                        
+26CZ15      Elevate 64 West PUD Amendment                                         Rezoning layer              Proposed 2026-10-01                                                                                                                                                                                        
+26CZ16          S Salem Street Townhouses                                         Rezoning layer              Proposed 2026-11-02                                                                                                                                                                                        
+26CZ17 Courtyards on Wimberly PUD Amendme                                         Rezoning layer              Proposed 2026-11-02                                                                                                                                                                                        
+26CZ18               Apex Gateway Phase 2                                         Rezoning layer              Proposed 2026-11-02                                                                                                                                                                                        

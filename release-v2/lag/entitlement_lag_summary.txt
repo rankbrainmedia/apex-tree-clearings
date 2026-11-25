@@ -1,0 +1,144 @@
+Lag from approval to clearing, and build-out. 2017-2026 detection; approvals on or after 2019-12-03; data through 2026-10-24.
+Conditional zoning cases approved in the period: 126. First approvals (no earlier conditional case on the ground): 82. Amendments or re-approvals: 44, on 35 parent projects.
+First approvals with 2 ac or more of forest at approval: 48 (without 23CZ13). In the lag calculation: 46. Left out for a manually corrected date: 25CZ13, 26CZ05.
+
+1. LAG. 22 of the 46 cases have had an acre or more cleared since approval; 24 have not.
+   Median lag among the 22 that have started: 20.9 months (middle half 16.0 to 27.2; shortest 5.7, longest 40.6).
+   Counting the 24 still waiting (Kaplan-Meier): half of all cases have started by 27.2 months.
+   0 cases were first detected in the same quarter as their approval, where the order within the quarter is not known: 
+   Started within 6 months: 1; 6 to 12: 2; 12 to 24: 11; over 24: 8.
+   Cases with 10 ac or more of forest at approval: 20, 9 started, median lag 27.2 months.
+
+2. BUILD-OUT: share of forest at approval cleared, by years since approval (only cases old enough to have reached each mark).
+ year  cases  median  lowest  highest   q25   q75  started  forest_ac  cleared_ac  pooled
+    1     38   0.000   0.000    0.504 0.000 0.006       14      503.9         5.6   0.011
+    2     31   0.011   0.000    0.750 0.000 0.331       21      458.2        45.6   0.099
+    3     26   0.438   0.000    0.862 0.010 0.704       22      380.7       144.9   0.381
+    4     17   0.504   0.000    0.993 0.421 0.753       15      232.9       119.6   0.514
+    5     10   0.480   0.075    0.836 0.429 0.672       10      160.5        77.7   0.484
+    6      1   0.680   0.680    0.680 0.680 0.680        1        4.2         2.9   0.680
+   'pooled' is all acres cleared by the mark over all forest at approval, so large cases weigh more; 'median' gives every case one vote.
+
+   The cases, oldest first:
+  case                     name   approved  forest first_q   lag  cleared to_date     y1     y2     y3     y4     y5    y6  public     flag
+19CZ24         UPCHRCH-WLLMS HS 2020-02-04     4.2  2021Q2  15.3      3.0    0.71  0.006  0.568  0.627  0.645  0.675  0.68   False         
+20CZ04             KOBRA TRACTS 2020-10-20     8.4  2022Q1  15.8      4.0   0.476    0.0  0.476  0.476  0.476  0.476         False         
+20CZ09         PEAK ENGINEERING 2020-11-17     4.8  2023Q4  35.9      2.2   0.454  0.015  0.015  0.015  0.454  0.454         False         
+20CZ13          YUMEEWARRA FARM 2021-01-26     2.3                    0.2   0.086    0.0  0.011  0.011  0.043  0.075         False         
+20CZ15            [private applicant] 2021-02-09     3.1  2023Q2  27.1      1.3   0.429  0.016  0.048  0.397  0.421  0.421         False         
+20CZ14              HACKNEY PUD 2021-08-24    22.6  2023Q3  23.7     11.0   0.485    0.0  0.043  0.401  0.464  0.484         False         
+21CZ04         WILLIAMS FARM PD 2021-08-24    32.0  2023Q2  20.7     21.3   0.666    0.0  0.073  0.649  0.659  0.661         False         
+21CZ09            ALDERWOOD PUD 2021-08-24     7.7  2022Q2   8.7      5.8   0.753  0.167   0.75  0.753  0.753  0.753         False         
+21CZ13           EVANS ROAD PUD 2021-09-14    21.0  2024Q2  32.0     17.7   0.847  0.001  0.001  0.711  0.823  0.836         False         
+21CZ12               LEGACY PUD 2021-09-28    54.4  2025Q1  40.6     23.2   0.426  0.006  0.008   0.01  0.209  0.216         False         
+21CZ14           HOLLAND RD PUD 2022-03-21    21.1  2025Q1  34.9     21.0   0.996  0.006  0.008  0.008  0.993                False         
+21CZ32         CHAPEL RIDGE PUD 2022-04-12     6.3  2023Q4  19.1      3.2   0.508    0.0  0.371    0.5  0.504                False         
+21CZ26   Humie Olive Commercial 2022-05-24     4.4                    0.0     0.0    0.0    0.0    0.0    0.0                 True         
+21CZ31           SEARS PROP PUD 2022-06-14    17.2                    0.0     0.0    0.0    0.0    0.0    0.0                False         
+22CZ01          ARDEN AT SUMMIT 2022-06-14     9.5  2024Q2  23.1      8.9   0.943   0.01  0.047  0.857  0.888                False         
+22CZ14          [street address] 2022-08-23     3.3  2023Q1   5.7      2.3   0.699  0.504  0.586  0.684  0.684                False         
+22CZ08           ADAMS PROPERTY 2022-09-27    10.6  2024Q2  19.6      8.6   0.811  0.005  0.724  0.794  0.801                False         
+22CZ07           CHAPEL RIDGE N 2022-11-08     9.6  2025Q1  27.2      5.9   0.615    0.0    0.0  0.612                       False         
+22CZ09          UTLEY FARMS PUD 2022-11-08    69.1  2025Q1  27.2     20.8   0.301  0.001  0.001  0.291                       False         
+21CZ17         TEN TEN BUSINESS 2022-11-29     2.8                    0.0     0.0    0.0    0.0    0.0                       False         
+22CZ17         TOWNES AT STATIO 2023-01-10    14.1  2023Q3   7.1     10.6   0.756  0.121  0.636  0.754                       False         
+21CZ27           [street address] 2023-01-24     2.1                    0.0     0.0    0.0    0.0    0.0                       False         
+22CZ13          [street address] 2023-02-14     6.1  2024Q4  21.0      5.3   0.866    0.0   0.74  0.862                       False         
+22CZ22               Elevate 64 2023-04-11    27.2  2025Q3  28.2     22.3   0.821    0.0    0.0  0.769                       False         
+23CZ02            TRI HOME PH 2 2023-05-09     4.4                    0.8   0.183    0.0  0.178  0.183                       False         
+23CZ05            PLEASANT PARK 2023-06-13    12.4                    0.3   0.028  0.004  0.008   0.01                        True         
+23CZ18           [street address] 2023-11-28     8.3  2025Q2  17.6      5.0   0.602    0.0  0.291                              False         
+24CZ03     New Hill Holleman Rd 2024-05-28    19.5                    0.0     0.0    0.0    0.0                              False         
+24CZ05            [street address] 2024-08-13     2.5                    0.0     0.0    0.0    0.0                              False         
+24CZ08 Town of Apex Yard Waste  2024-08-13    44.0                    0.0     0.0    0.0    0.0                               True conflict
+24CZ07   The Townes at Parkside 2024-09-10     3.2                    0.0     0.0    0.0    0.0                              False         
+24CZ12          OLIVER PROPERTY 2024-10-08     5.0  2025Q4  13.2      2.2   0.431    0.0                                     False         
+24CZ17     Kelly Road Townhomes 2025-03-11     4.1                    0.0     0.0    0.0                                     False         
+24CZ22         COURTYARDS ON WI 2025-05-27     6.5  2026Q4  16.5      3.6   0.557    0.0                                     False         
+24CZ11           ALTERA HEIGHTS 2025-06-10     2.2                    0.0     0.0    0.0                                     False         
+24CZ16    Lawrence Property PUD 2025-06-24    13.9                    0.0     0.0    0.0                                     False         
+25CZ06         NHOC RD ASSEMBLA 2025-08-12    11.7                    0.0     0.0    0.0                                     False         
+25CZ02   Jordan Lutheran Chruch 2025-08-26     2.3                    0.0   0.021  0.011                                     False         
+25CZ07         1211 OLD RALEIGH 2025-10-14     5.3                    0.0     0.0                                            False         
+25CZ09  Jessie Drive Industrial 2025-10-14    50.0                    0.0     0.0                                            False         
+24CZ10              ASHBURN PUD 2025-11-13    11.1                    0.0     0.0                                            False         
+25CZ15     Veridea West Village 2025-12-09   113.6                    0.1   0.001                                            False         
+25CZ17             0 Smith Road 2026-02-24     5.2                    0.0     0.0                                            False         
+25CZ10      Welch Homestead PUD 2026-04-28    69.7                    0.0     0.0                                            False         
+26CZ01    [street address] 2026-04-28     2.2                    0.0     0.0                                            False         
+25CZ19         Camp Branch Lane 2026-05-28    19.3                    0.0     0.0                                            False         
+
+3. APPROVED LONGER AGO THAN THE MEDIAN LAG (20.9 months) WITH NO CLEARING OF AN ACRE YET: 11 cases, 114.8 ac of forest at approval.
+  case                           name   approved months_waited  forest_at_approval_acres  cleared_since_approval_acres  standing_now_acres  public_owner_case                                              conflict_flag
+20CZ13                YUMEEWARRA FARM 2021-01-26          68.9                       2.3                           0.2                 1.7              False                                                           
+21CZ26         Humie Olive Commercial 2022-05-24          53.0                       4.4                           0.0                 3.9               True                                                           
+21CZ31                 SEARS PROP PUD 2022-06-14          52.3                      17.2                           0.0                17.1              False                                                           
+21CZ17               TEN TEN BUSINESS 2022-11-29          46.8                       2.8                           0.0                 2.8              False                                                           
+21CZ27                 [street address] 2023-01-24          45.0                       2.1                           0.0                 2.1              False                                                           
+23CZ02                  TRI HOME PH 2 2023-05-09          41.5                       4.4                           0.8                 3.6              False                                                           
+23CZ05                  PLEASANT PARK 2023-06-13          40.4                      12.4                           0.3                11.9               True                                                           
+24CZ03           New Hill Holleman Rd 2024-05-28          28.9                      19.5                           0.0                19.5              False                                                           
+24CZ05                  [street address] 2024-08-13          26.3                       2.5                           0.0                 2.3              False                                                           
+24CZ08 Town of Apex Yard Waste Transf 2024-08-13          26.3                      44.0                           0.0                43.0               True disclosed (lists the Seymour PUD as adjacent)
+24CZ07         The Townes at Parkside 2024-09-10          25.4                       3.2                           0.0                 3.2              False                                                           
+   Not yet cleared and younger than the median lag: 13 (24CZ17, 24CZ11, 24CZ16, 25CZ06, 25CZ02, 25CZ07, 25CZ09, 24CZ10, 25CZ15, 25CZ17, 25CZ10, 26CZ01, 25CZ19).
+   Against the 27.2-month figure that counts the cases still waiting: 8 cases, 65.1 ac (20CZ13, 21CZ26, 21CZ31, 21CZ17, 21CZ27, 23CZ02, 23CZ05, 24CZ03).
+   Some clearing but under an acre since approval: 20CZ13 0.2 ac, 23CZ02 0.8 ac, 23CZ05 0.3 ac, 25CZ15 0.1 ac
+
+4. LISTED SEPARATELY
+   Manually corrected dates (left out of the lag): 
+  case                              name   approved                                   approved_basis  forest_at_approval_acres first_clearing_quarter lag_months share_cleared_to_date
+25CZ13 [private applicant] 2026-01-12 manual (Adam, 2026-11-24); layers say 2026-01-13                       2.1                                                     0.0
+26CZ05            [street address] 2026-08-25 manual (Adam, 2026-11-24); layers say 2026-08-25                       2.1                                                     0.0
+   First approvals with under 2 ac of forest at approval (out of scope): 33.
+
+   AMENDMENTS AND RE-APPROVALS, on the parent project's boundary from the original approval date:
+   -- original approved between the 2017 baseline and 2019-12-03: 2 parent projects, 2 cases
+                       parent original_case original_approved  area_acres  forest17 at_approval first_q   lag cleared to_date   y1   y2   y3     y4     y5     y6  standing  public                           cases in the period
+Horton Park (17CZ19 + 18CZ04)        17CZ19        2017-11-07       146.4     141.4       141.4  2022Q4  60.2    87.2   0.616  0.0  0.0  0.0    0.0    0.0  0.426      58.1   False 25CZ23 Horton Park PUD Amendment (2026-08-11)
+                       19CZ03        19CZ03        2019-04-02        20.0       9.6         9.6  2023Q1  46.5     6.2   0.644  0.0  0.0  0.0  0.585  0.626  0.626       3.4   False          24CZ14 BROADSTONE AMEND (2024-11-12)
+   -- first approved within the period, later amended (also in the first-approval table): 3 parent projects, 3 cases
+parent original_case original_approved  area_acres  forest17 at_approval first_q   lag cleared to_date     y1     y2     y3     y4     y5 y6  standing  public                  cases in the period
+22CZ09        22CZ09        2022-11-08       102.6      72.3        69.1  2025Q1  27.2    20.8   0.301  0.001  0.001  0.291                       46.8   False 24CZ19 NEW HILL COMMONS (2025-05-27)
+24CZ08        24CZ08        2024-08-13        99.6      49.1        49.1                   0.0     0.0    0.0    0.0                              47.8   False   24CZ20 HOPSON GATEWAY (2025-12-09)
+20CZ04        20CZ04        2020-10-20        24.5       8.4         8.4  2022Q1  15.8     4.0   0.476    0.0  0.476  0.476  0.476  0.476          4.2   False        22CZ10 CALYX PUD (2022-09-13)
+   -- original approved before the 2017 baseline: no forest-at-approval figure: 12 parent projects, 16 cases
+          parent original_case original_approved  area_acres  forest17 cleared_since_2017 first_q_since_2017  standing  public                                                    cases in the period
+Veridea (09CZ07)        09CZ07        2011-05-10      1147.6     947.3              332.4             2018Q3     638.1   False 24CZ23 Greenway Wates Solutions (2025-06-10); 25CZ18 Veridea SD Plan A
+          09CZ01        09CZ01        2009-03-17       203.0     163.5              117.6             2022Q1      49.4   False                                             20CZ01 LENNAR (2020-08-04)
+          15CZ32        15CZ32        2016-02-02       272.4     134.8               66.4             2018Q1      70.7   False                                 23CZ11 Smith Farm Phase 5 (2023-08-08)
+          15CZ33        15CZ33        2016-09-06       163.4     124.6               68.6             2019Q4      59.7   False 20CZ05 MCADAMS COMPANY (2020-08-04); 25CZ05 West Village PUD Amendment
+          07CZ05        07CZ05        2007-05-15       171.1      16.0                0.0                         15.3   False                                     23CZ06 HUNTER ST PARK (2023-06-13)
+          14CZ30        14CZ30        2015-02-03        25.5      13.7                6.1             2018Q2       7.5   False                                          22CZ15 CAR SPACE (2022-09-13)
+          17CZ11        17CZ11        2017-08-15        12.3       3.5                0.0                          3.1   False                     21CZ25 Villages of Apex PUD Amendment (2021-12-14)
+          98CU14        98CU14        1998-09-14        15.6       2.8                0.0                          1.4   False                                     21CZ20 [street address] (2022-02-08)
+          02CU13        02CU13        2003-05-20        15.7       1.5                0.0                          1.5   False                                   21CZ02 ABBEY SPRING PUD (2021-04-13)
+          09CZ12        09CZ12        2009-12-15         2.9       1.1                0.8                          0.3    True                        23CZ23 Saunders Street Parking Lot (2024-03-12)
+          15CZ25        15CZ25        2015-10-06         5.0       0.4                0.0                          0.1   False                                      20CZ07 2309 OLD US 1 (2020-10-20)
+          11CZ04        11CZ04        2011-04-19         1.1       0.1                0.0                          0.0   False                                      25CZ16 3521 Old US 1 (2026-01-27)
+   -- excluded: original date is the case-number year only: 18 parent projects, 23 cases
+                       parent original_case original_approved  area_acres  forest17 cleared_since_2017 first_q_since_2017  standing  public                                                    cases in the period
+                       19CZ21        19CZ21                         141.2     114.1               86.7             2021Q2      28.4   False                                     21CZ16 MORNINGSTAR LG (2021-08-24)
+              17CZ04 + 18CZ02        17CZ04                         203.9     110.1               74.0             2018Q4      32.7   False 20CZ08 APX FRNDSHP ES (2020-10-20); 23CZ16 FRIENDSHIP STA 3 (2024-01-1
+                       18CZ19        18CZ19                         121.8     105.6               75.4             2021Q1      33.4   False   21CZ08 TOWN OF APEX (2021-05-11); 23CZ01 CASH CORPORATE (2023-05-09)
+Apex Gateway Phase 2 (22CZ26)        22CZ26                         235.0     105.3               52.6             2019Q3      79.8   False                     23CZ15 Apex Gateway Phase 2 Amendment (2024-02-13)
+                       12CZ14        12CZ14                          68.0      68.0               58.3             2023Q1      13.8    True                                    20CZ12 FELTON GROVE HS (2021-04-13)
+                       22CZ02        22CZ02                         131.5      66.0               30.6             2019Q3      35.2   False                                   22CZ24 APEX GATEWAY PH1 (2022-03-21)
+                       23CZ04        23CZ04                         104.1      45.9               32.3             2025Q3      12.0   False                                   24CZ09 CASTLEBERRY RESE (2024-06-27)
+                       14CZ09        14CZ09                          55.8      34.4               24.5             2018Q4       7.3   False 22CZ21 APEX LIGHT INDUS (2023-03-28); 26CZ06 Apex Light Industrial Pha
+                       22CZ06        22CZ06                          48.2      29.8               17.1             2024Q4      12.4   False                                   22CZ23 YELLOWBRIDGE PUD (2022-09-27)
+                       18CZ12        18CZ12                          36.5      24.9               20.0             2020Q1       6.9   False                                   21CZ28 RETREAT AT CEDAR (2022-02-08)
+                       18CZ28        18CZ28                          70.8      15.5                9.7             2020Q3       4.8   False                                      21CZ03 TOLL BROTHERS (2021-07-27)
+                       22CZ12        22CZ12                          33.4      14.0                9.1             2023Q1       4.5   False 23CZ09 HATCHER PROPERTY (2023-08-08); 25CZ22 [street address] (2
+                       18CZ01        18CZ01                          45.9       9.4                8.8             2020Q3       0.1   False   23CZ20 EXPERIENCEONE (2024-12-10); 24CZ18 EXPERIENCEONE (2025-01-28)
+                       94CU08        94CU08                          19.2       6.2                1.1             2021Q3       4.3   False                                       19CZ12 KISSENA LANE (2020-02-04)
+                       19CZ22        19CZ22                          43.5       2.3                0.0                          0.4   False                                   21CZ01 WOLFE PROPERTIES (2021-03-09)
+                       16CZ11        16CZ11                           8.7       1.8                0.0                          0.6   False                                   21CZ18 OLV CHPL PROF PK (2023-01-10)
+                       16CZ27        16CZ27                           1.9       0.0                0.0                          0.0   False                                     24CZ06 HUMIE OLIVE PL (2024-06-11)
+                       08CZ10        08CZ10                           0.3       0.0                0.0                          0.0   False                                 25CZ03 [street address] (2025-06-10)
+   Parent rows left out of the tables above because they include 23CZ13: none
+
+   23CZ13 is in lag_cases.csv with its flag and is in none of the figures above.
+
+Read with care: a quarter is when clearing was first seen, and winter quarters can run a quarter early. Clearing means bare for about a year or more in a patch of an acre or more;
+thinning and cuts under an acre do not count. The newest cases have had the least time, so the later year marks rest on the older cases only.

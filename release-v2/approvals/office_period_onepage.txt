@@ -1,0 +1,40 @@
+OFFICE PERIOD: forest and RCA terms of cases approved on or after 2019-12-03
+(private working summary; nothing here names 23CZ13 or 24CZ20 terms, which are held under the conflict rule)
+
+The release's 929 acres of clearings (late 2022 to October 2026), by the approval date of the case on the ground:
+  approved on or after 2019-12-03: 660 ac (165 clearings, 35 cases); before: 263 ac (69 clearings, 17 cases); no case: 6 ac.
+  Of the 660, 167 ac are under amendments to projects first approved before the cut (Veridea, Horton Park, Apex Light Industrial); 493 ac are under cases first approved in the period.
+
+All forest cleared in the jurisdiction since autumn 2017 (2017 baseline): 2,292 ac. Late 2017 through 2019: 446 ac. 2020 to October 2026: 1,846 ac.
+  By year: 2017 112, 2018 240, 2019 93, 2020 279, 2021 178, 2022 190, 2023 286, 2024 200, 2025 456, 2026 256  (2017 is one quarter; 2026 runs to October 24)
+
+Conditional zoning cases approved on or after 2019-12-03 with 2 ac or more of 2017 forest: 80 (78 read; 23CZ13, 24CZ20 held).
+  Forest at approval 2,507 ac, cleared since approval 796 ac, standing now 1,779 ac (sums of case rows; some cases share ground).
+
+RCA percent required            cases   forest at approval   cleared since   standing now
+  none/exempt                      3               17               7              9
+  5%                               1               33              21             12
+  15%                              1               57              35             24
+  20%                              9              344             167            178
+  25%                             16              394             214            211
+  30%                              8              135              74             71
+  35%                              4              115              11            103
+  40%                              1               14               0             13
+  other                            8              980             119            884
+  mixed by district                4               94              17             76
+  not found                       23              325             130            197
+  'other' is mostly Veridea: a fixed 100 acres for the whole development (4 cases, 941 ac of forest at approval), plus 2%, 10%, 27% and 34%.
+  'not found' means the documents read give no RCA figure: mostly short ordinances with no plan record.
+
+Grading                         cases   forest at approval   cleared since   standing now
+  mass graded                     38            1,939             599          1,395
+  stage graded                     8              100              20             81
+  both, by phase                   4              109              36             83
+  not stated                      28              358             141            221
+
+Stated exemptions or mass-grading-only amounts: 10 cases (24CZ09, 24CZ19, 22CZ09, 24CZ16, 23CZ09, 23CZ18, 21CZ32, 21CZ03, 21CZ25, 26CZ01).
+RCA acres stated for 45 cases; a tree condition or tree note for 63.
+
+Read with care: the percent is what the zoning text or approved plan states, not what was built. RCA may include buffers, ponds and play lawns.
+An approval date and a clearing date show order, not cause. Disclosed: 24CZ19 and 24CZ08; 23CZ13 and 24CZ20 are held.
+Sources and quotes: office_period_cases.csv, office_rca_quotes.csv (every quote checked word for word against its page).

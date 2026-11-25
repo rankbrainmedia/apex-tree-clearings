@@ -1,0 +1,60 @@
+PLANT THE PEAK planting points against Wake County's priority planting areas. Run 2026-11-25.
+Points: 748 in the Town's public layer (PRIVATE_plant_the_peak_points_2026-11-25.geojson); data last edited 2026-01-29; dated plantings run 2021-10-25 to 2025-12-31. One point is taken as one tree.
+  100 points carry no address (all in the 2021 season). 82 points share their exact position with another point,
+  so at least some points mark the property and not the trunk. That matters below: the County's planting areas are small.
+  746 of 748 are inside today's town limits.
+
+1. TREES BY YEAR
+       by the Town's season field (YearMarker)  by calendar year of the date field
+2021                                       100                                  98
+2022                                       128                                 128
+2023                                       100                                  86
+2024                                       187                                 134
+2025                                       233                                 301
+Total                                      748                                 747
+  A season runs from fall into the next spring. 1 point has no date. Nothing dated 2026 is in the layer.
+
+2. PRIORITY OF THE PLANTING AREA EACH POINT FALLS IN (strict: the point is inside the polygon)
+priority_inside  Very High  High  Moderate  Low  Very Low  Outside all planting areas  All
+season                                                                                    
+2021                     2    11        10   33        16                          28  100
+2022                     6     0         5   20        10                          87  128
+2023                     1     3         3    9        13                          71  100
+2024                     6     8         5   19        26                         123  187
+2025                     1     6         6   16        28                         176  233
+All years               16    28        29   97        93                         485  748
+  Very High 16, High 28, lower (Moderate 29, Low 97, Very Low 93) 219, outside all planting areas 485.
+
+3. HOW CLOSE POINTS ARE TO A PLANTING AREA (all points; one inside a planting area counts as 0 m). Median planting area: 0.015 acre (60 square metres). Distance from a point to the nearest planting area:
+  median 1.8 m; 75% within 5.0 m; 90% within 9.4 m; farthest 139 m.
+
+  Counting a point with the nearest planting area if it is within 5 metres:
+priority_within_5m  Very High  High  Moderate  Low  Very Low  More than 5 m from any planting area  All
+season                                                                                                 
+2021                        5    17        12   41        18                                     7  100
+2022                       10    13        21   41        16                                    27  128
+2023                        2    12        11   25        22                                    28  100
+2024                       14    23        20   46        36                                    48  187
+2025                       10    24        17   56        51                                    75  233
+All years                  41    89        81  209       143                                   185  748
+
+  Counting a point with the nearest planting area if it is within 10 metres:
+priority_within_10m  Very High  High  Moderate  Low  Very Low  More than 10 m from any planting area  All
+season                                                                                                   
+2021                         5    18        14   43        18                                      2  100
+2022                        12    17        25   51        18                                      5  128
+2023                         3    15        15   33        28                                      6  100
+2024                        19    31        23   53        42                                     19  187
+2025                        14    29        23   74        58                                     35  233
+All years                   53   110       100  254       164                                     67  748
+
+4. CONTEXT
+  Planting-area acres inside Apex's planning jurisdiction, by priority (ppa_priority_overlay.csv): Very High 292, High 494, Moderate 688, Low 1,720, Very Low 1,495; Very High + High = 17% of the acres.
+  Of the 263 points inside a planting area, 44 (17%) are in Very High or High. Within 5 m: 130 of 563 (23%).
+  96 points sit on ground the 2017-2026 series counts as forest cleared (10 m cells; same caution about point position).
+
+READ WITH CARE
+  - The County's planting areas are places that were plantable in 2020 (lawn and open ground, after its exclusions), ranked for stormwater, heat and social equity. 'Outside' means the point is not on one of those polygons. It does not mean a low priority, and it does not mean the spot could not be planted.
+  - A home built after 2020 stood on ground the County did not map as plantable, so points in newer neighbourhoods will mostly fall outside whatever their merit.
+  - The strict count depends on where the Town put each point. With polygons this small, a point a few metres off its tree changes the answer; sections 2 and 3 bracket it.
+  - Plant the Peak plants on request at residents' homes. This overlay describes where the trees went. It is not evidence about how sites were chosen.

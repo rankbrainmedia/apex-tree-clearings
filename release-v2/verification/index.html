@@ -1,0 +1,74 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clearing verification set</title><style>
+*{box-sizing:border-box}
+body{font:15px/1.45 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;margin:0;background:#f4f4f1;color:#1c1c1c}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #cfcfc8;padding:8px 16px;z-index:5}
+.bar{display:flex;gap:8px 14px;align-items:center;flex-wrap:wrap}
+.bar+.bar{margin-top:6px}
+header h1{font-size:16px;margin:0 6px 0 0}
+button,select,input[type=text],textarea{font:inherit}
+button,select{padding:4px 11px;border:1px solid #9a9a92;background:#fff;border-radius:5px;cursor:pointer;color:inherit}
+button:disabled{opacity:.4;cursor:default}
+.tabs button.on{background:#1c1c1c;color:#fff;border-color:#1c1c1c}
+.small{font-size:13px;color:#555}
+#saved{font-size:13px;color:#1b7837}#saved.bad{color:#a11616;font-weight:600}
+main{padding:14px 16px 80px}
+.item{background:#fff;border:1px solid #d6d6cf;border-left:6px solid #d6d6cf;border-radius:6px;margin:0 0 18px;padding:12px 14px;scroll-margin-top:110px}
+.item.cur{border-color:#0b4f8a;box-shadow:0 0 0 2px #0b4f8a33}
+.item.done{border-left-color:#1b7837}.item.done.v-partly{border-left-color:#c98a00}.item.done.v-not{border-left-color:#a11616}.item.done.v-cant{border-left-color:#777}
+.item h2{font-size:18px;margin:0 0 4px}
+.facts{display:flex;gap:6px 22px;flex-wrap:wrap;margin:0 0 8px}
+.facts b{font-weight:600}
+.dates{color:#555;font-size:13px;margin:6px 0 0}
+.flag{color:#a11616;font-weight:600}
+img{width:100%;height:auto;display:block;border:1px solid #bbb}
+a{color:#0b4f8a}
+.verdict{display:flex;gap:8px 10px;align-items:center;flex-wrap:wrap;margin:0 0 10px}
+.verdict button{padding:6px 12px}
+.verdict button kbd,.keys kbd{font:12px ui-monospace,Menlo,monospace;border:1px solid #aaa;border-radius:3px;padding:0 4px;margin-right:5px;background:#f4f4f1;color:#333}
+.verdict button.on{color:#fff;border-color:transparent}
+.verdict button.on[data-v="cleared"]{background:#1b7837}.verdict button.on[data-v="partly"]{background:#b07800}
+.verdict button.on[data-v="not cleared"]{background:#a11616}.verdict button.on[data-v="can't tell"]{background:#666}
+.share{display:flex;gap:8px;align-items:center}
+.share input{width:220px}
+.share .unset{color:#a11616;font-weight:600}
+textarea{width:100%;min-height:34px;height:34px;padding:6px 8px;border:1px solid #b9b9b1;border-radius:5px;resize:vertical;margin:0 0 10px}
+.keys{display:none;background:#fbfbf8;border:1px solid #d6d6cf;border-radius:6px;padding:8px 12px;margin:0 0 14px;font-size:14px}
+.keys.show{display:block}.keys span{margin-right:18px;white-space:nowrap;display:inline-block}
+#modal{position:fixed;inset:0;background:#0008;display:none;align-items:center;justify-content:center;z-index:20}
+#modal.show{display:flex}
+#modal form{background:#fff;padding:22px 24px;border-radius:8px;max-width:420px;width:90%}
+#modal input{width:100%;padding:7px 9px;border:1px solid #9a9a92;border-radius:5px;margin:8px 0 14px}
+#msg{display:none;background:#fff8dc;border:1px solid #d9c36a;border-radius:6px;padding:8px 12px;margin:0 0 14px}
+#msg.show{display:block}
+.note{max-width:980px}
+table{border-collapse:collapse}td,th{border:1px solid #cfcfc8;padding:5px 10px;text-align:left}
+code{background:#eceae4;padding:1px 4px;border-radius:3px}
+</style></head><body>
+<header><h1>Clearing verification set</h1></header><main class="note">
+<p><a href="review.html#set=release&p=1"><b>Release clearings</b></a>: all 238, C001 to C238, largest first.<br>
+<a href="review.html#set=sample&p=1"><b>Random sample</b></a>: 100 clearings drawn from the 497 in the 2017-2026 detection (2,291.8 acres), by year and size. Seed 20261124.<br>
+<a href="review.html#set=large&p=1"><b>Optional: the other large clearings</b></a>: the 37 clearings over 10 acres that the draw did not pick. They go in their own log,
+verify_log_large_optional.csv. Clearings over 10 acres hold 44% of the detection's acres, so reviewing all of them makes the acres-weighted result much firmer. Skip it and the report still runs.</p>
+
+<h3>Reviewing</h3>
+<p>All three sets open in one page, <a href="review.html">review.html</a>, ten clearings at a time. Each clearing has four verdict buttons (<b>cleared</b>, <b>partly</b>, <b>not cleared</b>, <b>can't tell</b>), a share slider that
+appears for "partly", and a notes box. Number keys 1 to 4 give the verdict to the clearing with the blue border and move on; press <b>?</b> on the page for all the keys. It asks for your reviewer name once.</p>
+<p><b>Saving.</b> Every click is saved at once in this browser's own storage for that page. That store belongs to this browser on this computer: it does not travel, and clearing the browser's site data wipes it.
+So press <b>Export to verify_log.csv</b> now and then, and when you finish. The export has every row of the log in its original order and format. Save it over the blank
+<a href="verify_log.csv">verify_log.csv</a> in this folder (in Chrome the button lets you pick the file; in other browsers it lands in your downloads folder). "Load a saved log" reads an export back in,
+on this or another computer. Then run <code>verify/verify_report.py</code>. A "partly" row with no share is carried as a range, from none of it to all of it.</p>
+<h3>What each image shows</h3>
+<ol><li><b>NAIP before</b>: the latest NAIP flight flown before the first-detection quarter began. For clearings first detected from October 2025 on, that is the July 25, 2025 flight.</li>
+<li><b>NAIP first after</b> (older clearings only): the first NAIP flight after the first-detection quarter, where that is not also the latest one.</li>
+<li><b>NAIP during</b> (a few clearings): a flight flown inside the first-detection quarter. It may show the ground before or after the clearing.</li>
+<li><b>NAIP after</b>: the latest NAIP flight flown after the first-detection quarter ended. The latest flight over Apex is <b>July 25, 2025</b> (30 cm), so every clearing first detected before July 2025 has a NAIP "after"
+(155 of 238 release clearings, 78 of 100 sampled, 29 of 37 large). Clearings first detected from July 2025 on have none, and the panel says so.</li>
+<li><b>State aerial photo</b>: North Carolina's own 6-inch photography (NC OneMap), flown over Wake County on February 14, 2025 with the leaves off. It is not NAIP. The green or red title says whether it was flown after or before the first detection.</li>
+<li><b>Sentinel-2 before</b>: true colour, the last July-September before the first-detection quarter, at 10 m.</li>
+<li><b>Sentinel-2 latest</b>: true colour, October 1-24, 2026, at 10 m. For clearings first detected from July 2025 on, this is the only "after" view.</li></ol>
+<p>The yellow line is the detected outline. Click an image to open it at full size.</p>
+<h3>The sample draw</h3>
+<table><tr><th>Year</th><th>under 3 ac</th><th>3 to 10 ac</th><th>over 10 ac</th><th>All sizes</th></tr><tr><td>2017</td><td>3 of 19</td><td>2 of 10</td><td>1 of 3</td><td>6 of 32</td></tr><tr><td>2018</td><td>7 of 37</td><td>2 of 13</td><td>1 of 3</td><td>10 of 53</td></tr><tr><td>2019</td><td>4 of 20</td><td>2 of 10</td><td>0 of 0</td><td>6 of 30</td></tr><tr><td>2020</td><td>5 of 28</td><td>3 of 13</td><td>1 of 6</td><td>9 of 47</td></tr><tr><td>2021</td><td>6 of 31</td><td>2 of 9</td><td>1 of 6</td><td>9 of 46</td></tr><tr><td>2022</td><td>5 of 29</td><td>2 of 11</td><td>1 of 2</td><td>8 of 42</td></tr><tr><td>2023</td><td>8 of 44</td><td>4 of 19</td><td>1 of 6</td><td>13 of 69</td></tr><tr><td>2024</td><td>5 of 28</td><td>3 of 18</td><td>1 of 3</td><td>9 of 49</td></tr><tr><td>2025</td><td>8 of 42</td><td>4 of 21</td><td>3 of 15</td><td>15 of 78</td></tr><tr><td>2026</td><td>9 of 31</td><td>4 of 15</td><td>2 of 5</td><td>15 of 51</td></tr></table>
+<p>Drawn of available, by year of first detection and size. Files: <a href="sample_frame.csv">sample_frame.csv</a> (every clearing in the frame, its stratum and whether it was drawn), <a href="sample_draw.json">sample_draw.json</a> (seed and allocation),
+<a href="items.csv">items.csv</a>, <a href="image_dates.csv">image_dates.csv</a>, <a href="outlines.geojson">outlines.geojson</a>.</p>
+<p>Imagery: USDA NAIP; NC OneMap orthoimagery (NC Center for Geographic Information and Analysis, NC 911 Board); Copernicus Sentinel-2 (ESA).</p></main></body></html>

@@ -1,0 +1,103 @@
+The Town's HOA_OS_RCA layer (public, pulled 2026-11-24): 4900 polygons of all types. Typed RCA: 785 polygons, 1,123.3 acres.
+Another 177 polygons (279.8 ac) mention RCA in their description but are typed otherwise (mostly BUFFER); they are not in the numbers below.
+Plat year from the description: 740 of 785 polygons; 171 (225.9 ac) were platted in 2023 or later, after the NAIP 2022 flight.
+
+All mapped RCA, NAIP 2022 at 1.25 m: tree canopy 591.6 ac (53%), water 17.7 ac (2%), open ground 506.7 ac (45%).
+   platted 2022 or earlier (the photo shows them after development): 828.2 ac; tree canopy 49%, water 2%, open ground 49%
+   platted 2023 or later (the photo is from before the plat): 225.9 ac; tree canopy 66%, water 0%, open ground 34%
+   no plat year in the description: 69.2 ac; tree canopy 62%, water 3%, open ground 36%
+Sentinel-2, 10 m cells: 610.1 ac of mapped RCA sits in cells that were forest in the 2022 baseline; 544.8 ac of that is still forest-like in Jul-Sep 2026.
+Mapped RCA inside the release's clearing outlines (cleared since late 2022): 32.4 ac in 61 polygons.
+
+By project (the zoning case under each RCA polygon; parent project where one is defined), 1 ac or more: 122 projects. Largest 40:
+                      project  polygons  plat_yr  acres  tree  water  open  cleared_ac  forest_kept_2026
+             (no zoning case)        62   2024.0  83.47  0.56   0.04  0.40        0.00              0.89
+         15CZ26 BAKER RESDNTL        16   2019.0  71.85  0.52   0.01  0.47        0.00              1.00
+                       15CZ32        13   2022.0  71.83  0.45   0.02  0.54        0.00              0.94
+         07ETJ24 TOWN OF APEX        16   2026.0  71.06  0.72   0.00  0.28        3.92              0.92
+          07RZ20 TOWN OF CARY         6   2025.0  66.41  0.76   0.00  0.24        0.00              0.99
+         17CZ21 EXPERIENCEONE        12   2019.0  42.02  0.43   0.02  0.55        0.00              0.99
+             02CU11 MDC HOMES         1   2006.0  33.64  0.81   0.00  0.19        1.18              0.93
+       14CZ10 JONES & CNOSSEN        39   2017.0  33.13  0.49   0.01  0.50        0.00              0.97
+         05RZ22 TOLL BROTHERS        13   2018.0  26.55  0.24   0.01  0.75        0.00              0.95
+              07CZ25 CJS APEX        17   2015.0  22.09  0.58   0.00  0.42        0.00              0.96
+       13CZ35 JONES & CNOSSEN        13   2018.0  19.02  0.39   0.00  0.61        0.00              0.97
+                       07CZ05         7   2008.0  18.64  0.28   0.02  0.70        0.00              0.78
+       13CZ16 JVI DEVELOPMENT        18   2016.0  17.53  0.43   0.01  0.56        0.05              0.89
+      21CZ04 WILLIAMS FARM PD        16   2025.0  17.10  0.62   0.00  0.37        3.56              0.66
+       03CU09 JONES & CNOSSEN        13   2008.0  16.90  0.71   0.00  0.29        0.00              0.95
+      11CZ06 COLVIN PARK, LLC         2   2017.0  16.84  0.20   0.26  0.54        0.00              0.92
+       20CZ12 FELTON GROVE HS         6   2026.0  14.31  0.85   0.00  0.15        2.58              0.80
+         04CU05 MACGREGOR DEV         7   2007.0  14.28  0.66   0.00  0.34        0.00              0.88
+      22CZ23 YELLOWBRIDGE PUD        12   2026.0  14.18  0.69   0.00  0.30        2.45              0.72
+         01TRZ08 TOWN OF APEX        12   2017.0  13.88  0.47   0.01  0.52        0.00              0.86
+      06CU17 DIVERSIFIED REAL         8   2007.0  12.32  0.56   0.02  0.42        0.00              0.95
+Horton Park (17CZ19 + 18CZ04)        16   2025.0  12.30  0.88   0.00  0.12        6.66              0.41
+                       21CZ08         5   2023.0  12.23  0.62   0.00  0.38        0.00              0.97
+        15CZ18 BENCHMARK COMM         4   2019.0  11.63  0.27   0.01  0.72        0.00              0.98
+            11CZ12 BERTONCINO         6   2015.0  11.62  0.66   0.00  0.34        0.63              0.91
+       88CU02 JOHN W BAUCHMAN         1   2011.0  11.21  0.68   0.04  0.28        0.00              0.98
+        23CZ18 [street address]         4   2026.0  10.92  0.41   0.00  0.59        0.00              0.87
+        21CZ13 EVANS ROAD PUD        12   2026.0   9.99  0.66   0.00  0.34        4.46              0.33
+           18CZ09 [private applicant]         1   2022.0   9.88  0.82   0.00  0.18        0.00              1.00
+      05CU07 COMSTOCK HOLLAND         2   2007.0   9.72  0.78   0.00  0.22        0.00              0.99
+          18CZ31 WESTFORD PUD         8   2022.0   9.08  0.19   0.00  0.81        0.00              0.98
+          05CU16 JERRY TURNER         7   2013.0   8.95  0.53   0.00  0.47        0.00              0.81
+       14CZ31 JONES & CNOSSEN         8   2017.0   8.78  0.10   0.06  0.84        0.00               NaN
+        15CZ06 BBM ASSOCIATES         4   2017.0   7.78  0.29   0.05  0.66        0.00              0.93
+          16CZ30 LSTAR MNGMNT        12   2022.0   7.25  0.21   0.04  0.75        0.00              0.96
+       15CZ01 [private applicant]         5   2019.0   7.19  0.66   0.00  0.34        0.00              0.81
+                20CZ01 LENNAR         4   2026.0   7.12  0.23   0.00  0.77        0.00              0.98
+              17CZ04 + 18CZ02         9   2026.0   6.95  0.39   0.00  0.61        0.57              0.79
+                         1963         4   2015.0   6.94  0.43   0.00  0.57        0.00              0.95
+      03CU10 WITHERS & RAVENA         2   2006.0   6.23  0.43   0.00  0.57        0.00              0.95
+
+Projects in the 2022+ case table or a parent project:
+                      project  polygons  plat_yr  acres  tree  water  open  cleared_ac  forest_kept_2026
+                       15CZ32        13   2022.0  71.83  0.45   0.02  0.54        0.00              0.94
+                       07CZ05         7   2008.0  18.64  0.28   0.02  0.70        0.00              0.78
+      22CZ23 YELLOWBRIDGE PUD        12   2026.0  14.18  0.69   0.00  0.30        2.45              0.72
+Horton Park (17CZ19 + 18CZ04)        16   2025.0  12.30  0.88   0.00  0.12        6.66              0.41
+                       21CZ08         5   2023.0  12.23  0.62   0.00  0.38        0.00              0.97
+        23CZ18 [street address]         4   2026.0  10.92  0.41   0.00  0.59        0.00              0.87
+              17CZ04 + 18CZ02         9   2026.0   6.95  0.39   0.00  0.61        0.57              0.79
+                       14CZ30        13   2024.0   5.52  0.64   0.00  0.36        0.17              0.93
+      22CZ17 TOWNES AT STATIO         3   2026.0   3.84  0.84   0.00  0.16        1.24              0.64
+                       18CZ01         6   2024.0   3.37  0.03   0.00  0.97        0.00               NaN
+       22CZ01 ARDEN AT SUMMIT         4   2026.0   2.71  0.59   0.00  0.41        1.08              0.40
+      24CZ09 CASTLEBERRY RESE         7   2026.0   2.68  0.50   0.00  0.50        0.60              0.45
+
+Lowest tree share among projects platted by 2022, 2 ac or more:
+                project  polygons  plat_yr  acres  tree  water  open  cleared_ac  forest_kept_2026
+13CZ17 STANDARD PACIFIC         3   2016.0   2.08  0.02   0.10  0.88         0.0               NaN
+ 14CZ31 JONES & CNOSSEN         8   2017.0   8.78  0.10   0.06  0.84         0.0               NaN
+  16CZ06 DAN RYAN BLDRS         3   2018.0   3.12  0.15   0.01  0.84         0.0               NaN
+    18CZ31 WESTFORD PUD         8   2022.0   9.08  0.19   0.00  0.81         0.0              0.98
+11CZ06 COLVIN PARK, LLC         2   2017.0  16.84  0.20   0.26  0.54         0.0              0.92
+    09CZ03 TOWN OF APEX         7   2021.0   3.74  0.21   0.00  0.79         0.0              0.99
+    16CZ30 LSTAR MNGMNT        12   2022.0   7.25  0.21   0.04  0.75         0.0              0.96
+21CZ18 OLV CHPL PROF PK         3   2018.0   2.52  0.21   0.03  0.75         0.0               NaN
+19CZ15 MT ZION CH RD PD         5   2022.0   3.49  0.21   0.00  0.79         0.0              0.98
+ 15CZ03 ROCK PROPERTIES         5   2017.0   4.58  0.23   0.00  0.77         0.0              0.57
+   05RZ22 TOLL BROTHERS        13   2018.0  26.55  0.24   0.01  0.75         0.0              0.95
+ 18CZ27 JONES & CNOSSEN         1   2016.0   2.93  0.25   0.05  0.69         0.0              0.48
+  15CZ18 BENCHMARK COMM         4   2019.0  11.63  0.27   0.01  0.72         0.0              0.98
+                 07CZ05         7   2008.0  18.64  0.28   0.02  0.70         0.0              0.78
+     17CZ09 DON MIZELLE         3   2020.0   3.24  0.28   0.00  0.72         0.0               NaN
+
+Mapped RCA inside clearing outlines, half an acre or more:
+                      project  polygons  plat_yr  acres  tree  water  open  cleared_ac  forest_kept_2026
+Horton Park (17CZ19 + 18CZ04)        16   2025.0  12.30  0.88    0.0  0.12        6.66              0.41
+        21CZ13 EVANS ROAD PUD        12   2026.0   9.99  0.66    0.0  0.34        4.46              0.33
+         07ETJ24 TOWN OF APEX        16   2026.0  71.06  0.72    0.0  0.28        3.92              0.92
+      21CZ04 WILLIAMS FARM PD        16   2025.0  17.10  0.62    0.0  0.37        3.56              0.66
+       20CZ12 FELTON GROVE HS         6   2026.0  14.31  0.85    0.0  0.15        2.58              0.80
+      22CZ23 YELLOWBRIDGE PUD        12   2026.0  14.18  0.69    0.0  0.30        2.45              0.72
+        21CZ14 HOLLAND RD PUD        10   2026.0   2.34  0.77    0.0  0.23        1.73              0.01
+      22CZ17 TOWNES AT STATIO         3   2026.0   3.84  0.84    0.0  0.16        1.24              0.64
+             02CU11 MDC HOMES         1   2006.0  33.64  0.81    0.0  0.19        1.18              0.93
+       22CZ01 ARDEN AT SUMMIT         4   2026.0   2.71  0.59    0.0  0.41        1.08              0.40
+            11CZ12 BERTONCINO         6   2015.0  11.62  0.66    0.0  0.34        0.63              0.91
+      24CZ09 CASTLEBERRY RESE         7   2026.0   2.68  0.50    0.0  0.50        0.60              0.45
+        21CZ16 MORNINGSTAR LG         2   2026.0   2.79  0.44    0.0  0.56        0.57              0.34
+              17CZ04 + 18CZ02         9   2026.0   6.95  0.39    0.0  0.61        0.57              0.79

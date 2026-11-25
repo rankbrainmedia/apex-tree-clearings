@@ -1,0 +1,23 @@
+RCA exemptions, 'N/A' and mass-grading-only amounts stated in the documents. Scope: 110 cases (the clearings' 53 governing cases plus the 78 cases numbered 2022 or later; 23CZ13 is held out under the conflict rule).
+Documents read: 106 cases have at least one (4652 pages); 58 have a plan set as well as, or instead of, the rezoning file; 4 have none (01TRZ08, 07ETJ24, 1963, 26CZ04).
+An RCA figure or statement appears in the text for 68 cases. For the other 38 the documents say nothing either way: most are short ordinances with no plan record, so an exemption cannot be ruled in or out for them.
+
+Stated exemption, N/A or mass-grading-only: 9 cases.
+  case                   name                                          statement  acres  forest_2022  cleared  current  clearings  clearing_ac                                         rca_required                       rca_provided
+24CZ19       New Hill Commons           only the mass-grading amount is required   55.5         35.5      0.1     33.6          0          0.0 residential part: 5% of the residential site (1.844                             7.19 ac
+22CZ09        Utley Farms PUD           only the mass-grading amount is required   46.8         31.6     19.2     11.4          1         19.3                                          2.83 ac, 5%                    2.84 ac (5.02%)
+17CZ18          Gracewood PUD required reads N/A, RCA and buffer provided anyway  233.3        213.0     50.7    168.8         13         50.7                                                  N/A 59.25 acres (25%), RCA and landsca
+24CZ09    Castleberry Reserve     stated exempt, RCA offered by zoning condition  104.1         63.8     41.8     20.3          9         41.8       20% of the property (20.82 ac on the plan set)  25.67 ac (24.67%) on the plan set
+24CZ16  Lawrence Property PUD     stated exempt, RCA offered by zoning condition   38.2         11.7      0.0     10.9          0          0.0       UDO: none. Zoning condition: 40% (14.35 acres)                  14.35 acres (40%)
+23CZ18 [street address] (Ashlan     stated exempt, RCA offered by zoning condition   19.3          4.8      0.0      2.1          0          0.0 25% of gross site acreage, buffers and RCA together     5.60 ac (26.9%) on the plan set
+23CZ09 Hatcher Property (West                     stated exempt, no RCA required   28.7         17.7     11.0      3.4          7         11.2                                                  N/A                                   
+15CZ24         Colby Crossing                     stated exempt, no RCA required    7.6          7.0      5.8      1.1          2          6.6                                                 none                                   
+23CZ14     Salem St Townhomes        stated exempt: small town character overlay    0.9          0.2      0.0      0.0          0          0.0                                               exempt                             exempt
+   only the mass-grading amount is required: 2 cases, 102.3 ac, forest 2022 67.1 ac, cleared 19.3 ac, current forest 45.0 ac
+   required reads N/A, RCA and buffer provided anyway: 1 cases, 233.3 ac, forest 2022 213.0 ac, cleared 50.7 ac, current forest 168.8 ac
+   stated exempt, RCA offered by zoning condition: 3 cases, 161.6 ac, forest 2022 80.3 ac, cleared 41.8 ac, current forest 33.3 ac
+   stated exempt, no RCA required: 2 cases, 36.3 ac, forest 2022 24.7 ac, cleared 16.8 ac, current forest 4.5 ac
+   stated exempt: small town character overlay: 1 cases, 0.9 ac, forest 2022 0.2 ac, cleared 0.0 ac, current forest 0.0 ac
+
+No RCA at all required and none offered: 23CZ09, 15CZ24 (36.3 ac, 16.8 ac of forest cleared).
+Conflict check: 24CZ19: applicant is Barnett Properties, LLC: disclosed (the applicant is named in Barnett v. Seymour)

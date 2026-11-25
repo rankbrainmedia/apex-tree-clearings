@@ -1,0 +1,9 @@
+cells,acres,county_2020_canopy_share,naip_2020_canopy_share,naip_2025_canopy_share,naip_change_acres
+"cleared, patches of an acre or more, first seen by 2025Q2",1169.9,0.95,0.8,0.07,-857.6
+"event in a patch under an acre, by 2025Q2",183.2,0.76,0.61,0.31,-54.5
+first seen after the 2025 flight (2025Q3 on),551.6,0.88,0.77,0.67,-54.5
+"forest in 2020, not forest-like in 2026, no event",543.7,0.88,0.5,0.21,-158.0
+cleared before mid-2020,901.4,0.26,0.15,0.2,42.7
+"forest in 2020 and forest-like in 2026, no event",8901.6,0.96,0.79,0.73,-526.2
+"everything else (yards, fields, roofs, partial tree cover)",12736.4,0.13,0.1,0.12,243.2
+Planning jurisdiction,24987.9,0.51,0.41,0.36,-1364.9

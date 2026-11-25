@@ -1,0 +1,53 @@
+governing_case,case_name,kind,entitlement_type,approved,approved_basis,period,date_note,parent_project,original_case,original_approved,original_approved_basis,period_at_parent,clearings,acres
+25CZ18,Veridea SD Plan Amendment,CZ,amendment_of_pre2022_original,2026-01-13,Rezoning layer action date,on or after 2019-12-03,,Veridea (09CZ07),09CZ07,2011-05-10,zoning map date,before 2019-12-03,43,115.0
+18CZ04,Horton Park PUD Amendment,CZ,pre2022_or_none,2018-05-01,Rezoning layer action date,before 2019-12-03,,Horton Park (17CZ19 + 18CZ04),18CZ04,2018-05-01,Rezoning layer action date,before 2019-12-03,23,83.9
+21CZ16,MORNINGSTAR LG,CZ,pre2022_or_none,2021-08-24,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,18,61.3
+20CZ12,FELTON GROVE HS,CZ,pre2022_or_none,2021-04-13,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,5,53.6
+17CZ18,GRACEWOOD PUD,CZ,pre2022_or_none,2017-10-17,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,13,50.7
+23CZ15,Apex Gateway Phase 2 Amendment,CZ,amendment_of_2022plus_original,2024-02-13,Rezoning layer action date,on or after 2019-12-03,,Apex Gateway Phase 2 (22CZ26),22CZ26,2022-01-01,case-number year only,on or after 2019-12-03,5,45.6
+24CZ09,CASTLEBERRY RESE,CZ,new_rezoning_2022plus,2024-06-27,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,9,41.8
+22CZ24,APEX GATEWAY PH1,CZ,new_rezoning_2022plus,2022-03-21,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,7,36.9
+23CZ01,CASH CORPORATE,CZ,amendment_of_pre2022_original,2023-05-09,zoning map date,on or after 2019-12-03,,21CZ08,21CZ08,2021-05-11,zoning map date,on or after 2019-12-03,10,32.0
+07ETJ24,TOWN OF APEX,ETJ,pre2022_or_none,2007-10-02,zoning map date,before 2019-12-03,"districts carry different dates: 2007-10-02, 2026-02-24",,,,,before 2019-12-03,6,23.5
+21CZ04,WILLIAMS FARM PD,CZ,pre2022_or_none,2021-08-24,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,7,22.8
+22CZ22,Elevate 64,CZ,new_rezoning_2022plus,2023-04-11,Rezoning layer action date,on or after 2019-12-03,,,,,,on or after 2019-12-03,4,22.4
+14CZ29,"APEX OLIVE, LLC",CZ,pre2022_or_none,2015-01-06,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,4,22.2
+21CZ12,LEGACY PUD,CZ,pre2022_or_none,2021-09-28,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,2,21.5
+21CZ14,HOLLAND RD PUD,CZ,pre2022_or_none,2022-03-21,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,2,21.5
+18CZ02,Friendship Station PUD Amendment,CZ,pre2022_or_none,2018-04-03,Rezoning layer action date,before 2019-12-03,,17CZ04 + 18CZ02,18CZ02,2018-04-03,Rezoning layer action date,before 2019-12-03,4,20.6
+24CZ23,Greenway Wates Solutions,CZ,amendment_of_pre2022_original,2025-06-10,Rezoning layer action date,on or after 2019-12-03,,Veridea (09CZ07),09CZ07,2011-05-10,zoning map date,before 2019-12-03,4,20.1
+22CZ09,UTLEY FARMS PUD,CZ,new_rezoning_2022plus,2022-11-08,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,19.3
+22CZ21,APEX LIGHT INDUS,CZ,amendment_of_pre2022_original,2023-03-28,"manual (Adam, 2026-11-24)",on or after 2019-12-03,,14CZ09,14CZ09,2014-12-31,case-number year only,before 2019-12-03,5,18.2
+14CZ16,AQUILINE APEX,CZ,pre2022_or_none,2015-05-05,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,7,17.8
+21CZ13,EVANS ROAD PUD,CZ,pre2022_or_none,2021-09-14,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,5,17.6
+20CZ01,LENNAR,CZ,pre2022_or_none,2020-08-04,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,16.6
+17CZ19,MFW INVESTMENTS,CZ,pre2022_or_none,2017-11-07,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,15.2
+22CZ23,YELLOWBRIDGE PUD,CZ,new_rezoning_2022plus,2022-09-27,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,5,13.8
+26CZ03,Veridea SD-CZ Text Amendment,CZ,amendment_of_pre2022_original,2026-08-25,Rezoning layer action date,on or after 2019-12-03,,Veridea (09CZ07),09CZ07,2011-05-10,zoning map date,before 2019-12-03,2,12.4
+23CZ09,HATCHER PROPERTY,CZ,new_rezoning_2022plus,2023-08-08,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,7,11.2
+20CZ14,HACKNEY PUD,CZ,pre2022_or_none,2021-08-24,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,4,10.1
+22CZ07,CHAPEL RIDGE N,CZ,new_rezoning_2022plus,2022-11-08,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,3,8.6
+22CZ17,TOWNES AT STATIO,CZ,new_rezoning_2022plus,2023-01-10,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,2,7.5
+15CZ24,[private applicant],CZ,pre2022_or_none,2015-12-01,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,2,6.6
+19CZ03,KRG PEAKWAY @ 55,CZ,pre2022_or_none,2019-04-02,zoning map date,before 2019-12-03,,19CZ03,19CZ03,2019-04-02,zoning map date,before 2019-12-03,1,6.4
+22CZ01,ARDEN AT SUMMIT,CZ,new_rezoning_2022plus,2022-06-14,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,6.1
+22CZ13,[street address],CZ,new_rezoning_2022plus,2023-02-14,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,5.7
+07CZ25,CJS APEX,CZ,pre2022_or_none,2008-01-15,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,3.5
+24CZ22,COURTYARDS ON WI,CZ,new_rezoning_2022plus,2025-05-27,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,3.3
+00CU01,APEX INV ASSOC,CU,pre2022_or_none,2000-05-02,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,3.2
+21CZ32,CHAPEL RIDGE PUD,CZ,pre2022_or_none,2022-04-12,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,2,2.9
+22CZ08,ADAMS PROPERTY,CZ,new_rezoning_2022plus,2022-09-27,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,2.6
+01TRZ08,TOWN OF APEX,TRZ,pre2022_or_none,2001-10-16,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,2.1
+14CZ30,[private applicant],CZ,pre2022_or_none,2015-02-03,zoning map date,before 2019-12-03,,14CZ30,14CZ30,2015-02-03,zoning map date,before 2019-12-03,1,2.1
+20CZ09,PEAK ENGINEERING,CZ,pre2022_or_none,2020-11-17,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,1.8
+25CZ23,Horton Park PUD Amendment,CZ,amendment_of_pre2022_original,2026-08-11,Rezoning layer action date,on or after 2019-12-03,,Horton Park (17CZ19 + 18CZ04),18CZ04,2018-05-01,Rezoning layer action date,before 2019-12-03,1,1.7
+13CZ06,JONES & CNOSSEN,CZ,pre2022_or_none,2013-05-21,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,1.5
+02CU11,MDC HOMES,CU,pre2022_or_none,2003-05-06,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,1.2
+22CZ14,[street address],CZ,new_rezoning_2022plus,2022-08-23,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,1.1
+21CZ20,[street address],CZ,pre2022_or_none,2022-02-08,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,1.1
+20CZ15,[private applicant],CZ,pre2022_or_none,2021-02-09,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,1.1
+20CZ04,KOBRA TRACTS,CZ,pre2022_or_none,2020-10-20,zoning map date,on or after 2019-12-03,,20CZ04,20CZ04,2020-10-20,zoning map date,on or after 2019-12-03,1,1.1
+24CZ12,OLIVER PROPERTY,CZ,new_rezoning_2022plus,2024-10-08,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,1.1
+17CZ20,ROBERTS CROSSING,CZ,pre2022_or_none,2018-08-21,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,1.1
+90CU09,[private applicant],CU,pre2022_or_none,1990-10-02,zoning map date,before 2019-12-03,,,,,,before 2019-12-03,1,1.1
+21CZ22,OLD IVEY RD RES,CZ,pre2022_or_none,2021-12-14,zoning map date,on or after 2019-12-03,,,,,,on or after 2019-12-03,1,1.0

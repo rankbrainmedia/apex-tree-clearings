@@ -1,5 +1,7 @@
 # Apex, NC: new forest clearings ≥1 acre from Sentinel-2, release v1.1
 
+> **Release v2.0 (November 25, 2026) is in [`release-v2/`](release-v2/).** It adds a longer series (late 2017 to October 2026), the approval behind each clearing, the tree terms of each rezoning, a comparison with Wake County's canopy study, and 375 before-and-after checks by eye with their pictures and verdicts. The v1.1 files below are unchanged. Method: https://thepeakway.com/tree-count/
+
 **Data through 2026-10-24.** Gross clearing of the 2022 baseline forest, 2022Q4 to Oct 2026, inside Apex Corporate Limits + ETJ.
 
 **238 clearing events, 929.2 ac** (880.7 ac confirmed, 48.5 ac provisional).

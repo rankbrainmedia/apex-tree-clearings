@@ -1,0 +1,27 @@
+Extract from Wake County's Apex report (article/apex_report.pdf), made 2026-11-25 for checking the $77,666,790 figure. Text is as the PDF gives it.
+
+PAGE 17, footnote to the per-capita graphic:
+*Per capita refers to the average value per Apex resident. As of 2020, Apex had a resident population of 58,780 with a tree canopy valuation, , specific to the corporate limits, of $77,666,790.
+
+PAGE 17, the per-capita text above it:
+be quantified and valued on an individual level. Over their lifespan, Apexs trees have stored an estimated accumulated total of 4.22 tons of carbon per resident, translating to a per capita carbon storage value of $719.12. Per resident, Apex’s tree canopy annually removes nine pounds of air pollution, capture 3,345 gallons of stormwater and absorbs 342 pounds of carbon. These vital eco-services translate to an annual per capita value of $602.20. The combined per capita benefit value of Town of Apex’s tree canopy is estimated to be $1,321.31.
+
+PAGE 38, text above Table 2.3:
+Structural Value of $71.3 Million Over their lifespan, the trees within Apex’s planning jurisdiction have collectively removed and stored more than 418,000 tons of carbon from the atmosphere. This removal and storage service capacity has an estimated value of $71,344,176 million. Annual Benefit Value of $59.7 Million Apex’s trees provide annual benefits totaling $59,744,666 million in air pollution removal, carbon sequestration and stormwater capture.
+
+PAGE 38, Table 2.3, air pollution removal (rows: Corporate Limits, ETJ, Planning Jurisdiction; columns CO, NO2, O3, SO2, PM10, each tons then dollars):
+ANNUAL TREE BENEFITS
+AIR POLLUTION REMOVAL
+JURISDICTION
+CO NO2 O3 SO2 PM10
+ton $ ton $ ton $ ton $ ton $
+Corporate Limits 5 4,550 20 3,429 195 109,675 6 277 41 139,199
+ETJ 3 3,130 14 2,359 134 75,439 4 191 28 95,746
+Planning 9 7,680 34 5,787 329 185,114 11 468 70 234,945
+Jurisdiction
+38 | SECTION TWO
+
+PAGE 39, Table 2.3 continued (same row order; columns: carbon sequestration tons and dollars, stormwater gallons and dollars, total annual benefits dollars, carbon storage tons and dollars):
+10,062 1,716,128 196,611,345 33,423,929 35,397,188 247,842 42,269,602
+6,921 1,180,416 135,236,457 22,990,198 24,347,478 170,475 29,074,574
+16,984 2,896,544 331,847,802 56,414,126 59,744,666 418,316 71,344,176

@@ -1,0 +1,69 @@
+Chain audit. For each case: every piece of zoning-map ground it covers, the cases the map lists before it there (BACK1.., newest first),
+and what each piece alone would give. 'current district' = a district now labelled with the case; 'replaced by X' = ground where a later case X now sits.
+The first version read these two ways. The clearing table took the district under each clearing: prior = the first conditional case in its list,
+original = the OLDEST conditional case number anywhere in its list. The 2022+ table took the first polygon of the case in file order, whatever its size.
+Now: one answer per case, from the history covering the most acres. original = the conditional case in force at the start of 2022
+(the newest one numbered before 2022), or the earliest 2022+ conditional case where there is none.
+
+25CZ18  Veridea SD Plan Amendment
+   OBJECTID 4748    933.1 ac  current district    VERIDEA SD PLAN   BACK: 09CZ07 < 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 09CZ07, original 09CZ07 (2009), earliest in list 1989, type by this piece: amendment_of_pre2022_original
+   OBJECTID 4736    130.8 ac  current district    VERIDEA SD PLAN   BACK: 25CZ15 < 07ETJ24 < WC
+                                                -> prior 25CZ15, original 25CZ15 (2025), earliest in list 2025, type by this piece: amendment_of_2022plus_original
+   OBJECTID 4765     34.2 ac  replaced by 26CZ03  VERIDEA SD PLAN   BACK: 09CZ07 < 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 09CZ07, original 09CZ07 (2009), earliest in list 1989, type by this piece: amendment_of_pre2022_original
+   OBJECTID 4731      1.5 ac  current district    VERIDEA SD PLAN   BACK: 25CZ08 < 1963
+                                                -> prior 25CZ08, original 25CZ08 (2025), earliest in list 2025, type by this piece: amendment_of_2022plus_original
+   OBJECTID 4677      0.6 ac  current district    VERIDEA EXPANSIO  BACK: 23CZ03 < 07ETJ24 < WC
+                                                -> prior 23CZ03, original 23CZ03 (2023), earliest in list 2023, type by this piece: amendment_of_2022plus_original
+   first polygon in file order (what the old pipeline table read): OBJECTID 4677, 0.6 ac -> prior 23CZ03 (2023), earliest 2023
+   PER CASE NOW: prior 09CZ07 (2009), original 09CZ07 (2009), on 88% of its ground; earliest conditional year in that list 1989; type amendment_of_pre2022_original
+
+26CZ03  Veridea SD-CZ Text Amendment
+   OBJECTID 4765     34.2 ac  current district    VERIDEA SD PLAN   BACK: 25CZ18 < 09CZ07 < 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 25CZ18, original 09CZ07 (2009), earliest in list 1989, type by this piece: amendment_of_pre2022_original
+   first polygon in file order (what the old pipeline table read): OBJECTID 4765, 34.2 ac -> prior 25CZ18 (2025), earliest 1989
+   PER CASE NOW: prior 25CZ18 (2025), original 09CZ07 (2009), on 100% of its ground; earliest conditional year in that list 1989; type amendment_of_pre2022_original
+
+26CZ10  Veridea Expansion V
+   OBJECTID 4774     23.1 ac  current district    VERIDEA EXPAN V   BACK: 07ETJ24 < 089RZ01 < 1963 < WC
+                                                -> prior none, original none (-), earliest in list -, type by this piece: amendment_of_2022plus_original
+   first polygon in file order (what the old pipeline table read): OBJECTID 4774, 23.1 ac -> prior none (-), earliest -
+   PER CASE NOW: prior none (-), original none (-), on 100% of its ground; earliest conditional year in that list -; type amendment_of_2022plus_original (name only: no earlier conditional case on this ground, so the case itself is the ground's first)
+
+23CZ03  (no name: not a current district, not in the Rezoning layer)
+   OBJECTID 4677      0.6 ac  replaced by 25CZ18  VERIDEA EXPANSIO  BACK: 07ETJ24 < WC
+                                                -> prior none, original none (-), earliest in list -, type by this piece: new_rezoning_2022plus
+   PER CASE NOW: prior none (-), original none (-), on 100% of its ground; earliest conditional year in that list -; type new_rezoning_2022plus
+
+09CZ07  LOOKOUT VENTURES
+   OBJECTID 4748    933.1 ac  replaced by 25CZ18  VERIDEA SD PLAN   BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+   OBJECTID 4724    141.4 ac  replaced by 24CZ23  GREENWAY WASTE    BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 92CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+   OBJECTID 4405     39.6 ac  current district    LOOKOUT VENTURES  BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 92CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+   OBJECTID 4765     34.2 ac  replaced by 26CZ03  VERIDEA SD PLAN   BACK: 07ETJ24 < 07CZ01 < 05CU04 < 02CU07A < 02CU07 < 00RZ10 < 00CU02 < 99CU05 < 99CU03 < 91CU03 < 91CU02 < 89CU01
+                                                -> prior 07CZ01, original 07CZ01 (2007), earliest in list 1989, type by this piece: pre2022_or_none
+   first polygon in file order (what the old pipeline table read): OBJECTID 4405, 39.6 ac -> prior 07CZ01 (2007), earliest 1989
+   PER CASE NOW: prior 07CZ01 (2007), original 07CZ01 (2007), on 100% of its ground; earliest conditional year in that list 1989; type pre2022_or_none
+
+Cases whose pieces carry different chains: 43 of 577 cases (25 where the prior conditional case differs, 25 where the original differs, 5 where the type would differ). Full list: chain_varies_by_polygon.csv.
+
+Those numbered 2022 or later, or governing a clearing:
+   case                            case_name  pieces   acres  distinct_chains  prior_case_varies  original_case_varies  type_varies prior_conditional_case original_conditional_case  share_of_ground_with_this_history  governs_clearings                                                                  ground_by_type
+ 25CZ18            Veridea SD Plan Amendment       5  1100.2                4               True                  True         True                 09CZ07                    09CZ07                               0.88                 43 amendment_of_pre2022_original 967.2 ac; amendment_of_2022plus_original 133.0 ac
+ 26CZ02         Jessie Commons PUD Amendment       2    64.2                2               True                  True         True                 06CZ26                    06CZ26                               1.00                  0    amendment_of_pre2022_original 64.0 ac; amendment_of_2022plus_original 0.1 ac
+ 25CZ24                 N Salem St Mixed-Use       3    32.3                3               True                  True         True                                                                                1.00                  0             new_rezoning_2022plus 32.2 ac; amendment_of_pre2022_original 0.1 ac
+ 22CZ27                Center City Townhomes       2     4.1                2               True                  True         True                                                                                0.71                  0              new_rezoning_2022plus 2.9 ac; amendment_of_pre2022_original 1.2 ac
+ 26CZ13     Elevation Apartment Multi-Family       2     4.1                2              False                  True         True                 22CZ27                    22CZ27                               0.71                  0              new_rezoning_2022plus 2.9 ac; amendment_of_pre2022_original 1.2 ac
+07ETJ24                         TOWN OF APEX     193 10338.7               14               True                  True        False                                                                                0.86                  6                                                      pre2022_or_none 10338.7 ac
+01TRZ08                         TOWN OF APEX     103  2154.2               54               True                  True        False                                                                                0.41                  1                                                       pre2022_or_none 2154.2 ac
+ 26CZ17 Courtyards on Wimberly PUD Amendment       2    24.0                2               True                  True        False                 24CZ22                    24CZ22                               0.99                  0                                          amendment_of_2022plus_original 24.0 ac
+ 23CZ20                        EXPERIENCEONE       2    45.9                2               True                 False        False                 23CZ12                    18CZ01                               0.79                  0                                           amendment_of_pre2022_original 45.9 ac
+   1963                                           10   718.0                2              False                 False        False                                                                                1.00                  2                                                        pre2022_or_none 718.0 ac
+ 17CZ19                      MFW INVESTMENTS       5   338.7                2              False                 False        False                                                                                1.00                  1                                                        pre2022_or_none 338.7 ac
+ 22CZ09                      UTLEY FARMS PUD       2   102.3                2              False                 False        False                                                                                1.00                  1                                                  new_rezoning_2022plus 102.3 ac
+ 25CZ01                    Kelly Commons PUD       2    18.5                2              False                 False        False                                                                                1.00                  0                                                   new_rezoning_2022plus 18.5 ac
+
+Cases whose districts carry more than one approval date on the zoning map: 2 (the largest district's date is used unless the Rezoning layer has an action date): 07ETJ24 ['2007-10-02', '2026-02-24']; 25CZ09 ['2025-10-15', '2026-01-13']
